@@ -1,9 +1,0 @@
-============================================================
-Script       : inventory_extensions.sh
-Started      : 2026-08-19 06:46:40 UTC
-User         : root
-Source       : /home/harikr/Migration-Work/Tablet-Original
-Run log      : /home/harikr/my_scripts/digital_archive/logs/inventory_extensions_log_20260819_064640.txt
-Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
-============================================================
-ERROR: Directory does not exist or is not a directory: /home/harikr/Migration-Work/Tablet-Original
