@@ -1,0 +1,2994 @@
+============================================================
+Script       : copy_media_manifest.sh
+Started      : 2026-08-20 23:01:27 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/copy_media_manifest_log_20260820_230127.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : MEDIA PHYSICAL COPY
+Batch        : MEDIA_20260820_230000
+Original sources are NOT modified.
+
+========================================================================
+MULTIMEDIA PHYSICAL COPY
+========================================================================
+MODE        : EXECUTE
+Batch       : MEDIA_20260820_230000
+Rows        : 592
+Master root : /home/harikr/Master-Repository
+Source files: NEVER modified
+
+[1] MUSIC | inventory_id=2497
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-19-പ്രചേതസ്സുകളുടെ കഥ.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-19-പ്രചേതസ്സുകളുടെ കഥ.mp3
+  COPIED + VERIFIED
+
+[2] MUSIC | inventory_id=2498
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-8-നൈമിത്തികപ്രളയം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-8-നൈമിത്തികപ്രളയം.mp3
+  COPIED + VERIFIED
+
+[3] MUSIC | inventory_id=2499
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-7-ബ്രഹ്മാവിൻ്റെ-വൈകുണ്ഠദർശനം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-7-ബ്രഹ്മാവിൻ്റെ-വൈകുണ്ഠദർശനം.mp3
+  COPIED + VERIFIED
+
+[4] MUSIC | inventory_id=2500
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-1-ഭഗവത്സ്വരൂപവർണ്ണനം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-1-ഭഗവത്സ്വരൂപവർണ്ണനം.mp3
+  COPIED + VERIFIED
+
+[5] MUSIC | inventory_id=2501
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-3-ഭക്തിപ്രാർത്ഥന.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-3-ഭക്തിപ്രാർത്ഥന.mp3
+  COPIED + VERIFIED
+
+[6] MUSIC | inventory_id=2502
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-12-വരാഹാവതാരം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-12-വരാഹാവതാരം.mp3
+  COPIED + VERIFIED
+
+[7] MUSIC | inventory_id=2503
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-4-അഷ്ടാംഗയോഗം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-4-അഷ്ടാംഗയോഗം.mp3
+  COPIED + VERIFIED
+
+[8] MUSIC | inventory_id=2504
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-11-ജയവിജയശാപം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-11-ജയവിജയശാപം.mp3
+  COPIED + VERIFIED
+
+[9] MUSIC | inventory_id=2505
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-10-സൃഷ്ടിഭേദങ്ങൾ.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-10-സൃഷ്ടിഭേദങ്ങൾ.mp3
+  COPIED + VERIFIED
+
+[10] MUSIC | inventory_id=2506
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-2-ഭകതിമഹത്ത്വം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-2-ഭകതിമഹത്ത്വം.mp3
+  COPIED + VERIFIED
+
+[11] MUSIC | inventory_id=2507
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-9-ഭുവനനിർമ്മിതി.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-9-ഭുവനനിർമ്മിതി.mp3
+  COPIED + VERIFIED
+
+[12] MUSIC | inventory_id=2508
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-17-ധ്രുവചരിതം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-17-ധ്രുവചരിതം.mp3
+  COPIED + VERIFIED
+
+[13] MUSIC | inventory_id=2509
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-5-വിരാട്പുരുഷോത്പത്തി.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-5-വിരാട്പുരുഷോത്പത്തി.mp3
+  COPIED + VERIFIED
+
+[14] MUSIC | inventory_id=2510
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-13-ഹിരണ്യാക്ഷവധം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-13-ഹിരണ്യാക്ഷവധം.mp3
+  COPIED + VERIFIED
+
+[15] MUSIC | inventory_id=2511
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-14-കപിലാവതാരം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-14-കപിലാവതാരം.mp3
+  COPIED + VERIFIED
+
+[16] MUSIC | inventory_id=2512
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-20-ഋഷഭയോഗീശ്വരചരിതം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-20-ഋഷഭയോഗീശ്വരചരിതം.mp3
+  COPIED + VERIFIED
+
+[17] MUSIC | inventory_id=2513
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-15-കപിലോപദേശം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-15-കപിലോപദേശം.mp3
+  COPIED + VERIFIED
+
+[18] MUSIC | inventory_id=2514
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-16-നരനാരായണാവതാരം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-16-നരനാരായണാവതാരം.mp3
+  COPIED + VERIFIED
+
+[19] MUSIC | inventory_id=2515
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-6-വിരാട്സ്വരൂപവർണനം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-6-വിരാട്സ്വരൂപവർണനം.mp3
+  COPIED + VERIFIED
+
+[20] MUSIC | inventory_id=2516
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Y/Narayaneeyam-Dasakam-18-പൃഥുചരിതം.mp3
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-18-പൃഥുചരിതം.mp3
+  COPIED + VERIFIED
+
+[21] PHOTO | inventory_id=2517
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Notes_251211_163905.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Notes_251211_163905.jpg
+  COPIED + VERIFIED
+
+[22] PHOTO | inventory_id=2518
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260416_152006.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260416_152006.jpg
+  COPIED + VERIFIED
+
+[23] PHOTO | inventory_id=2520
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251231_142203.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_142203.jpg
+  COPIED + VERIFIED
+
+[24] PHOTO | inventory_id=2522
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_150751.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_150751.jpg
+  COPIED + VERIFIED
+
+[25] PHOTO | inventory_id=2523
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251228_221656.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_221656.jpg
+  COPIED + VERIFIED
+
+[26] PHOTO | inventory_id=2524
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251124_224727.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251124_224727.jpg
+  COPIED + VERIFIED
+
+[27] PHOTO | inventory_id=2525
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20250519_150449.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20250519_150449.jpg
+  COPIED + VERIFIED
+
+[28] PHOTO | inventory_id=2526
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_150119.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_150119.jpg
+  COPIED + VERIFIED
+
+[29] PHOTO | inventory_id=2527
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251202_135429.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251202_135429.jpg
+  COPIED + VERIFIED
+
+[30] PHOTO | inventory_id=2528
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251223_153411.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251223_153411.jpg
+  COPIED + VERIFIED
+
+[31] PHOTO | inventory_id=2529
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/360_F_1257798875_pck20HpmX7IbSRTHSvVp6T13CrwyATcF.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/360_F_1257798875_pck20HpmX7IbSRTHSvVp6T13CrwyATcF.jpg
+  COPIED + VERIFIED
+
+[32] PHOTO | inventory_id=2530
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251231_144600.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_144600.jpg
+  COPIED + VERIFIED
+
+[33] PHOTO | inventory_id=2531
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_145745.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145745.jpg
+  COPIED + VERIFIED
+
+[34] PHOTO | inventory_id=2532
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251231_145852.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_145852.jpg
+  COPIED + VERIFIED
+
+[35] PHOTO | inventory_id=2533
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251231_141255.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_141255.jpg
+  COPIED + VERIFIED
+
+[36] PHOTO | inventory_id=2534
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_145135.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145135.jpg
+  COPIED + VERIFIED
+
+[37] PHOTO | inventory_id=2535
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251112_155051.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_155051.jpg
+  COPIED + VERIFIED
+
+[38] PHOTO | inventory_id=2536
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251019_160240.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_160240.jpg
+  COPIED + VERIFIED
+
+[39] PHOTO | inventory_id=2537
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_143852.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_143852.jpg
+  COPIED + VERIFIED
+
+[40] PHOTO | inventory_id=2538
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251112_192329.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_192329.jpg
+  COPIED + VERIFIED
+
+[41] PHOTO | inventory_id=2539
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/2026_1.png.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/2026_1.png.jpg
+  COPIED + VERIFIED
+
+[42] PHOTO | inventory_id=2540
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251226_144825.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_144825.jpg
+  COPIED + VERIFIED
+
+[43] PHOTO | inventory_id=2541
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251019_155654.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_155654.jpg
+  COPIED + VERIFIED
+
+[44] PHOTO | inventory_id=2542
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251115_235627.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_235627.jpg
+  COPIED + VERIFIED
+
+[45] PHOTO | inventory_id=2543
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251112_155040.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_155040.jpg
+  COPIED + VERIFIED
+
+[46] PHOTO | inventory_id=2544
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/2026_2.png.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/2026_2.png.jpg
+  COPIED + VERIFIED
+
+[47] PHOTO | inventory_id=2545
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251229_144524.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251229_144524.jpg
+  COPIED + VERIFIED
+
+[48] PHOTO | inventory_id=2546
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251116_002105.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251116_002105.jpg
+  COPIED + VERIFIED
+
+[49] PHOTO | inventory_id=2547
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251202_003950.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251202_003950.jpg
+  COPIED + VERIFIED
+
+[50] PHOTO | inventory_id=2549
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260424_152212.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260424_152212.jpg
+  COPIED + VERIFIED
+
+[51] PHOTO | inventory_id=2550
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PENUP_20251229_151613.png
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PENUP_20251229_151613.png
+  COPIED + VERIFIED
+
+[52] PHOTO | inventory_id=2551
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_150136.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_150136.jpg
+  COPIED + VERIFIED
+
+[53] PHOTO | inventory_id=2552
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251228_145947.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_145947.jpg
+  COPIED + VERIFIED
+
+[54] PHOTO | inventory_id=2553
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/lock-3d-lock-icon-3d-lock-symbol-3d-lock-image-free-png.png
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/lock-3d-lock-icon-3d-lock-symbol-3d-lock-image-free-png.png
+  COPIED + VERIFIED
+
+[55] PHOTO | inventory_id=2554
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251112_192603.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_192603.jpg
+  COPIED + VERIFIED
+
+[56] PHOTO | inventory_id=2555
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251229_145344.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251229_145344.jpg
+  COPIED + VERIFIED
+
+[57] PHOTO | inventory_id=2556
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251201_001101.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251201_001101.jpg
+  COPIED + VERIFIED
+
+[58] PHOTO | inventory_id=2557
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251130_235458.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251130_235458.jpg
+  COPIED + VERIFIED
+
+[59] PHOTO | inventory_id=2558
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251115_175919.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_175919.jpg
+  COPIED + VERIFIED
+
+[60] PHOTO | inventory_id=2559
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/image (1).png
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/image (1).png
+  COPIED + VERIFIED
+
+[61] PHOTO | inventory_id=2560
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251223_150311.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251223_150311.jpg
+  COPIED + VERIFIED
+
+[62] PHOTO | inventory_id=2561
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251226_153713.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_153713.jpg
+  COPIED + VERIFIED
+
+[63] PHOTO | inventory_id=2562
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20250519_150435.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20250519_150435.jpg
+  COPIED + VERIFIED
+
+[64] PHOTO | inventory_id=2563
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251226_145914.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_145914.jpg
+  COPIED + VERIFIED
+
+[65] PHOTO | inventory_id=2564
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251228_154843.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_154843.jpg
+  COPIED + VERIFIED
+
+[66] PHOTO | inventory_id=2565
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251226_145659.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_145659.jpg
+  COPIED + VERIFIED
+
+[67] PHOTO | inventory_id=2567
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251227_155032.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251227_155032.jpg
+  COPIED + VERIFIED
+
+[68] PHOTO | inventory_id=2568
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/JPEG_20250923_115853_4115592690439199784.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/JPEG_20250923_115853_4115592690439199784.jpg
+  COPIED + VERIFIED
+
+[69] PHOTO | inventory_id=2569
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251204_001939.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251204_001939.jpg
+  COPIED + VERIFIED
+
+[70] PHOTO | inventory_id=2570
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/Abyss_Challenge.png.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/Abyss_Challenge.png.jpg
+  COPIED + VERIFIED
+
+[71] PHOTO | inventory_id=2571
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251115_191959.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_191959.jpg
+  COPIED + VERIFIED
+
+[72] PHOTO | inventory_id=2572
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_145613.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145613.jpg
+  COPIED + VERIFIED
+
+[73] PHOTO | inventory_id=2573
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251112_224111.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_224111.jpg
+  COPIED + VERIFIED
+
+[74] PHOTO | inventory_id=2574
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251019_161028.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_161028.jpg
+  COPIED + VERIFIED
+
+[75] PHOTO | inventory_id=2575
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/2025_10.png.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/2025_10.png.jpg
+  COPIED + VERIFIED
+
+[76] PHOTO | inventory_id=2578
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251115_235615.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_235615.jpg
+  COPIED + VERIFIED
+
+[77] PHOTO | inventory_id=2579
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251019_161039.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_161039.jpg
+  COPIED + VERIFIED
+
+[78] PHOTO | inventory_id=2581
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_143841.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_143841.jpg
+  COPIED + VERIFIED
+
+[79] PHOTO | inventory_id=2582
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/padlock-9118374_1280.png
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/padlock-9118374_1280.png
+  COPIED + VERIFIED
+
+[80] PHOTO | inventory_id=2583
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/Library_Wonders.png.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/Library_Wonders.png.jpg
+  COPIED + VERIFIED
+
+[81] PHOTO | inventory_id=2584
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/1756116574201.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/1756116574201.jpg
+  COPIED + VERIFIED
+
+[82] PHOTO | inventory_id=2585
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251229_151616.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251229_151616.jpg
+  COPIED + VERIFIED
+
+[83] PHOTO | inventory_id=2586
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251228_151146.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_151146.jpg
+  COPIED + VERIFIED
+
+[84] PHOTO | inventory_id=2587
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260101_145559.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145559.jpg
+  COPIED + VERIFIED
+
+[85] PHOTO | inventory_id=2588
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251112_230536.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_230536.jpg
+  COPIED + VERIFIED
+
+[86] PHOTO | inventory_id=2589
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251019_161500.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_161500.jpg
+  COPIED + VERIFIED
+
+[87] PHOTO | inventory_id=2590
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251223_153248.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251223_153248.jpg
+  COPIED + VERIFIED
+
+[88] PHOTO | inventory_id=2591
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20260105_175542.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260105_175542.jpg
+  COPIED + VERIFIED
+
+[89] PHOTO | inventory_id=2592
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/Lava_Challenge.png (1).jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/Lava_Challenge.png (1).jpg
+  COPIED + VERIFIED
+
+[90] PHOTO | inventory_id=2593
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251227_154504.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251227_154504.jpg
+  COPIED + VERIFIED
+
+[91] PHOTO | inventory_id=2594
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/penup_20251116_185911.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251116_185911.jpg
+  COPIED + VERIFIED
+
+[92] OTHER | inventory_id=2596
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/handy_book_library.db
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/handy_book_library.db
+  COPIED + VERIFIED
+
+[93] ARCHIVE | inventory_id=2597
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/woocommerce.10.1.1.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/woocommerce.10.1.1.zip
+  COPIED + VERIFIED
+
+[94] PHOTO | inventory_id=2598
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/IMG-20250913-WA0001.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/IMG-20250913-WA0001.jpg
+  COPIED + VERIFIED
+
+[95] OTHER | inventory_id=2599
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/mediacreationtool.exe
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/mediacreationtool.exe
+  COPIED + VERIFIED
+
+[96] OTHER | inventory_id=2600
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/VAHAN 4.0 (Citizen Services)~onlineapp02~150~8000
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/VAHAN 4.0 (Citizen Services)~onlineapp02~150~8000
+  COPIED + VERIFIED
+
+[97] PHOTO | inventory_id=2601
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/images (2).jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (2).jpeg
+  COPIED + VERIFIED
+
+[98] PHOTO | inventory_id=2602
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/copilot_image_1765457093500.jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/copilot_image_1765457093500.jpeg
+  COPIED + VERIFIED
+
+[99] PHOTO | inventory_id=2603
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/download.jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/download.jpeg
+  COPIED + VERIFIED
+
+[100] ARCHIVE | inventory_id=2604
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/MF003(10MB).rar
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/MF003(10MB).rar
+  COPIED + VERIFIED
+
+[101] ARCHIVE | inventory_id=2605
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Untitled document.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Untitled document.zip
+  COPIED + VERIFIED
+
+[102] PHOTO | inventory_id=2606
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/images (3).jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (3).jpeg
+  COPIED + VERIFIED
+
+[103] OTHER | inventory_id=2607
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/AFRPH7413L_upload_2025-2608-09-2025--23-13-27.json
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/AFRPH7413L_upload_2025-2608-09-2025--23-13-27.json
+  COPIED + VERIFIED
+
+[104] ARCHIVE | inventory_id=2608
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Registration_and_Testing_Procedure.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Registration_and_Testing_Procedure.zip
+  COPIED + VERIFIED
+
+[105] OTHER | inventory_id=2609
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/St Johns SJF-T3 Travelling First Aid Kit Medium_ Buy pouch of 1.0 Kit at best price in India _ 1mg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/St Johns SJF-T3 Travelling First Aid Kit Medium_ Buy pouch of 1.0 Kit at best price in India _ 1mg
+  COPIED + VERIFIED
+
+[106] PHOTO | inventory_id=2610
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/images (4).jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (4).jpeg
+  COPIED + VERIFIED
+
+[107] PHOTO | inventory_id=2611
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/images (1).jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (1).jpeg
+  COPIED + VERIFIED
+
+[108] PHOTO | inventory_id=2612
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/images.jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images.jpeg
+  COPIED + VERIFIED
+
+[109] PHOTO | inventory_id=2613
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/copilot_image_1765457525396.jpeg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/copilot_image_1765457525396.jpeg
+  COPIED + VERIFIED
+
+[110] OTHER | inventory_id=2614
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/MEDICAL INSURANCE FOR STATE EMPLOYEES AND PENSIONERS
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/MEDICAL INSURANCE FOR STATE EMPLOYEES AND PENSIONERS
+  COPIED + VERIFIED
+
+[111] OTHER | inventory_id=2615
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/AFRPH7413L_upload_2025-2609-09-2025--00-06-19.json
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/AFRPH7413L_upload_2025-2609-09-2025--00-06-19.json
+  COPIED + VERIFIED
+
+[112] ARCHIVE | inventory_id=2616
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/ITR2_AY_25-26_V1.1.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/ITR2_AY_25-26_V1.1.zip
+  COPIED + VERIFIED
+
+[113] PHOTO | inventory_id=2617
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/#Personal Docs#/HariNivas_plot/Screenshot_20250406_200025_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Screenshot_20250406_200025_Chrome.jpg
+  COPIED + VERIFIED
+
+[114] PHOTO | inventory_id=2618
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/#Personal Docs#/HariNivas_plot/Screenshot_20250406_201026_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Screenshot_20250406_201026_Chrome.jpg
+  COPIED + VERIFIED
+
+[115] PHOTO | inventory_id=2619
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/#Personal Docs#/HariNivas_plot/Screenshot_20250406_200129_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Screenshot_20250406_200129_Chrome.jpg
+  COPIED + VERIFIED
+
+[116] PHOTO | inventory_id=2620
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/#Personal Docs#/HariNivas_plot/Notes_250406_203033.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Notes_250406_203033.jpg
+  COPIED + VERIFIED
+
+[117] PHOTO | inventory_id=2621
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Work/Jobs/SmartSelect_20240717_094747_LinkedIn.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Work/Jobs/SmartSelect_20240717_094747_LinkedIn.jpg
+  COPIED + VERIFIED
+
+[118] VIDEO | inventory_id=2622
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/TrdgIncome_Reported.mp4
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Finance/TrdgIncome_Reported.mp4
+  COPIED + VERIFIED
+
+[119] PHOTO | inventory_id=2623
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Identity_n_Accounts/20250225_222339.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250225_222339.jpg
+  COPIED + VERIFIED
+
+[120] PHOTO | inventory_id=2624
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Identity_n_Accounts/20250225_222339.png
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250225_222339.png
+  COPIED + VERIFIED
+
+[121] PHOTO | inventory_id=2625
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Identity_n_Accounts/20250219_080149.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250219_080149.jpg
+  COPIED + VERIFIED
+
+[122] PHOTO | inventory_id=2626
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Identity_n_Accounts/20250219_075932.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250219_075932.jpg
+  COPIED + VERIFIED
+
+[123] PHOTO | inventory_id=2627
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Hospital/Sreekutty/Sree_scan_1-20250126.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_scan_1-20250126.jpg
+  COPIED + VERIFIED
+
+[124] PHOTO | inventory_id=2628
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Hospital/Sreekutty/Sree_Lab_IMG-20250227.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_Lab_IMG-20250227.jpg
+  COPIED + VERIFIED
+
+[125] PHOTO | inventory_id=2629
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Vehicle/kwid/amaron_battery_06_2026/IMG-20260601-WA0007.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Vehicle/kwid/amaron_battery_06_2026/IMG-20260601-WA0007.jpg
+  COPIED + VERIFIED
+
+[126] PHOTO | inventory_id=2630
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Profile_pics/IMG-20240915-WA0004.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/IMG-20240915-WA0004.jpg
+  COPIED + VERIFIED
+
+[127] PHOTO | inventory_id=2631
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Profile_pics/20250219_075503.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/20250219_075503.jpg
+  COPIED + VERIFIED
+
+[128] PHOTO | inventory_id=2632
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Profile_pics/20250219_075608.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/20250219_075608.jpg
+  COPIED + VERIFIED
+
+[129] PHOTO | inventory_id=2633
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Profile_pics/20250225_233930.png
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/20250225_233930.png
+  COPIED + VERIFIED
+
+[130] PHOTO | inventory_id=2634
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Profile_pics/PSX_20240712_194011.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/PSX_20240712_194011.jpg
+  COPIED + VERIFIED
+
+[131] PHOTO | inventory_id=2635
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Profile_pics/InShot_20240712_192822515.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/InShot_20240712_192822515.jpg
+  COPIED + VERIFIED
+
+[132] PHOTO | inventory_id=2636
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Walls/pexels-marieke-schonfeld-1309710-2514035.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-marieke-schonfeld-1309710-2514035.jpg
+  COPIED + VERIFIED
+
+[133] PHOTO | inventory_id=2637
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Walls/pexels-gochrisgoxyz-1643409.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-gochrisgoxyz-1643409.jpg
+  COPIED + VERIFIED
+
+[134] PHOTO | inventory_id=2638
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Walls/pexels-fabiano-rodrigues-794857-1662298.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-fabiano-rodrigues-794857-1662298.jpg
+  COPIED + VERIFIED
+
+[135] PHOTO | inventory_id=2639
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/`epsilon/media_data/Walls/pexels-iriser-1366957.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-iriser-1366957.jpg
+  COPIED + VERIFIED
+
+[136] PHOTO | inventory_id=2640
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250730_020110_Instagram.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250730_020110_Instagram.jpg
+  COPIED + VERIFIED
+
+[137] PHOTO | inventory_id=2641
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20260609_130704_Google.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260609_130704_Google.jpg
+  COPIED + VERIFIED
+
+[138] PHOTO | inventory_id=2642
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250903_235449_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250903_235449_Chrome.jpg
+  COPIED + VERIFIED
+
+[139] PHOTO | inventory_id=2643
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_162525_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162525_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[140] PHOTO | inventory_id=2644
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_152727_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152727_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[141] PHOTO | inventory_id=2645
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_155255_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155255_Chrome.jpg
+  COPIED + VERIFIED
+
+[142] PHOTO | inventory_id=2646
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_151415_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_151415_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[143] PHOTO | inventory_id=2647
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250903_235453_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250903_235453_Chrome.jpg
+  COPIED + VERIFIED
+
+[144] PHOTO | inventory_id=2648
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_154554_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_154554_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[145] PHOTO | inventory_id=2649
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250708_000400_NextGen mParivahan.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250708_000400_NextGen mParivahan.jpg
+  COPIED + VERIFIED
+
+[146] PHOTO | inventory_id=2650
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_151345_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_151345_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[147] PHOTO | inventory_id=2651
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20251015_073357_NextGen mParivahan.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251015_073357_NextGen mParivahan.jpg
+  COPIED + VERIFIED
+
+[148] PHOTO | inventory_id=2652
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/thumbnail_Screenshot_20260609_125837_Google.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/thumbnail_Screenshot_20260609_125837_Google.jpg
+  COPIED + VERIFIED
+
+[149] PHOTO | inventory_id=2653
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/thumbnail_Screenshot_20260609_130705_Google.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/thumbnail_Screenshot_20260609_130705_Google.jpg
+  COPIED + VERIFIED
+
+[150] PHOTO | inventory_id=2654
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_153214_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_153214_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[151] PHOTO | inventory_id=2655
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250730_040539_Facebook.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250730_040539_Facebook.jpg
+  COPIED + VERIFIED
+
+[152] PHOTO | inventory_id=2656
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_162546_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162546_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[153] PHOTO | inventory_id=2657
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250716_113013_Adobe Acrobat.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250716_113013_Adobe Acrobat.jpg
+  COPIED + VERIFIED
+
+[154] PHOTO | inventory_id=2658
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_152706_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152706_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[155] PHOTO | inventory_id=2659
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/PhoneUpdateError.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/PhoneUpdateError.jpg
+  COPIED + VERIFIED
+
+[156] PHOTO | inventory_id=2660
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_154357_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_154357_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[157] PHOTO | inventory_id=2661
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_152442_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152442_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[158] PHOTO | inventory_id=2662
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_155434_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155434_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[159] PHOTO | inventory_id=2663
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20251013_223403_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251013_223403_Chrome.jpg
+  COPIED + VERIFIED
+
+[160] PHOTO | inventory_id=2664
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_153156_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_153156_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[161] PHOTO | inventory_id=2665
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_162605_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162605_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[162] PHOTO | inventory_id=2666
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_162556_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162556_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[163] PHOTO | inventory_id=2667
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_155236_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155236_Chrome.jpg
+  COPIED + VERIFIED
+
+[164] PHOTO | inventory_id=2668
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250708_004430_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250708_004430_Chrome.jpg
+  COPIED + VERIFIED
+
+[165] PHOTO | inventory_id=2669
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_151402_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_151402_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[166] PHOTO | inventory_id=2670
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_154611_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_154611_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[167] PHOTO | inventory_id=2671
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20260427_142909_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260427_142909_Chrome.jpg
+  COPIED + VERIFIED
+
+[168] PHOTO | inventory_id=2672
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_162441_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162441_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[169] PHOTO | inventory_id=2673
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_155318_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155318_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[170] PHOTO | inventory_id=2675
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_162455_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162455_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[171] PHOTO | inventory_id=2676
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250921_215924_Instagram.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250921_215924_Instagram.jpg
+  COPIED + VERIFIED
+
+[172] PHOTO | inventory_id=2677
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20251111_015801_YouTube.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251111_015801_YouTube.jpg
+  COPIED + VERIFIED
+
+[173] PHOTO | inventory_id=2678
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20251106_193518_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251106_193518_Chrome.jpg
+  COPIED + VERIFIED
+
+[174] PHOTO | inventory_id=2679
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20251116_000140_Gallery.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251116_000140_Gallery.jpg
+  COPIED + VERIFIED
+
+[175] PHOTO | inventory_id=2680
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20260609_130704_Google (1).jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260609_130704_Google (1).jpg
+  COPIED + VERIFIED
+
+[176] PHOTO | inventory_id=2681
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20260424_131024_Chrome.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260424_131024_Chrome.jpg
+  COPIED + VERIFIED
+
+[177] PHOTO | inventory_id=2682
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_152427_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152427_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[178] PHOTO | inventory_id=2683
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Screenshots/Screenshot_20250825_152525_SmartBiz.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152525_SmartBiz.jpg
+  COPIED + VERIFIED
+
+[179] VIDEO | inventory_id=2684
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/AR Doodle/20251226_153750.mp4
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/AR Doodle/20251226_153750.mp4
+  COPIED + VERIFIED
+
+[180] VIDEO | inventory_id=2685
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/AR Doodle/20251226_153829.mp4
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/AR Doodle/20251226_153829.mp4
+  COPIED + VERIFIED
+
+[181] PHOTO | inventory_id=2686
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/AR Doodle/20251226_153839.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/AR Doodle/20251226_153839.jpg
+  COPIED + VERIFIED
+
+[182] PHOTO | inventory_id=2687
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20250818_162914.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20250818_162914.jpg
+  COPIED + VERIFIED
+
+[183] VIDEO | inventory_id=2688
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20260506_184636.mp4
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_184636.mp4
+  COPIED + VERIFIED
+
+[184] PHOTO | inventory_id=2689
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20260506_184539.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_184539.jpg
+  COPIED + VERIFIED
+
+[185] PHOTO | inventory_id=2690
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20251116_230532.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20251116_230532.jpg
+  COPIED + VERIFIED
+
+[186] PHOTO | inventory_id=2691
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20260506_185556.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_185556.jpg
+  COPIED + VERIFIED
+
+[187] PHOTO | inventory_id=2692
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20251116_230529.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20251116_230529.jpg
+  COPIED + VERIFIED
+
+[188] VIDEO | inventory_id=2693
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20260506_184620.mp4
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_184620.mp4
+  COPIED + VERIFIED
+
+[189] PHOTO | inventory_id=2694
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/DCIM/Camera/20250818_162914(1).jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20250818_162914(1).jpg
+  COPIED + VERIFIED
+
+[190] PHOTO | inventory_id=3250
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20240925_130151.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240925_130151.jpg
+  COPIED + VERIFIED
+
+[191] PHOTO | inventory_id=3251
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20241006_165357.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241006_165357.jpg
+  COPIED + VERIFIED
+
+[192] PHOTO | inventory_id=3252
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20241006_163529.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241006_163529.jpg
+  COPIED + VERIFIED
+
+[193] PHOTO | inventory_id=3253
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20241013_094715.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241013_094715.jpg
+  COPIED + VERIFIED
+
+[194] PHOTO | inventory_id=3254
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20240710_225116.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240710_225116.jpg
+  COPIED + VERIFIED
+
+[195] PHOTO | inventory_id=3255
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20241223_115936.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241223_115936.jpg
+  COPIED + VERIFIED
+
+[196] PHOTO | inventory_id=3256
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20240918_080416.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240918_080416.jpg
+  COPIED + VERIFIED
+
+[197] PHOTO | inventory_id=3257
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Pictures/PenUp/penup_20240919_102413.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240919_102413.jpg
+  COPIED + VERIFIED
+
+[198] MUSIC | inventory_id=3258
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Music/Samsung/Over_the_Horizon.m4a
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Music/Samsung/Over_the_Horizon.m4a
+  COPIED + VERIFIED
+
+[199] PHOTO | inventory_id=3261
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/vasthu shastr…arma, aditya_20240910_010009.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/vasthu shastr…arma, aditya_20240910_010009.jpg
+  COPIED + VERIFIED
+
+[200] PHOTO | inventory_id=3262
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/uddhavopadesam_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/uddhavopadesam_7.jpg
+  COPIED + VERIFIED
+
+[201] PHOTO | inventory_id=3263
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/superhit hind…hakthi songs_20240910_005835.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/superhit hind…hakthi songs_20240910_005835.jpg
+  COPIED + VERIFIED
+
+[202] PHOTO | inventory_id=3264
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/0074637282_20240906_161424.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/0074637282_20240906_161424.jpg
+  COPIED + VERIFIED
+
+[203] PHOTO | inventory_id=3265
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  COPIED + VERIFIED
+
+[204] PHOTO | inventory_id=3266
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  COPIED + VERIFIED
+
+[205] PHOTO | inventory_id=3267
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/java fundamen…microsystems_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/java fundamen…microsystems_4.jpg
+  COPIED + VERIFIED
+
+[206] PHOTO | inventory_id=3268
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9798177970141_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9798177970141_5.jpg
+  COPIED + VERIFIED
+
+[207] PHOTO | inventory_id=3269
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788187972297_20240906_013009.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788187972297_20240906_013009.jpg
+  COPIED + VERIFIED
+
+[208] PHOTO | inventory_id=3270
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  COPIED + VERIFIED
+
+[209] PHOTO | inventory_id=3271
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  COPIED + VERIFIED
+
+[210] PHOTO | inventory_id=3272
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  COPIED + VERIFIED
+
+[211] PHOTO | inventory_id=3273
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/know your world by , siso_20240906_154620.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/know your world by , siso_20240906_154620.jpg
+  COPIED + VERIFIED
+
+[212] PHOTO | inventory_id=3274
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_7.jpg
+  COPIED + VERIFIED
+
+[213] PHOTO | inventory_id=3276
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/java programming langunge_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/java programming langunge_7.jpg
+  COPIED + VERIFIED
+
+[214] PHOTO | inventory_id=3277
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788124009475_20240910_005206.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788124009475_20240910_005206.jpg
+  COPIED + VERIFIED
+
+[215] PHOTO | inventory_id=3278
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/nakshatraphala panchangam_20240910_003924.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/nakshatraphala panchangam_20240910_003924.jpg
+  COPIED + VERIFIED
+
+[216] PHOTO | inventory_id=3279
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_4.jpg
+  COPIED + VERIFIED
+
+[217] PHOTO | inventory_id=3280
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreekrishna l…tam volume 1_20240906_092439.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreekrishna l…tam volume 1_20240906_092439.jpg
+  COPIED + VERIFIED
+
+[218] PHOTO | inventory_id=3281
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_2.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_2.jpg
+  COPIED + VERIFIED
+
+[219] PHOTO | inventory_id=3282
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_041447.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_041447.jpg
+  COPIED + VERIFIED
+
+[220] PHOTO | inventory_id=3283
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9780752882178 vol10_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780752882178 vol10_1.jpg
+  COPIED + VERIFIED
+
+[221] PHOTO | inventory_id=3284
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/mathematics f… janardhanan_20240906_190140.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/mathematics f… janardhanan_20240906_190140.jpg
+  COPIED + VERIFIED
+
+[222] PHOTO | inventory_id=3286
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9780070486362_20240906_141340.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780070486362_20240906_141340.jpg
+  COPIED + VERIFIED
+
+[223] PHOTO | inventory_id=3287
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  COPIED + VERIFIED
+
+[224] PHOTO | inventory_id=3288
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/malayalam eng…h dictionary_20240906_095950.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/malayalam eng…h dictionary_20240906_095950.jpg
+  COPIED + VERIFIED
+
+[225] PHOTO | inventory_id=3289
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol10_8.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol10_8.jpg
+  COPIED + VERIFIED
+
+[226] PHOTO | inventory_id=3290
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  COPIED + VERIFIED
+
+[227] PHOTO | inventory_id=3291
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/fundamentals …ics class xl_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/fundamentals …ics class xl_7.jpg
+  COPIED + VERIFIED
+
+[228] PHOTO | inventory_id=3292
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8187430141_20240906_113355.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8187430141_20240906_113355.jpg
+  COPIED + VERIFIED
+
+[229] PHOTO | inventory_id=3293
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/satyam sanath…, sree matha_20240910_005033.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/satyam sanath…, sree matha_20240910_005033.jpg
+  COPIED + VERIFIED
+
+[230] PHOTO | inventory_id=3294
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/rekha jyothis…opalakrishna_20240910_004312.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/rekha jyothis…opalakrishna_20240910_004312.jpg
+  COPIED + VERIFIED
+
+[231] PHOTO | inventory_id=3295
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_045718.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_045718.jpg
+  COPIED + VERIFIED
+
+[232] PHOTO | inventory_id=3296
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8125914226_20240906_200734.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8125914226_20240906_200734.jpg
+  COPIED + VERIFIED
+
+[233] PHOTO | inventory_id=3297
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_5.jpg
+  COPIED + VERIFIED
+
+[234] PHOTO | inventory_id=3298
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  COPIED + VERIFIED
+
+[235] PHOTO | inventory_id=3299
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164945.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164945.jpg
+  COPIED + VERIFIED
+
+[236] PHOTO | inventory_id=3301
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree rama sth… kochanniyan_20240910_005457.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree rama sth… kochanniyan_20240910_005457.jpg
+  COPIED + VERIFIED
+
+[237] PHOTO | inventory_id=3302
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ering 4e mgu_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ering 4e mgu_6.jpg
+  COPIED + VERIFIED
+
+[238] PHOTO | inventory_id=3303
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  COPIED + VERIFIED
+
+[239] PHOTO | inventory_id=3304
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  COPIED + VERIFIED
+
+[240] PHOTO | inventory_id=3305
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  COPIED + VERIFIED
+
+[241] PHOTO | inventory_id=3306
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  COPIED + VERIFIED
+
+[242] PHOTO | inventory_id=3308
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  COPIED + VERIFIED
+
+[243] PHOTO | inventory_id=3309
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree hanuman … kochanniyan_20240910_005256.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree hanuman … kochanniyan_20240910_005256.jpg
+  COPIED + VERIFIED
+
+[244] PHOTO | inventory_id=3310
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8126503181_20240906_175635.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8126503181_20240906_175635.jpg
+  COPIED + VERIFIED
+
+[245] PHOTO | inventory_id=3311
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  COPIED + VERIFIED
+
+[246] PHOTO | inventory_id=3312
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram copy1_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram copy1_0.jpg
+  COPIED + VERIFIED
+
+[247] PHOTO | inventory_id=3313
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/jyothisham by…palakrishnan_20240910_003337.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/jyothisham by…palakrishnan_20240910_003337.jpg
+  COPIED + VERIFIED
+
+[248] PHOTO | inventory_id=3314
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/geetha - vija…it chaithnya_20240910_003006.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/geetha - vija…it chaithnya_20240910_003006.jpg
+  COPIED + VERIFIED
+
+[249] PHOTO | inventory_id=3315
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  COPIED + VERIFIED
+
+[250] PHOTO | inventory_id=3316
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree vishnu s…ma sthothram_20240909_231649.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree vishnu s…ma sthothram_20240909_231649.jpg
+  COPIED + VERIFIED
+
+[251] PHOTO | inventory_id=3317
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788121924986_20240906_143756.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788121924986_20240906_143756.jpg
+  COPIED + VERIFIED
+
+[252] PHOTO | inventory_id=3318
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/introduction …d techniques_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/introduction …d techniques_0.jpg
+  COPIED + VERIFIED
+
+[253] PHOTO | inventory_id=3319
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/ultimate visu…l dictionary_20240906_105908.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/ultimate visu…l dictionary_20240906_105908.jpg
+  COPIED + VERIFIED
+
+[254] PHOTO | inventory_id=3320
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_032811.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_032811.jpg
+  COPIED + VERIFIED
+
+[255] PHOTO | inventory_id=3321
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  COPIED + VERIFIED
+
+[256] PHOTO | inventory_id=3322
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  COPIED + VERIFIED
+
+[257] PHOTO | inventory_id=3323
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  COPIED + VERIFIED
+
+[258] PHOTO | inventory_id=3324
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_0.jpg
+  COPIED + VERIFIED
+
+[259] PHOTO | inventory_id=3325
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/marananathara chadangukal_20240910_003732.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/marananathara chadangukal_20240910_003732.jpg
+  COPIED + VERIFIED
+
+[260] PHOTO | inventory_id=3326
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315620_20240909_232442.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315620_20240909_232442.jpg
+  COPIED + VERIFIED
+
+[261] PHOTO | inventory_id=3327
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163231.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163231.jpg
+  COPIED + VERIFIED
+
+[262] PHOTO | inventory_id=3328
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/millennium ma…lish grammar_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/millennium ma…lish grammar_6.jpg
+  COPIED + VERIFIED
+
+[263] PHOTO | inventory_id=3329
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788129706010_20240906_142734.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788129706010_20240906_142734.jpg
+  COPIED + VERIFIED
+
+[264] PHOTO | inventory_id=3330
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/purushasookth…nasookthavum_20240910_004228.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/purushasookth…nasookthavum_20240910_004228.jpg
+  COPIED + VERIFIED
+
+[265] PHOTO | inventory_id=3331
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788170089926_20240906_145001.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788170089926_20240906_145001.jpg
+  COPIED + VERIFIED
+
+[266] PHOTO | inventory_id=3332
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8126404981_20240909_044817.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8126404981_20240909_044817.jpg
+  COPIED + VERIFIED
+
+[267] PHOTO | inventory_id=3333
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/computer scie…ce malayalam_20240906_020843.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/computer scie…ce malayalam_20240906_020843.jpg
+  COPIED + VERIFIED
+
+[268] PHOTO | inventory_id=3334
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/devi sthuthik… kochanniyan_20240910_002432.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/devi sthuthik… kochanniyan_20240910_002432.jpg
+  COPIED + VERIFIED
+
+[269] PHOTO | inventory_id=3335
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree siva sah…ma sthothram_20240909_231306.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree siva sah…ma sthothram_20240909_231306.jpg
+  COPIED + VERIFIED
+
+[270] PHOTO | inventory_id=3336
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  COPIED + VERIFIED
+
+[271] PHOTO | inventory_id=3337
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100909.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100909.jpg
+  COPIED + VERIFIED
+
+[272] PHOTO | inventory_id=3338
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  COPIED + VERIFIED
+
+[273] PHOTO | inventory_id=3339
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/puranakathaka…d, harish r._20240910_004142.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/puranakathaka…d, harish r._20240910_004142.jpg
+  COPIED + VERIFIED
+
+[274] PHOTO | inventory_id=3340
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…വതം-(moolam)_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…വതം-(moolam)_3.jpg
+  COPIED + VERIFIED
+
+[275] PHOTO | inventory_id=3341
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  COPIED + VERIFIED
+
+[276] PHOTO | inventory_id=3342
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/subramaniya keerthanangal_20240910_005648.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/subramaniya keerthanangal_20240910_005648.jpg
+  COPIED + VERIFIED
+
+[277] PHOTO | inventory_id=3343
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/hindhumatha c…nthirangalum_20240910_003055.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/hindhumatha c…nthirangalum_20240910_003055.jpg
+  COPIED + VERIFIED
+
+[278] PHOTO | inventory_id=3344
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163405.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163405.jpg
+  COPIED + VERIFIED
+
+[279] PHOTO | inventory_id=3345
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_143444.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_143444.jpg
+  COPIED + VERIFIED
+
+[280] PHOTO | inventory_id=3346
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  COPIED + VERIFIED
+
+[281] PHOTO | inventory_id=3347
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  COPIED + VERIFIED
+
+[282] PHOTO | inventory_id=3348
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sudarshanam സ… s narayanan_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sudarshanam സ… s narayanan_4.jpg
+  COPIED + VERIFIED
+
+[283] PHOTO | inventory_id=3349
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/surabhi a mod…ractice book_20240906_193612.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/surabhi a mod…ractice book_20240906_193612.jpg
+  COPIED + VERIFIED
+
+[284] PHOTO | inventory_id=3350
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_085516.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_085516.jpg
+  COPIED + VERIFIED
+
+[285] PHOTO | inventory_id=3351
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225752.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225752.jpg
+  COPIED + VERIFIED
+
+[286] PHOTO | inventory_id=3352
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8171803911_20240910_003554.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8171803911_20240910_003554.jpg
+  COPIED + VERIFIED
+
+[287] PHOTO | inventory_id=3354
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/njanappana by…, poonthanam_20240909_230103.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/njanappana by…, poonthanam_20240909_230103.jpg
+  COPIED + VERIFIED
+
+[288] PHOTO | inventory_id=3355
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/systematic ap…ch to botany_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/systematic ap…ch to botany_6.jpg
+  COPIED + VERIFIED
+
+[289] PHOTO | inventory_id=3356
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9780070140622_20240906_153927.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780070140622_20240906_153927.jpg
+  COPIED + VERIFIED
+
+[290] PHOTO | inventory_id=3357
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788120309845_20240906_162042.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120309845_20240906_162042.jpg
+  COPIED + VERIFIED
+
+[291] PHOTO | inventory_id=3358
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788171302253_20240906_094834.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788171302253_20240906_094834.jpg
+  COPIED + VERIFIED
+
+[292] PHOTO | inventory_id=3359
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315574_20240909_031106.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315574_20240909_031106.jpg
+  COPIED + VERIFIED
+
+[293] PHOTO | inventory_id=3361
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/object-orient…gn using uml_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/object-orient…gn using uml_7.jpg
+  COPIED + VERIFIED
+
+[294] PHOTO | inventory_id=3362
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788185315591_20240909_025406.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788185315591_20240909_025406.jpg
+  COPIED + VERIFIED
+
+[295] PHOTO | inventory_id=3363
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/fundamentals …cs class xll_20240906_160708.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/fundamentals …cs class xll_20240906_160708.jpg
+  COPIED + VERIFIED
+
+[296] PHOTO | inventory_id=3364
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  COPIED + VERIFIED
+
+[297] PHOTO | inventory_id=3365
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163517.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163517.jpg
+  COPIED + VERIFIED
+
+[298] PHOTO | inventory_id=3366
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ng mechanics_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ng mechanics_0.jpg
+  COPIED + VERIFIED
+
+[299] PHOTO | inventory_id=3367
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103955.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103955.jpg
+  COPIED + VERIFIED
+
+[300] PHOTO | inventory_id=3368
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_230514.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_230514.jpg
+  COPIED + VERIFIED
+
+[301] PHOTO | inventory_id=3369
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_035627.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_035627.jpg
+  COPIED + VERIFIED
+
+[302] PHOTO | inventory_id=3370
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram_20240909_230901.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram_20240909_230901.jpg
+  COPIED + VERIFIED
+
+[303] PHOTO | inventory_id=3371
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/e-craft by , ecit_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/e-craft by , ecit_6.jpg
+  COPIED + VERIFIED
+
+[304] PHOTO | inventory_id=3373
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_084839.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_084839.jpg
+  COPIED + VERIFIED
+
+[305] PHOTO | inventory_id=3374
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164835.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164835.jpg
+  COPIED + VERIFIED
+
+[306] PHOTO | inventory_id=3376
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sasyaharam by…palakrishnan_20240910_004934.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sasyaharam by…palakrishnan_20240910_004934.jpg
+  COPIED + VERIFIED
+
+[307] PHOTO | inventory_id=3377
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/plus two modern chemistry_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/plus two modern chemistry_1.jpg
+  COPIED + VERIFIED
+
+[308] PHOTO | inventory_id=3378
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam) copy1_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam) copy1_1.jpg
+  COPIED + VERIFIED
+
+[309] PHOTO | inventory_id=3379
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/introduction …lume 1 to 3)_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/introduction …lume 1 to 3)_0.jpg
+  COPIED + VERIFIED
+
+[310] PHOTO | inventory_id=3380
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  COPIED + VERIFIED
+
+[311] PHOTO | inventory_id=3381
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8174092153_20240906_145836.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8174092153_20240906_145836.jpg
+  COPIED + VERIFIED
+
+[312] PHOTO | inventory_id=3382
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  COPIED + VERIFIED
+
+[313] PHOTO | inventory_id=3383
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788120320581_20240906_145344.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120320581_20240906_145344.jpg
+  COPIED + VERIFIED
+
+[314] PHOTO | inventory_id=3384
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree siva sahasranamavali_20240909_231549.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree siva sahasranamavali_20240909_231549.jpg
+  COPIED + VERIFIED
+
+[315] PHOTO | inventory_id=3386
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  COPIED + VERIFIED
+
+[316] PHOTO | inventory_id=3387
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_230221.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_230221.jpg
+  COPIED + VERIFIED
+
+[317] PHOTO | inventory_id=3388
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_3.jpg
+  COPIED + VERIFIED
+
+[318] PHOTO | inventory_id=3389
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  COPIED + VERIFIED
+
+[319] PHOTO | inventory_id=3390
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788187328278_20240906_180620.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788187328278_20240906_180620.jpg
+  COPIED + VERIFIED
+
+[320] PHOTO | inventory_id=3391
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/dheergayussin…oseph manuel_20240910_002708.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/dheergayussin…oseph manuel_20240910_002708.jpg
+  COPIED + VERIFIED
+
+[321] PHOTO | inventory_id=3392
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/hindukkal ari…adu gunangal_20240910_003235.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/hindukkal ari…adu gunangal_20240910_003235.jpg
+  COPIED + VERIFIED
+
+[322] PHOTO | inventory_id=3393
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788120317451_20240906_000534.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120317451_20240906_000534.jpg
+  COPIED + VERIFIED
+
+[323] PHOTO | inventory_id=3394
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sabarimala idathavalangal_20240910_004459.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sabarimala idathavalangal_20240910_004459.jpg
+  COPIED + VERIFIED
+
+[324] PHOTO | inventory_id=3396
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/naama geetha …it chaithnya_20240910_003823.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/naama geetha …it chaithnya_20240910_003823.jpg
+  COPIED + VERIFIED
+
+[325] PHOTO | inventory_id=3397
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sandhyanamam …endathengine_20240910_004626.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sandhyanamam …endathengine_20240910_004626.jpg
+  COPIED + VERIFIED
+
+[326] PHOTO | inventory_id=3398
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315426_20240909_232812.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426_20240909_232812.jpg
+  COPIED + VERIFIED
+
+[327] PHOTO | inventory_id=3399
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/rogashanthikk… kshetrangal_20240910_004401.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/rogashanthikk… kshetrangal_20240910_004401.jpg
+  COPIED + VERIFIED
+
+[328] PHOTO | inventory_id=3400
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/kerala service rules_20240909_043156.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/kerala service rules_20240909_043156.jpg
+  COPIED + VERIFIED
+
+[329] PHOTO | inventory_id=3401
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225922.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225922.jpg
+  COPIED + VERIFIED
+
+[330] PHOTO | inventory_id=3402
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree krishna … kochanniyan_20240910_005407.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree krishna … kochanniyan_20240910_005407.jpg
+  COPIED + VERIFIED
+
+[331] PHOTO | inventory_id=3403
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100647.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100647.jpg
+  COPIED + VERIFIED
+
+[332] PHOTO | inventory_id=3404
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/deepa pooja_20240910_002314.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/deepa pooja_20240910_002314.jpg
+  COPIED + VERIFIED
+
+[333] PHOTO | inventory_id=3405
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi copy2_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi copy2_3.jpg
+  COPIED + VERIFIED
+
+[334] PHOTO | inventory_id=3406
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_035354.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_035354.jpg
+  COPIED + VERIFIED
+
+[335] PHOTO | inventory_id=3407
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788178235448_20240909_033610.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788178235448_20240909_033610.jpg
+  COPIED + VERIFIED
+
+[336] PHOTO | inventory_id=3408
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  COPIED + VERIFIED
+
+[337] PHOTO | inventory_id=3409
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9789382515302 copy1_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9789382515302 copy1_5.jpg
+  COPIED + VERIFIED
+
+[338] PHOTO | inventory_id=3410
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_045806.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_045806.jpg
+  COPIED + VERIFIED
+
+[339] PHOTO | inventory_id=3411
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_1.jpg
+  COPIED + VERIFIED
+
+[340] PHOTO | inventory_id=3412
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/818912501X_20240906_111914.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/818912501X_20240906_111914.jpg
+  COPIED + VERIFIED
+
+[341] PHOTO | inventory_id=3413
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sree ganesha …ama stothram_20240909_230743.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree ganesha …ama stothram_20240909_230743.jpg
+  COPIED + VERIFIED
+
+[342] PHOTO | inventory_id=3414
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8185315620 copy1_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315620 copy1_3.jpg
+  COPIED + VERIFIED
+
+[343] PHOTO | inventory_id=3415
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_034135.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_034135.jpg
+  COPIED + VERIFIED
+
+[344] PHOTO | inventory_id=3416
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788120330962_20240906_152416.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120330962_20240906_152416.jpg
+  COPIED + VERIFIED
+
+[345] PHOTO | inventory_id=3417
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/aesopu, beerb… (malayalam)_2.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/aesopu, beerb… (malayalam)_2.jpg
+  COPIED + VERIFIED
+
+[346] PHOTO | inventory_id=3418
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/engineering g…s for degree_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/engineering g…s for degree_6.jpg
+  COPIED + VERIFIED
+
+[347] PHOTO | inventory_id=3419
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  COPIED + VERIFIED
+
+[348] PHOTO | inventory_id=3420
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/a high speed …tive english_20240906_194605.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/a high speed …tive english_20240906_194605.jpg
+  COPIED + VERIFIED
+
+[349] PHOTO | inventory_id=3421
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/108 upanishad…. n. p. unni_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/108 upanishad…. n. p. unni_1.jpg
+  COPIED + VERIFIED
+
+[350] PHOTO | inventory_id=3422
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…-(malayalam) copy2_9.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…-(malayalam) copy2_9.jpg
+  COPIED + VERIFIED
+
+[351] PHOTO | inventory_id=3423
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8188114006_20240906_140327.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8188114006_20240906_140327.jpg
+  COPIED + VERIFIED
+
+[352] PHOTO | inventory_id=3425
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  COPIED + VERIFIED
+
+[353] PHOTO | inventory_id=3426
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol20_9.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol20_9.jpg
+  COPIED + VERIFIED
+
+[354] PHOTO | inventory_id=3427
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788131703090_20240906_013705.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131703090_20240906_013705.jpg
+  COPIED + VERIFIED
+
+[355] PHOTO | inventory_id=3428
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_20240906_101428.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_20240906_101428.jpg
+  COPIED + VERIFIED
+
+[356] PHOTO | inventory_id=3429
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/bhajagovindam…. rama varma_20240909_225349.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/bhajagovindam…. rama varma_20240909_225349.jpg
+  COPIED + VERIFIED
+
+[357] PHOTO | inventory_id=3430
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103814.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103814.jpg
+  COPIED + VERIFIED
+
+[358] PHOTO | inventory_id=3431
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/electromagnet…applications_20240906_005253.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/electromagnet…applications_20240906_005253.jpg
+  COPIED + VERIFIED
+
+[359] PHOTO | inventory_id=3432
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/java programm…ent workbook_20240906_155641.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/java programm…ent workbook_20240906_155641.jpg
+  COPIED + VERIFIED
+
+[360] PHOTO | inventory_id=3433
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788122416077_20240906_200047.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788122416077_20240906_200047.jpg
+  COPIED + VERIFIED
+
+[361] PHOTO | inventory_id=3434
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8176710482_20240906_135608.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8176710482_20240906_135608.jpg
+  COPIED + VERIFIED
+
+[362] PHOTO | inventory_id=3435
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  COPIED + VERIFIED
+
+[363] PHOTO | inventory_id=3436
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/8190180525_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8190180525_6.jpg
+  COPIED + VERIFIED
+
+[364] PHOTO | inventory_id=3437
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/millennium ma…work book #2_20240906_201256.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/millennium ma…work book #2_20240906_201256.jpg
+  COPIED + VERIFIED
+
+[365] PHOTO | inventory_id=3439
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/9788189125639_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788189125639_5.jpg
+  COPIED + VERIFIED
+
+[366] PHOTO | inventory_id=3440
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/syamamadhuri …y , karakkad_20240910_005924.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/syamamadhuri …y , karakkad_20240910_005924.jpg
+  COPIED + VERIFIED
+
+[367] PHOTO | inventory_id=3441
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/manusmrithi മ…krishnakumar_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/manusmrithi മ…krishnakumar_1.jpg
+  COPIED + VERIFIED
+
+[368] PHOTO | inventory_id=3442
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Photos/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  COPIED + VERIFIED
+
+[369] PHOTO | inventory_id=3443
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/vasthu shastr…arma, aditya_20240910_010009.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/vasthu shastr…arma, aditya_20240910_010009.jpg
+  COPIED + VERIFIED
+
+[370] PHOTO | inventory_id=3444
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/uddhavopadesam_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/uddhavopadesam_7.jpg
+  COPIED + VERIFIED
+
+[371] PHOTO | inventory_id=3445
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/superhit hind…hakthi songs_20240910_005835.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/superhit hind…hakthi songs_20240910_005835.jpg
+  COPIED + VERIFIED
+
+[372] PHOTO | inventory_id=3446
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/0074637282_20240906_161424.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/0074637282_20240906_161424.jpg
+  COPIED + VERIFIED
+
+[373] PHOTO | inventory_id=3447
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  COPIED + VERIFIED
+
+[374] PHOTO | inventory_id=3448
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  COPIED + VERIFIED
+
+[375] PHOTO | inventory_id=3449
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/java fundamen…microsystems_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/java fundamen…microsystems_4.jpg
+  COPIED + VERIFIED
+
+[376] PHOTO | inventory_id=3450
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9798177970141_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9798177970141_5.jpg
+  COPIED + VERIFIED
+
+[377] PHOTO | inventory_id=3451
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788187972297_20240906_013009.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788187972297_20240906_013009.jpg
+  COPIED + VERIFIED
+
+[378] PHOTO | inventory_id=3452
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  COPIED + VERIFIED
+
+[379] PHOTO | inventory_id=3453
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  COPIED + VERIFIED
+
+[380] PHOTO | inventory_id=3454
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  COPIED + VERIFIED
+
+[381] PHOTO | inventory_id=3455
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/know your world by , siso_20240906_154620.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/know your world by , siso_20240906_154620.jpg
+  COPIED + VERIFIED
+
+[382] PHOTO | inventory_id=3456
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_7.jpg
+  COPIED + VERIFIED
+
+[383] PHOTO | inventory_id=3458
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/java programming langunge_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/java programming langunge_7.jpg
+  COPIED + VERIFIED
+
+[384] PHOTO | inventory_id=3459
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788124009475_20240910_005206.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788124009475_20240910_005206.jpg
+  COPIED + VERIFIED
+
+[385] PHOTO | inventory_id=3460
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/nakshatraphala panchangam_20240910_003924.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/nakshatraphala panchangam_20240910_003924.jpg
+  COPIED + VERIFIED
+
+[386] PHOTO | inventory_id=3461
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_4.jpg
+  COPIED + VERIFIED
+
+[387] PHOTO | inventory_id=3462
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreekrishna l…tam volume 1_20240906_092439.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreekrishna l…tam volume 1_20240906_092439.jpg
+  COPIED + VERIFIED
+
+[388] PHOTO | inventory_id=3463
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_2.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_2.jpg
+  COPIED + VERIFIED
+
+[389] PHOTO | inventory_id=3464
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_041447.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_041447.jpg
+  COPIED + VERIFIED
+
+[390] PHOTO | inventory_id=3465
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9780752882178 vol10_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780752882178 vol10_1.jpg
+  COPIED + VERIFIED
+
+[391] PHOTO | inventory_id=3466
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/mathematics f… janardhanan_20240906_190140.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/mathematics f… janardhanan_20240906_190140.jpg
+  COPIED + VERIFIED
+
+[392] PHOTO | inventory_id=3468
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9780070486362_20240906_141340.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780070486362_20240906_141340.jpg
+  COPIED + VERIFIED
+
+[393] PHOTO | inventory_id=3469
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  COPIED + VERIFIED
+
+[394] PHOTO | inventory_id=3470
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/malayalam eng…h dictionary_20240906_095950.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/malayalam eng…h dictionary_20240906_095950.jpg
+  COPIED + VERIFIED
+
+[395] PHOTO | inventory_id=3471
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol10_8.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol10_8.jpg
+  COPIED + VERIFIED
+
+[396] PHOTO | inventory_id=3472
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  COPIED + VERIFIED
+
+[397] PHOTO | inventory_id=3473
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/fundamentals …ics class xl_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/fundamentals …ics class xl_7.jpg
+  COPIED + VERIFIED
+
+[398] PHOTO | inventory_id=3474
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8187430141_20240906_113355.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8187430141_20240906_113355.jpg
+  COPIED + VERIFIED
+
+[399] PHOTO | inventory_id=3475
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/satyam sanath…, sree matha_20240910_005033.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/satyam sanath…, sree matha_20240910_005033.jpg
+  COPIED + VERIFIED
+
+[400] PHOTO | inventory_id=3476
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/rekha jyothis…opalakrishna_20240910_004312.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/rekha jyothis…opalakrishna_20240910_004312.jpg
+  COPIED + VERIFIED
+
+[401] PHOTO | inventory_id=3477
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_045718.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_045718.jpg
+  COPIED + VERIFIED
+
+[402] PHOTO | inventory_id=3478
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8125914226_20240906_200734.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8125914226_20240906_200734.jpg
+  COPIED + VERIFIED
+
+[403] PHOTO | inventory_id=3479
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_5.jpg
+  COPIED + VERIFIED
+
+[404] PHOTO | inventory_id=3480
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  COPIED + VERIFIED
+
+[405] PHOTO | inventory_id=3481
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164945.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164945.jpg
+  COPIED + VERIFIED
+
+[406] PHOTO | inventory_id=3483
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree rama sth… kochanniyan_20240910_005457.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree rama sth… kochanniyan_20240910_005457.jpg
+  COPIED + VERIFIED
+
+[407] PHOTO | inventory_id=3484
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ering 4e mgu_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ering 4e mgu_6.jpg
+  COPIED + VERIFIED
+
+[408] PHOTO | inventory_id=3485
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  COPIED + VERIFIED
+
+[409] PHOTO | inventory_id=3486
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  COPIED + VERIFIED
+
+[410] PHOTO | inventory_id=3487
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  COPIED + VERIFIED
+
+[411] PHOTO | inventory_id=3488
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  COPIED + VERIFIED
+
+[412] PHOTO | inventory_id=3490
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  COPIED + VERIFIED
+
+[413] PHOTO | inventory_id=3491
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree hanuman … kochanniyan_20240910_005256.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree hanuman … kochanniyan_20240910_005256.jpg
+  COPIED + VERIFIED
+
+[414] PHOTO | inventory_id=3492
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8126503181_20240906_175635.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8126503181_20240906_175635.jpg
+  COPIED + VERIFIED
+
+[415] PHOTO | inventory_id=3493
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  COPIED + VERIFIED
+
+[416] PHOTO | inventory_id=3494
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram copy1_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram copy1_0.jpg
+  COPIED + VERIFIED
+
+[417] PHOTO | inventory_id=3495
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/jyothisham by…palakrishnan_20240910_003337.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/jyothisham by…palakrishnan_20240910_003337.jpg
+  COPIED + VERIFIED
+
+[418] PHOTO | inventory_id=3496
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/geetha - vija…it chaithnya_20240910_003006.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/geetha - vija…it chaithnya_20240910_003006.jpg
+  COPIED + VERIFIED
+
+[419] PHOTO | inventory_id=3497
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  COPIED + VERIFIED
+
+[420] PHOTO | inventory_id=3498
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree vishnu s…ma sthothram_20240909_231649.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree vishnu s…ma sthothram_20240909_231649.jpg
+  COPIED + VERIFIED
+
+[421] PHOTO | inventory_id=3499
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788121924986_20240906_143756.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788121924986_20240906_143756.jpg
+  COPIED + VERIFIED
+
+[422] PHOTO | inventory_id=3500
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/introduction …d techniques_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/introduction …d techniques_0.jpg
+  COPIED + VERIFIED
+
+[423] PHOTO | inventory_id=3501
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/ultimate visu…l dictionary_20240906_105908.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/ultimate visu…l dictionary_20240906_105908.jpg
+  COPIED + VERIFIED
+
+[424] PHOTO | inventory_id=3502
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_032811.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_032811.jpg
+  COPIED + VERIFIED
+
+[425] PHOTO | inventory_id=3503
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  COPIED + VERIFIED
+
+[426] PHOTO | inventory_id=3504
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  COPIED + VERIFIED
+
+[427] PHOTO | inventory_id=3505
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  COPIED + VERIFIED
+
+[428] PHOTO | inventory_id=3506
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_0.jpg
+  COPIED + VERIFIED
+
+[429] PHOTO | inventory_id=3507
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/marananathara chadangukal_20240910_003732.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/marananathara chadangukal_20240910_003732.jpg
+  COPIED + VERIFIED
+
+[430] PHOTO | inventory_id=3508
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315620_20240909_232442.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315620_20240909_232442.jpg
+  COPIED + VERIFIED
+
+[431] PHOTO | inventory_id=3509
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163231.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163231.jpg
+  COPIED + VERIFIED
+
+[432] PHOTO | inventory_id=3510
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/millennium ma…lish grammar_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/millennium ma…lish grammar_6.jpg
+  COPIED + VERIFIED
+
+[433] PHOTO | inventory_id=3511
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788129706010_20240906_142734.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788129706010_20240906_142734.jpg
+  COPIED + VERIFIED
+
+[434] PHOTO | inventory_id=3512
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/purushasookth…nasookthavum_20240910_004228.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/purushasookth…nasookthavum_20240910_004228.jpg
+  COPIED + VERIFIED
+
+[435] PHOTO | inventory_id=3513
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788170089926_20240906_145001.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788170089926_20240906_145001.jpg
+  COPIED + VERIFIED
+
+[436] PHOTO | inventory_id=3514
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8126404981_20240909_044817.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8126404981_20240909_044817.jpg
+  COPIED + VERIFIED
+
+[437] PHOTO | inventory_id=3515
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/computer scie…ce malayalam_20240906_020843.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/computer scie…ce malayalam_20240906_020843.jpg
+  COPIED + VERIFIED
+
+[438] PHOTO | inventory_id=3516
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/devi sthuthik… kochanniyan_20240910_002432.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/devi sthuthik… kochanniyan_20240910_002432.jpg
+  COPIED + VERIFIED
+
+[439] PHOTO | inventory_id=3517
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree siva sah…ma sthothram_20240909_231306.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree siva sah…ma sthothram_20240909_231306.jpg
+  COPIED + VERIFIED
+
+[440] PHOTO | inventory_id=3518
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  COPIED + VERIFIED
+
+[441] PHOTO | inventory_id=3519
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100909.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100909.jpg
+  COPIED + VERIFIED
+
+[442] PHOTO | inventory_id=3520
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  COPIED + VERIFIED
+
+[443] PHOTO | inventory_id=3521
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/puranakathaka…d, harish r._20240910_004142.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/puranakathaka…d, harish r._20240910_004142.jpg
+  COPIED + VERIFIED
+
+[444] PHOTO | inventory_id=3522
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…വതം-(moolam)_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…വതം-(moolam)_3.jpg
+  COPIED + VERIFIED
+
+[445] PHOTO | inventory_id=3523
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  COPIED + VERIFIED
+
+[446] PHOTO | inventory_id=3524
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/subramaniya keerthanangal_20240910_005648.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/subramaniya keerthanangal_20240910_005648.jpg
+  COPIED + VERIFIED
+
+[447] PHOTO | inventory_id=3525
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/hindhumatha c…nthirangalum_20240910_003055.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/hindhumatha c…nthirangalum_20240910_003055.jpg
+  COPIED + VERIFIED
+
+[448] PHOTO | inventory_id=3526
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163405.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163405.jpg
+  COPIED + VERIFIED
+
+[449] PHOTO | inventory_id=3527
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_143444.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_143444.jpg
+  COPIED + VERIFIED
+
+[450] PHOTO | inventory_id=3528
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  COPIED + VERIFIED
+
+[451] PHOTO | inventory_id=3529
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  COPIED + VERIFIED
+
+[452] PHOTO | inventory_id=3530
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sudarshanam സ… s narayanan_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sudarshanam സ… s narayanan_4.jpg
+  COPIED + VERIFIED
+
+[453] PHOTO | inventory_id=3531
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/surabhi a mod…ractice book_20240906_193612.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/surabhi a mod…ractice book_20240906_193612.jpg
+  COPIED + VERIFIED
+
+[454] PHOTO | inventory_id=3532
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_085516.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_085516.jpg
+  COPIED + VERIFIED
+
+[455] PHOTO | inventory_id=3533
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225752.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225752.jpg
+  COPIED + VERIFIED
+
+[456] PHOTO | inventory_id=3534
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8171803911_20240910_003554.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8171803911_20240910_003554.jpg
+  COPIED + VERIFIED
+
+[457] PHOTO | inventory_id=3536
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/njanappana by…, poonthanam_20240909_230103.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/njanappana by…, poonthanam_20240909_230103.jpg
+  COPIED + VERIFIED
+
+[458] PHOTO | inventory_id=3537
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/systematic ap…ch to botany_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/systematic ap…ch to botany_6.jpg
+  COPIED + VERIFIED
+
+[459] PHOTO | inventory_id=3538
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9780070140622_20240906_153927.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780070140622_20240906_153927.jpg
+  COPIED + VERIFIED
+
+[460] PHOTO | inventory_id=3539
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788120309845_20240906_162042.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120309845_20240906_162042.jpg
+  COPIED + VERIFIED
+
+[461] PHOTO | inventory_id=3540
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788171302253_20240906_094834.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788171302253_20240906_094834.jpg
+  COPIED + VERIFIED
+
+[462] PHOTO | inventory_id=3541
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315574_20240909_031106.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315574_20240909_031106.jpg
+  COPIED + VERIFIED
+
+[463] PHOTO | inventory_id=3543
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/object-orient…gn using uml_7.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/object-orient…gn using uml_7.jpg
+  COPIED + VERIFIED
+
+[464] PHOTO | inventory_id=3544
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788185315591_20240909_025406.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788185315591_20240909_025406.jpg
+  COPIED + VERIFIED
+
+[465] PHOTO | inventory_id=3545
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/fundamentals …cs class xll_20240906_160708.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/fundamentals …cs class xll_20240906_160708.jpg
+  COPIED + VERIFIED
+
+[466] PHOTO | inventory_id=3546
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  COPIED + VERIFIED
+
+[467] PHOTO | inventory_id=3547
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163517.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163517.jpg
+  COPIED + VERIFIED
+
+[468] PHOTO | inventory_id=3548
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ng mechanics_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ng mechanics_0.jpg
+  COPIED + VERIFIED
+
+[469] PHOTO | inventory_id=3549
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103955.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103955.jpg
+  COPIED + VERIFIED
+
+[470] PHOTO | inventory_id=3550
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_230514.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_230514.jpg
+  COPIED + VERIFIED
+
+[471] PHOTO | inventory_id=3551
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_035627.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_035627.jpg
+  COPIED + VERIFIED
+
+[472] PHOTO | inventory_id=3552
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram_20240909_230901.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram_20240909_230901.jpg
+  COPIED + VERIFIED
+
+[473] PHOTO | inventory_id=3553
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/e-craft by , ecit_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/e-craft by , ecit_6.jpg
+  COPIED + VERIFIED
+
+[474] PHOTO | inventory_id=3555
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_084839.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_084839.jpg
+  COPIED + VERIFIED
+
+[475] PHOTO | inventory_id=3556
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164835.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164835.jpg
+  COPIED + VERIFIED
+
+[476] PHOTO | inventory_id=3558
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sasyaharam by…palakrishnan_20240910_004934.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sasyaharam by…palakrishnan_20240910_004934.jpg
+  COPIED + VERIFIED
+
+[477] PHOTO | inventory_id=3559
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/plus two modern chemistry_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/plus two modern chemistry_1.jpg
+  COPIED + VERIFIED
+
+[478] PHOTO | inventory_id=3560
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam) copy1_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam) copy1_1.jpg
+  COPIED + VERIFIED
+
+[479] PHOTO | inventory_id=3561
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/introduction …lume 1 to 3)_0.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/introduction …lume 1 to 3)_0.jpg
+  COPIED + VERIFIED
+
+[480] PHOTO | inventory_id=3562
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  COPIED + VERIFIED
+
+[481] PHOTO | inventory_id=3563
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8174092153_20240906_145836.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8174092153_20240906_145836.jpg
+  COPIED + VERIFIED
+
+[482] PHOTO | inventory_id=3564
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  COPIED + VERIFIED
+
+[483] PHOTO | inventory_id=3565
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788120320581_20240906_145344.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120320581_20240906_145344.jpg
+  COPIED + VERIFIED
+
+[484] PHOTO | inventory_id=3566
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree siva sahasranamavali_20240909_231549.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree siva sahasranamavali_20240909_231549.jpg
+  COPIED + VERIFIED
+
+[485] PHOTO | inventory_id=3568
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  COPIED + VERIFIED
+
+[486] PHOTO | inventory_id=3569
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_230221.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_230221.jpg
+  COPIED + VERIFIED
+
+[487] PHOTO | inventory_id=3570
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_3.jpg
+  COPIED + VERIFIED
+
+[488] PHOTO | inventory_id=3571
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  COPIED + VERIFIED
+
+[489] PHOTO | inventory_id=3572
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788187328278_20240906_180620.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788187328278_20240906_180620.jpg
+  COPIED + VERIFIED
+
+[490] PHOTO | inventory_id=3573
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/dheergayussin…oseph manuel_20240910_002708.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/dheergayussin…oseph manuel_20240910_002708.jpg
+  COPIED + VERIFIED
+
+[491] PHOTO | inventory_id=3574
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/hindukkal ari…adu gunangal_20240910_003235.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/hindukkal ari…adu gunangal_20240910_003235.jpg
+  COPIED + VERIFIED
+
+[492] PHOTO | inventory_id=3575
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788120317451_20240906_000534.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120317451_20240906_000534.jpg
+  COPIED + VERIFIED
+
+[493] PHOTO | inventory_id=3576
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sabarimala idathavalangal_20240910_004459.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sabarimala idathavalangal_20240910_004459.jpg
+  COPIED + VERIFIED
+
+[494] PHOTO | inventory_id=3578
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/naama geetha …it chaithnya_20240910_003823.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/naama geetha …it chaithnya_20240910_003823.jpg
+  COPIED + VERIFIED
+
+[495] PHOTO | inventory_id=3579
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sandhyanamam …endathengine_20240910_004626.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sandhyanamam …endathengine_20240910_004626.jpg
+  COPIED + VERIFIED
+
+[496] PHOTO | inventory_id=3580
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315426_20240909_232812.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426_20240909_232812.jpg
+  COPIED + VERIFIED
+
+[497] PHOTO | inventory_id=3581
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/rogashanthikk… kshetrangal_20240910_004401.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/rogashanthikk… kshetrangal_20240910_004401.jpg
+  COPIED + VERIFIED
+
+[498] PHOTO | inventory_id=3582
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/kerala service rules_20240909_043156.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/kerala service rules_20240909_043156.jpg
+  COPIED + VERIFIED
+
+[499] PHOTO | inventory_id=3583
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225922.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225922.jpg
+  COPIED + VERIFIED
+
+[500] PHOTO | inventory_id=3584
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree krishna … kochanniyan_20240910_005407.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree krishna … kochanniyan_20240910_005407.jpg
+  COPIED + VERIFIED
+
+[501] PHOTO | inventory_id=3585
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100647.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100647.jpg
+  COPIED + VERIFIED
+
+[502] PHOTO | inventory_id=3586
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/deepa pooja_20240910_002314.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/deepa pooja_20240910_002314.jpg
+  COPIED + VERIFIED
+
+[503] PHOTO | inventory_id=3587
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi copy2_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi copy2_3.jpg
+  COPIED + VERIFIED
+
+[504] PHOTO | inventory_id=3588
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_035354.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_035354.jpg
+  COPIED + VERIFIED
+
+[505] PHOTO | inventory_id=3589
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788178235448_20240909_033610.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788178235448_20240909_033610.jpg
+  COPIED + VERIFIED
+
+[506] PHOTO | inventory_id=3590
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  COPIED + VERIFIED
+
+[507] PHOTO | inventory_id=3591
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9789382515302 copy1_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9789382515302 copy1_5.jpg
+  COPIED + VERIFIED
+
+[508] PHOTO | inventory_id=3592
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_045806.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_045806.jpg
+  COPIED + VERIFIED
+
+[509] PHOTO | inventory_id=3593
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_1.jpg
+  COPIED + VERIFIED
+
+[510] PHOTO | inventory_id=3594
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/818912501X_20240906_111914.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/818912501X_20240906_111914.jpg
+  COPIED + VERIFIED
+
+[511] PHOTO | inventory_id=3595
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sree ganesha …ama stothram_20240909_230743.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree ganesha …ama stothram_20240909_230743.jpg
+  COPIED + VERIFIED
+
+[512] PHOTO | inventory_id=3596
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8185315620 copy1_3.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315620 copy1_3.jpg
+  COPIED + VERIFIED
+
+[513] PHOTO | inventory_id=3597
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_034135.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_034135.jpg
+  COPIED + VERIFIED
+
+[514] PHOTO | inventory_id=3598
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788120330962_20240906_152416.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120330962_20240906_152416.jpg
+  COPIED + VERIFIED
+
+[515] PHOTO | inventory_id=3599
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/aesopu, beerb… (malayalam)_2.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/aesopu, beerb… (malayalam)_2.jpg
+  COPIED + VERIFIED
+
+[516] PHOTO | inventory_id=3600
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/engineering g…s for degree_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/engineering g…s for degree_6.jpg
+  COPIED + VERIFIED
+
+[517] PHOTO | inventory_id=3601
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  COPIED + VERIFIED
+
+[518] PHOTO | inventory_id=3602
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/a high speed …tive english_20240906_194605.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/a high speed …tive english_20240906_194605.jpg
+  COPIED + VERIFIED
+
+[519] PHOTO | inventory_id=3603
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/108 upanishad…. n. p. unni_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/108 upanishad…. n. p. unni_1.jpg
+  COPIED + VERIFIED
+
+[520] PHOTO | inventory_id=3604
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…-(malayalam) copy2_9.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…-(malayalam) copy2_9.jpg
+  COPIED + VERIFIED
+
+[521] PHOTO | inventory_id=3605
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8188114006_20240906_140327.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8188114006_20240906_140327.jpg
+  COPIED + VERIFIED
+
+[522] PHOTO | inventory_id=3607
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  COPIED + VERIFIED
+
+[523] PHOTO | inventory_id=3608
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol20_9.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol20_9.jpg
+  COPIED + VERIFIED
+
+[524] PHOTO | inventory_id=3609
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788131703090_20240906_013705.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131703090_20240906_013705.jpg
+  COPIED + VERIFIED
+
+[525] PHOTO | inventory_id=3610
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_20240906_101428.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_20240906_101428.jpg
+  COPIED + VERIFIED
+
+[526] PHOTO | inventory_id=3611
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/bhajagovindam…. rama varma_20240909_225349.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/bhajagovindam…. rama varma_20240909_225349.jpg
+  COPIED + VERIFIED
+
+[527] PHOTO | inventory_id=3612
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103814.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103814.jpg
+  COPIED + VERIFIED
+
+[528] PHOTO | inventory_id=3613
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/electromagnet…applications_20240906_005253.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/electromagnet…applications_20240906_005253.jpg
+  COPIED + VERIFIED
+
+[529] PHOTO | inventory_id=3614
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/java programm…ent workbook_20240906_155641.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/java programm…ent workbook_20240906_155641.jpg
+  COPIED + VERIFIED
+
+[530] PHOTO | inventory_id=3615
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788122416077_20240906_200047.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788122416077_20240906_200047.jpg
+  COPIED + VERIFIED
+
+[531] PHOTO | inventory_id=3616
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8176710482_20240906_135608.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8176710482_20240906_135608.jpg
+  COPIED + VERIFIED
+
+[532] PHOTO | inventory_id=3617
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  COPIED + VERIFIED
+
+[533] PHOTO | inventory_id=3618
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/8190180525_6.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8190180525_6.jpg
+  COPIED + VERIFIED
+
+[534] PHOTO | inventory_id=3619
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/millennium ma…work book #2_20240906_201256.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/millennium ma…work book #2_20240906_201256.jpg
+  COPIED + VERIFIED
+
+[535] PHOTO | inventory_id=3621
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/9788189125639_5.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788189125639_5.jpg
+  COPIED + VERIFIED
+
+[536] PHOTO | inventory_id=3622
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/syamamadhuri …y , karakkad_20240910_005924.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/syamamadhuri …y , karakkad_20240910_005924.jpg
+  COPIED + VERIFIED
+
+[537] PHOTO | inventory_id=3623
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/manusmrithi മ…krishnakumar_1.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/manusmrithi മ…krishnakumar_1.jpg
+  COPIED + VERIFIED
+
+[538] PHOTO | inventory_id=3624
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/handy_library_manual_backup_10092025_v1/Icons/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  COPIED + VERIFIED
+
+[539] MUSIC | inventory_id=3625
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Recordings/Voice Recorder/Voice 260725_160710.m4a
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Recordings/Voice Recorder/Voice 260725_160710.m4a
+  COPIED + VERIFIED
+
+[540] VIDEO | inventory_id=3626
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/MF003(10MB)/MF003(10MB).wmv
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/MF003(10MB)/MF003(10MB).wmv
+  COPIED + VERIFIED
+
+[541] PHOTO | inventory_id=3627
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225752.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225752.jpg
+  COPIED + VERIFIED
+
+[542] PHOTO | inventory_id=3628
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20250813_130451_new.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250813_130451_new.jpg
+  COPIED + VERIFIED
+
+[543] PHOTO | inventory_id=3629
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/wego_RC_20250813_125922.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/wego_RC_20250813_125922.jpg
+  COPIED + VERIFIED
+
+[544] PHOTO | inventory_id=3630
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225933.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225933.jpg
+  COPIED + VERIFIED
+
+[545] PHOTO | inventory_id=3631
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20250716_110028.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250716_110028.jpg
+  COPIED + VERIFIED
+
+[546] PHOTO | inventory_id=3632
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20250716_101244.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250716_101244.jpg
+  COPIED + VERIFIED
+
+[547] PHOTO | inventory_id=3633
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225708.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225708.jpg
+  COPIED + VERIFIED
+
+[548] PHOTO | inventory_id=3634
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20250911_122534.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250911_122534.jpg
+  COPIED + VERIFIED
+
+[549] PHOTO | inventory_id=3635
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225742.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225742.jpg
+  COPIED + VERIFIED
+
+[550] PHOTO | inventory_id=3636
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20250813_125922_new.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250813_125922_new.jpg
+  COPIED + VERIFIED
+
+[551] PHOTO | inventory_id=3637
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225910.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225910.jpg
+  COPIED + VERIFIED
+
+[552] PHOTO | inventory_id=3638
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225732(1).jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225732(1).jpg
+  COPIED + VERIFIED
+
+[553] PHOTO | inventory_id=3639
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225942.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225942.jpg
+  COPIED + VERIFIED
+
+[554] PHOTO | inventory_id=3640
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225732.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225732.jpg
+  COPIED + VERIFIED
+
+[555] PHOTO | inventory_id=3641
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/wego_RC_20250813_125922(1).jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/wego_RC_20250813_125922(1).jpg
+  COPIED + VERIFIED
+
+[556] PHOTO | inventory_id=3642
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/Quick Share/20251129_225810.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225810.jpg
+  COPIED + VERIFIED
+
+[557] OTHER | inventory_id=3643
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-KEYBOARD_DUMP.log
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-KEYBOARD_DUMP.log
+  COPIED + VERIFIED
+
+[558] OTHER | inventory_id=3644
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-FOTA_UPDATE.log
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-FOTA_UPDATE.log
+  COPIED + VERIFIED
+
+[559] OTHER | inventory_id=3645
+  SOURCE: /home/harikr/Migration-Work/Tablet-Original/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-CM.log
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-CM.log
+  COPIED + VERIFIED
+
+[560] OTHER | inventory_id=3654
+  SOURCE: /home/harikr/Documents/schemas/test.kicad_prl
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/test.kicad_prl
+  COPIED + VERIFIED
+
+[561] OTHER | inventory_id=3655
+  SOURCE: /home/harikr/Documents/schemas/test.kicad_pro
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/test.kicad_pro
+  COPIED + VERIFIED
+
+[562] OTHER | inventory_id=3656
+  SOURCE: /home/harikr/Documents/schemas/test.kicad_sch
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/test.kicad_sch
+  COPIED + VERIFIED
+
+[563] PHOTO | inventory_id=3657
+  SOURCE: /home/harikr/Documents/personal_job/hari_aadhar_scan.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/personal_job/hari_aadhar_scan.jpg
+  COPIED + VERIFIED
+
+[564] PHOTO | inventory_id=3658
+  SOURCE: /home/harikr/Documents/personal_job/Photo_Hari.jpg
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/personal_job/Photo_Hari.jpg
+  COPIED + VERIFIED
+
+[565] OTHER | inventory_id=3659
+  SOURCE: /home/harikr/Documents/apps_scripts/package.json
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/package.json
+  COPIED + VERIFIED
+
+[566] OTHER | inventory_id=3660
+  SOURCE: /home/harikr/Documents/apps_scripts/GmailFilterModificationIncremental.gs
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/GmailFilterModificationIncremental.gs
+  COPIED + VERIFIED
+
+[567] OTHER | inventory_id=3661
+  SOURCE: /home/harikr/Documents/apps_scripts/package-lock.json
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/package-lock.json
+  COPIED + VERIFIED
+
+[568] OTHER | inventory_id=3662
+  SOURCE: /home/harikr/Documents/apps_scripts/GmailFilterModificationIncrementalUpdate.gs
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/GmailFilterModificationIncrementalUpdate.gs
+  COPIED + VERIFIED
+
+[569] OTHER | inventory_id=3663
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost.kicad_pcb
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_pcb
+  COPIED + VERIFIED
+
+[570] OTHER | inventory_id=3664
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost.kicad_sch
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_sch
+  COPIED + VERIFIED
+
+[571] OTHER | inventory_id=3665
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost.kicad_sch-bak
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_sch-bak
+  COPIED + VERIFIED
+
+[572] OTHER | inventory_id=3666
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/fp-info-cache
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/fp-info-cache
+  COPIED + VERIFIED
+
+[573] OTHER | inventory_id=3667
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/IRFZ44N.sub
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/IRFZ44N.sub
+  COPIED + VERIFIED
+
+[574] OTHER | inventory_id=3668
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost.kicad_pro
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_pro
+  COPIED + VERIFIED
+
+[575] OTHER | inventory_id=3669
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost.kicad_prl
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_prl
+  COPIED + VERIFIED
+
+[576] ARCHIVE | inventory_id=3670
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_185555.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_185555.zip
+  COPIED + VERIFIED
+
+[577] ARCHIVE | inventory_id=3671
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_192055.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_192055.zip
+  COPIED + VERIFIED
+
+[578] ARCHIVE | inventory_id=3672
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_190723.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_190723.zip
+  COPIED + VERIFIED
+
+[579] ARCHIVE | inventory_id=3673
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_225304.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_225304.zip
+  COPIED + VERIFIED
+
+[580] ARCHIVE | inventory_id=3674
+  SOURCE: /home/harikr/Documents/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_183227.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_183227.zip
+  COPIED + VERIFIED
+
+[581] OTHER | inventory_id=3675
+  SOURCE: /home/harikr/Documents/LTspiceXVII/lib/sub/TL494.sub
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/LTspiceXVII/lib/sub/TL494.sub
+  COPIED + VERIFIED
+
+[582] OTHER | inventory_id=3676
+  SOURCE: /home/harikr/Documents/LTspiceXVII/lib/sym/TL494.asy
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/LTspiceXVII/lib/sym/TL494.asy
+  COPIED + VERIFIED
+
+[583] OTHER | inventory_id=3677
+  SOURCE: /home/harikr/Documents/ITR/FY-2025-26/SKP/EFLPS6835B_upload_2026-277-10-2026--2-50-54-PM.json
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/ITR/FY-2025-26/SKP/EFLPS6835B_upload_2026-277-10-2026--2-50-54-PM.json
+  COPIED + VERIFIED
+
+[584] OTHER | inventory_id=3678
+  SOURCE: /home/harikr/Documents/ITR/FY-2025-26/HKR/AFRPH7413L_upload_2026-277-14-2026--7-22-39-PM.json
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/ITR/FY-2025-26/HKR/AFRPH7413L_upload_2026-277-14-2026--7-22-39-PM.json
+  COPIED + VERIFIED
+
+[585] ARCHIVE | inventory_id=3679
+  SOURCE: /home/harikr/Documents/ITR/FY-2025-26/HKR/accn_stmts/cc_stmts/HdfcDoc/HdfcDoc.zip
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/ITR/FY-2025-26/HKR/accn_stmts/cc_stmts/HdfcDoc/HdfcDoc.zip
+  COPIED + VERIFIED
+
+[586] OTHER | inventory_id=3680
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/xsl_sorted_mailFilters.xml
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/xsl_sorted_mailFilters.xml
+  COPIED + VERIFIED
+
+[587] OTHER | inventory_id=3681
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/sort_filters.py
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/sort_filters.py
+  COPIED + VERIFIED
+
+[588] OTHER | inventory_id=3682
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/fixed_native_sort.xsl
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/fixed_native_sort.xsl
+  COPIED + VERIFIED
+
+[589] OTHER | inventory_id=3683
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/py_sorted_mailFilters.xml
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/py_sorted_mailFilters.xml
+  COPIED + VERIFIED
+
+[590] OTHER | inventory_id=3684
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/sort_filters.py.save
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/sort_filters.py.save
+  COPIED + VERIFIED
+
+[591] OTHER | inventory_id=3685
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/mailFilters.xml
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/mailFilters.xml
+  COPIED + VERIFIED
+
+[592] OTHER | inventory_id=3686
+  SOURCE: /home/harikr/Documents/google_cloud/mail_filters/sorted_mailFilters.xml
+  DEST  : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/sorted_mailFilters.xml
+  COPIED + VERIFIED
+
+========================================================================
+SUMMARY
+========================================================================
+Rows processed : 592
+Successful     : 592
+Failed         : 0
+
+============================================================
+Completed    : 2026-08-20 23:02:36 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/copy_media_manifest_log_20260820_230127.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================

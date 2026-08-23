@@ -1,0 +1,291 @@
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py 
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 68
+    required={"batch_id","source_device_id","source_path","relative_path","filename","extension","category","size_bytes","sha256","duplicate_group", /
+                                                                                                                                                     ^
+SyntaxError: invalid syntax
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py 
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py 
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py 
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x load_multimedia_assets.py load_multimedia_assets.sh
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ls
+apply_canonical_paths.py   compare_document_directories.sh  init_catalog.sh             logs                              plan_canonical_paths.py  STORAGE_MIGRATION.sql
+apply_canonical_paths.sh   COPY_MASTER_README.md            init_catalog_v2.py          MANUAL_CANONICAL_README.md        plan_canonical_paths.sh  STORAGE_README.md
+APPLY_CANONICAL_README.md  copy_planned_master.py           init_catalog_v2.sh          MANUAL_PLAN_MIGRATION.sql         plan_master_copy.py      test.db
+build_device_pair_csv.sh   copy_planned_master.sh           inventory_documents.sh      MASTER_PLAN_README.md             plan_master_copy.sh      verify_catalog_import.py
+CANONICAL_PLAN_README.md   DUPLICATE_CLEANUP_README.md      inventory_extensions.sh     migrate_manual_plan_fields.py     __pycache__              verify_master_schema.py
+catalog_db.py              import_device_pair_csv.py        inventory_non_documents.py  migrate_storage_fields.py         README.md
+common.sh                  import_device_pair_csv.sh        load_multimedia_assets.py   move_duplicate_sources_to_bin.py  schema.sql
+compare_directories.sh     IMPORT_README.md                 load_multimedia_assets.sh   move_duplicate_sources_to_bin.sh  sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh \
+  --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+  --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:27:25 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_192725.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_192725
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 168, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 106, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(rec["sha"],[]).append(rec)
+                                                      ~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:27:27 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_192725.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py 
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py 
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh \
+  --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+  --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:34:01 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_193401.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_193401
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 169, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 106, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(rec["sha"],[]).append(rec)
+                                                      ~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:34:03 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_193401.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ^[[200~./load_multimedia_assets.sh \
+>   --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+>   --source-root PC "$HOME/Documents"
+bash: ./load_multimedia_assets.sh: No such file or directory
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh \
+  --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+  --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:34:49 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_193449.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_193450
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 169, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 106, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(rec["sha"],[]).append(rec)
+                                                      ~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:34:51 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_193449.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile \
+  ~/my_scripts/digital_archive/load_multimedia_assets.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh \
+  --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+  --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:41:37 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_194137.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_194138
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 169, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 106, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(rec["sha"],[]).append(rec)
+                                                      ~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:41:39 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_194137.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh   --source-root TABLET "$HOME/Migration-Work/Tablet-Original"   --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:42:16 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_194216.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_194216
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 169, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 106, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(record["sha"],[]).append(record)
+                                                      ~~~~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:42:18 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_194216.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh   --source-root TABLET "$HOME/Migration-Work/Tablet-Original"   --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:47:14 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_194714.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_194715
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 125, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 92, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(record["sha"],[]).append(record)
+                                                      ~~~~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:47:16 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_194714.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh   --source-root TABLET "$HOME/Migration-Work/Tablet-Original"   --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:56:49 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_195649.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_195649
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 125, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 92, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(record["sha"],[]).append(record)
+                                                      ~~~~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:56:51 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_195649.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh   --source-root TABLET "$HOME/Migration-Work/Tablet-Original"   --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 19:59:42 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_195942.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_195943
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 126, in <module>
+    main()
+  File "/home/harikr/my_scripts/digital_archive/load_multimedia_assets.py", line 92, in main
+    if category!="DERIVED_CACHE": hash_map.setdefault(record["sha"],[]).append(record)
+                                                      ~~~~~~^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+
+============================================================
+Completed    : 2026-08-20 19:59:44 IST
+Status       : FAILED
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_195942.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile   ~/my_scripts/digital_archive/load_multimedia_assets.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./load_multimedia_assets.sh   --source-root TABLET "$HOME/Migration-Work/Tablet-Original"   --source-root PC "$HOME/Documents"
+============================================================
+Script       : load_multimedia_assets.sh
+Started      : 2026-08-20 20:23:40 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_202340.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+BATCH: NONDOC_20260820_202341
+MODE : LOAD NON-DOCUMENT INVENTORY
+THUMBNAIL/CACHE RULE: DERIVED_CACHE + EXCLUDE
+
+Scanned : 1190
+Loaded  : 1190
+
+By category:
+  DERIVED_CACHE   565
+  PHOTO           551
+  OTHER           35
+  MUSIC           22
+  ARCHIVE         11
+  VIDEO           6
+
+Exact duplicate groups : 21
+Exact duplicate records: 54
+Derived cache excluded : 565
+
+============================================================
+Completed    : 2026-08-20 20:24:16 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/load_multimedia_assets_log_20260820_202340.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ 

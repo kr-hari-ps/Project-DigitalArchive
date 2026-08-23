@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -u
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+source "$SCRIPT_DIR/common.sh"
+CSV="${1:-}"
+DB="${2:-$HOME/Master-Repository/.archive/catalog.db}"
+LABEL1="${3:-TABLET}"
+LABEL2="${4:-PC}"
+[[ -n "$CSV" ]] || die "Usage: $0 CSV [DB] [LABEL1] [LABEL2]"
+[[ -f "$CSV" ]] || die "CSV does not exist: $CSV"
+[[ -f "$DB" ]] || die "Database does not exist: $DB"
+log_header "$CSV -> $DB"
+echo "Mode         : READ-ONLY IMPORT"
+echo "Source 1     : $LABEL1"
+echo "Source 2     : $LABEL2"
+python3 "$SCRIPT_DIR/import_device_pair_csv.py" "$CSV" "$DB" "$LABEL1" "$LABEL2"
+log_footer "SUCCESS"

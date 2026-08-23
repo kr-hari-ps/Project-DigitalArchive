@@ -1,0 +1,21 @@
+# Ignore SQLite binary database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore temporary staging and migration data
+migration-work/
+data/
+
+# Ignore XML and XSL files
+*.xml
+*.xsl
+
+# Ignore OpenDocument files
+*.odt
+*.ods
+*.csv

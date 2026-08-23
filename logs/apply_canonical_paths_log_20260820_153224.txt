@@ -1,0 +1,25 @@
+============================================================
+Script       : apply_canonical_paths.sh
+Started      : 2026-08-20 15:32:24 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/apply_canonical_paths_log_20260820_153224.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+MODE: DRY RUN
+Eligible rows: 0
+Master root: /home/harikr/Master-Repository
+Original Tablet/PC sources are not touched.
+
+
+SUMMARY
+Eligible: 0
+Successful: 0
+Failed/refused: 0
+
+============================================================
+Completed    : 2026-08-20 15:32:24 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/apply_canonical_paths_log_20260820_153224.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================

@@ -1,0 +1,18 @@
+============================================================
+Script       : apply_canonical_paths.sh
+Started      : 2026-08-20 15:01:42 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/apply_canonical_paths_log_20260820_150142.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+usage: apply_canonical_paths.py [-h] [--db DB] [--master-root MASTER_ROOT]
+                                [--apply-reviewed] [--dry-run]
+apply_canonical_paths.py: error: unrecognized arguments: --execute
+
+============================================================
+Completed    : 2026-08-20 15:01:43 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/apply_canonical_paths_log_20260820_150142.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================

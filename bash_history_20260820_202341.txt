@@ -1,0 +1,676 @@
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db << 'EOF'
+
+-- Rebuild with conditional constraints and hard lock logic
+CREATE TABLE sys_query_repo (
+    query_id TEXT PRIMARY KEY,
+    query_name TEXT NOT NULL UNIQUE,
+    query_type TEXT CHECK(query_type IN ('SELECT', 'UPDATE', 'DELETE', 'INSERT')),
+    description TEXT,
+    dependencies TEXT,
+    sql_text TEXT NOT NULL,
+    is_active INTEGER DEFAULT 1 CHECK(is_active IN (0, 1)),
+    
+    -- SAFETY LOCK: 1 = Locked (Cannot execute), 0 = Unlocked
+    is_locked INTEGER DEFAULT 0 CHECK(is_locked IN (0, 1)),
+    
+    -- Enforcement check to prevent manual overrides of active locks
+    CONSTRAINT chk_safety_lock CHECK(
+        (query_type IN ('UPDATE', 'DELETE', 'INSERT') AND is_locked IN (0, 1)) OR 
+        (query_type = 'SELECT' AND is_locked = 0)
+    ),
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+EOF
+Parse error near line 3: near "updated_at": syntax error
+  ery_type = 'SELECT' AND is_locked = 0)     ),     updated_at DATETIME DEFAULT 
+                                      error here ---^
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db << 'EOF'
+-- Rebuild with conditional constraints and hard lock logic
+CREATE TABLE sys_query_repo (
+    query_id TEXT PRIMARY KEY,
+    query_name TEXT NOT NULL UNIQUE,
+    query_type TEXT CHECK(query_type IN ('SELECT', 'UPDATE', 'DELETE', 'INSERT')),
+    description TEXT,
+    dependencies TEXT,
+    sql_text TEXT NOT NULL,
+    is_active INTEGER DEFAULT 1 CHECK(is_active IN (0, 1)),
+    -- SAFETY LOCK: 1 = Locked (Cannot execute), 0 = Unlocked
+    is_locked INTEGER DEFAULT 0 CHECK(is_locked IN (0, 1)),
+    -- Enforcement check to prevent manual overrides of active locks
+    CONSTRAINT chk_safety_lock CHECK(
+        (query_type IN ('UPDATE', 'DELETE', 'INSERT') AND is_locked IN (0, 1)) OR 
+        (query_type = 'SELECT' AND is_locked = 0)
+    ), -- <-- Added missing comma here
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+EOF
+Parse error near line 2: near "updated_at": syntax error
+  d = 0)     ), -- <-- Added missing comma here     updated_at DATETIME DEFAULT 
+                                      error here ---^
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db << 'EOF'
+-- Rebuild with conditional constraints and hard lock logic
+CREATE TABLE sys_query_repo (
+    query_id TEXT PRIMARY KEY,
+    query_name TEXT NOT NULL UNIQUE,
+    query_type TEXT CHECK(query_type IN ('SELECT', 'UPDATE', 'DELETE', 'INSERT')),
+    description TEXT,
+    dependencies TEXT,
+    sql_text TEXT NOT NULL,
+    is_active INTEGER DEFAULT 1 CHECK(is_active IN (0, 1)),
+    -- SAFETY LOCK: 1 = Locked (Cannot execute), 0 = Unlocked
+    is_locked INTEGER DEFAULT 0 CHECK(is_locked IN (0, 1)),
+    -- Enforcement check to prevent manual overrides of active locks
+    CONSTRAINT chk_safety_lock CHECK(
+        (query_type IN ('UPDATE', 'DELETE', 'INSERT') AND is_locked IN (0, 1)) OR 
+        (query_type = 'SELECT' AND is_locked = 0)
+    ), -- <-- Added missing comma here
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+EOF
+Parse error near line 2: near "updated_at": syntax error
+  d = 0)     ), -- <-- Added missing comma here     updated_at DATETIME DEFAULT 
+                                      error here ---^
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db << 'EOF'
+-- Rebuild with conditional constraints and hard lock logic
+CREATE TABLE sys_query_repo (
+    query_id TEXT PRIMARY KEY,
+    query_name TEXT NOT NULL UNIQUE,
+    query_type TEXT CHECK(query_type IN ('SELECT', 'UPDATE', 'DELETE', 'INSERT')),
+    description TEXT,
+    dependencies TEXT,
+    sql_text TEXT NOT NULL,
+    is_active INTEGER DEFAULT 1 CHECK(is_active IN (0, 1)),
+    is_locked INTEGER DEFAULT 0 CHECK(is_locked IN (0, 1)),
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP, -- <-- Column moved above the constraint
+    -- SAFETY LOCK: Enforcement check to prevent manual overrides of active locks
+    CONSTRAINT chk_safety_lock CHECK(
+        (query_type IN ('UPDATE', 'DELETE', 'INSERT') AND is_locked IN (0, 1)) OR 
+        (query_type = 'SELECT' AND is_locked = 0)
+    )
+);
+EOF
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano extract_query_history.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python extract_query_history.py 
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 extract_query_history.py 
+Error: Could not locate local Beekeeper Studio configurations. Ensure the app is fully shut down.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 extract_query_history.py 
+Error: Could not locate local Beekeeper Studio configurations. Ensure the app is fully shut down.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano extract_query_history.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano extract_query_history.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 extract_query_history.py 
+❌ Error: Could not locate Beekeeper's database.
+Checked locations:
+  - /home/harikr/.config/beekeeper-studio/config.db
+  - /home/harikr/snap/beekeeper-studio/current/.config/beekeeper-studio/config.db
+  - /home/harikr/snap/beekeeper-studio/common/.config/beekeeper-studio/config.db
+  - /home/harikr/.var/app/io.beekeeperstudio.Studio/config/beekeeper-studio/config.db
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano locate_and_extract.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3  locate_and_extract.py
+  File "/home/harikr/my_scripts/digital_archive/locate_and_extract.py", line 84
+    is_locked = 1  -- 🔐 DESTRUCTIVE MODIFIERS ARE LOCKED BY DEFAULT
+                      ^
+SyntaxError: invalid character '🔐' (U+1F510)
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano locate_and_extract.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3  locate_and_extract.py
+🔍 Probing directories for beekeeper database files...
+❌ Critical: Unable to find the database asset track. Please verify your Beekeeper version.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano locate_and_extract.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3  locate_and_extract.py
+🟢 Found active Beekeeper configuration instance at: /home/harikr/snap/beekeeper-studio/current/.config/beekeeper-studio/app.db
+📊 Accessing historical records via table 'favorite_query' using column 'text'...
+⚙️ Found 11 unique historical statements. Processing safety parameters...
+🎉 Success! Migrated 7 historical items into /home/harikr/my_scripts/digital_archive/queries.db.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano inspect_beekeper.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 inspect_beekeper.py
+📋 AVAILABLE TABLES IN BEEKEEPER STUDIO:
+  - BK_MIGRATIONS (88 records)
+  - used_query (349 records)
+  - sqlite_sequence (9 records)
+  - favorite_query (16 records)
+  - saved_connection (8 records)
+  - used_connection (2 records)
+  - license_keys (0 records)
+  - user_setting (23 records)
+  - pins (0 records)
+  - cloud_credential (0 records)
+  - tabs (20 records)
+  - hidden_entities (0 records)
+  - hidden_schemas (0 records)
+  - connection_pins (0 records)
+  - token_cache (0 records)
+  - installation_ids (1 records)
+  - user_pins (0 records)
+  - plugin_data (0 records)
+  - encrypted_plugin_data (0 records)
+  - formatter_presets (3 records)
+  - connection_folder (0 records)
+  - query_folder (0 records)
+  - tabulator_persistence (0 records)
+  - query_audit (25 records)
+
+🔍 SCHEMAS OF LOG/HISTORY TABLES:
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/snap/beekeeper-studio/current/.config/beekeeper-studio/app.db "PRAGMA table_info(used_query);"
+0|id|INTEGER|1||1
+1|createdAt|datetime|1|datetime('now')|0
+2|updatedAt|datetime|1|datetime('now')|0
+3|version|INTEGER|1||0
+4|text|TEXT|1||0
+5|database|varchar|1||0
+6|connectionHash|varchar|1||0
+7|status|varchar|1||0
+8|numberOfRecords|bigint|0||0
+9|connectionId|INTEGER|0||0
+10|workspaceId|INTEGER|1|-1|0
+11|excerpt|TEXT|0||0
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano locate_and_extract_v2.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3  locate_and_extract_v2.py
+📊 Extracting all logs from 'used_query' using the text column: 'text'...
+⚙️ Found 278 unique historical statements out of the log pool. Applying safety filters...
+🎉 Success! Migrated 272 unique historical queries into your locked repository database.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano ^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano safe_query_runner.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ # Find a SELECT query ID
+sqlite3 /home/harikr/my_scripts/digital_archive/queries.db "SELECT query_id FROM sys_query_repo WHERE query_type = 'SELECT' LIMIT 1;"
+
+# Find an UPDATE or DELETE query ID
+sqlite3 /home/harikr/my_scripts/digital_archive/queries.db "SELECT query_id FROM sys_query_repo WHERE query_type IN ('UPDATE', 'DELETE') LIMIT 1;"
+Q-SEL-A61395DB
+Q-UPD-B5796917
+harikr@cloudburst-L:~/my_scripts/digital_archive$ # This will execute cleanly and output your data rows
+python3 safe_query_runner.py Q-SEL-YOUR_HASH_HERE
+
+# This will intentionally fail, print the warning sign, and protect your database!
+python3 safe_query_runner.py Q-UPD-YOUR_HASH_HERE
+^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ # This will execute cleanly and output your data rows
+python3 safe_query_runner.py A61395DB 
+# This will intentionally fail, print the warning sign, and protect your database!
+python3 safe_query_runner.py Q-UPD-B5796917
+❌ Error: Query ID 'A61395DB' not found in the repository.
+🔍 Found Query: history_update_B5796917 [UPDATE]
+
+🛑 ACCESS DENIED: Query 'Q-UPD-B5796917' is strictly LOCKED!
+Reason: This query modifies or deletes data. Run an unlock statement first if needed.
+
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-A61395DB
+🔍 Found Query: extracted_select_A61395DB [SELECT]
+🚀 Executing safe code statement...
+❌ Database Engine Error: no such table: files
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db "SELECT query_id, SUBSTR(sql_text, 1, 60) FROM sys_query_repo WHERE sql_text LIKE '%multi_media_assets%' LIMIT 3;"
+Q-SEL-9FF0F9A7|SELECT
+    plan_id,
+    file_id,
+    manual_canonical_path
+F
+Q-SEL-9F019E13|SELECT * FROM `multi_media_assets` LIMIT 100 OFFSET 0;
+
+SELE
+Q-SEL-EE58A161|SELECT COUNT(*) AS hash_mismatches
+FROM media_copy_manifest
+
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-9FF0F9A7
+🔍 Found Query: extracted_select_9FF0F9A7 [SELECT]
+🚀 Executing safe code statement...
+❌ Database Engine Error: no such table: canonical_plan
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-EE58A161
+🔍 Found Query: extracted_select_EE58A161 [SELECT]
+🚀 Executing safe code statement...
+❌ Database Engine Error: no such table: media_copy_manifest
+harikr@cloudburst-L:~/my_scripts/digital_archive$ NANO optimize_repo.py
+NANO: command not found
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano optimize_repo.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 optimize_repo.py
+Pruning and describing 278 total imported entries...
+
+🎉 Refactoring Completed!
+🟢 Active, verified queries with descriptions: 3
+❌ Deactivated queries (schema mismatches/old tables): 275
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db \
+"SELECT query_id, query_type, dependencies, description FROM sys_query_repo WHERE is_active = 1 LIMIT 10;"
+Q-SEL-817CEFAE|SELECT|pragma_table_info|Fetches and reads granular records from table(s): pragma_table_info.
+Q-SEL-28B845C6|SELECT|pragma_table_info|Fetches and reads granular records from table(s): pragma_table_info.
+Q-SEL-17A4125D|SELECT|pragma_table_info|Fetches and reads granular records from table(s): pragma_table_info.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-817CEFAE
+🔍 Found Query: history_select_817CEFAE [SELECT]
+🚀 Executing safe code statement...
+
+📋 RESULTS (1 records):
+column_names
+----------------------------------------
+None
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-28B845C6
+🔍 Found Query: history_select_28B845C6 [SELECT]
+🚀 Executing safe code statement...
+
+📋 RESULTS (1 records):
+column_names
+----------------------------------------
+None
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano optimize_repo.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 optimize_repo.py
+📦 Real system tables detected in catalog.db: []
+Processing text verification for 278 queries...
+
+🎉 Refactoring Completed!
+🟢 Real, working queries activated: 0
+❌ Dropped junk/typo queries: 278
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db \
+"SELECT query_id, query_type, dependencies, description FROM sys_query_repo WHERE is_active = 1 LIMIT 5;"
+harikr@cloudburst-L:~/my_scripts/digital_archive$ nano optimize_repo.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 optimize_repo.py
+Force-activating and detailing 278 system queries...
+
+🎉 Incremental update completed! All queries have descriptions and are marked active.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db "SELECT query_id, query_type, dependencies, description FROM sys_query_repo WHERE is_active = 1 LIMIT 5;"
+Q-SEL-A61395DB|SELECT|canonical_plan, file_sources, files, pragma_table_info|Calculates counts and distribution metrics inside: canonical_plan, file_sources, files, pragma_table_info.
+Q-SEL-AD605164|SELECT|canonical_plan, file_sources, pragma_table_info|Calculates counts and distribution metrics inside: canonical_plan, file_sources, pragma_table_info.
+Q-SEL-EE8AAC80|SELECT|canonical_plan, pf_id, separatedpaths|Calculates counts and distribution metrics inside: canonical_plan, pf_id, separatedpaths.
+Q-SEL-6EF6581B|SELECT|deletion_events, duplicate_groups, files|Calculates counts and distribution metrics inside: deletion_events, duplicate_groups, files.
+Q-SEL-9FF0F9A7|SELECT|canonical_plan, copy_manifest, duplicate_groups, duplicate_members, file_sources, files, imagefolders, multi_media_assets|Calculates counts and distribution metrics inside: canonical_plan, copy_manifest, duplicate_groups, duplicate_members, file_sources, files, imagefolders, multi_media_assets.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-28B845C6
+🔍 Found Query: history_select_28B845C6 [SELECT]
+🚀 Executing safe code statement...
+
+📋 RESULTS (1 records):
+column_names
+----------------------------------------
+None
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 safe_query_runner.py Q-SEL-9FF0F9A7
+🔍 Found Query: extracted_select_9FF0F9A7 [SELECT]
+🚀 Executing safe code statement...
+❌ Database Engine Error: no such table: canonical_plan
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 /home/harikr/my_scripts/digital_archive/queries.db \
+"SELECT query_id, query_type, is_locked, sql_text FROM sys_query_repo WHERE query_id = 'Q-SEL-9FF0F9A7';"
+Q-SEL-9FF0F9A7|SELECT|0|SELECT
+    plan_id,
+    file_id,
+    manual_canonical_path
+FROM canonical_plan
+WHERE manual_canonical_path LIKE '/home/harikr/Master-Repository/%'
+ORDER BY plan_id;
+
+
+SELECT
+    CASE
+        WHEN manual_canonical_path LIKE '/home/harikr/Master-Repository/TABLET/%'
+            THEN 'TABLET_PREFIX'
+        WHEN manual_canonical_path LIKE '/home/harikr/Master-Repository/PC/%'
+            THEN 'PC_PREFIX'
+        ELSE 'OTHER'
+    END AS path_type,
+    COUNT(*) AS file_count
+FROM canonical_plan
+WHERE manual_canonical_path IS NOT NULL
+  AND TRIM(manual_canonical_path) <> ''
+GROUP BY path_type
+ORDER BY path_type;
+
+SELECT
+    plan_id,
+    file_id,
+    manual_canonical_path
+FROM canonical_plan
+WHERE manual_canonical_path LIKE '/home/harikr/Master-Repository/%'
+ORDER BY plan_id
+LIMIT 30;
+
+SELECT
+    plan_id,
+    manual_canonical_path AS old_path,
+    substr(
+        manual_canonical_path,
+        length('/home/harikr/Master-Repository/PC/') + 1
+    ) AS new_path
+FROM canonical_plan
+WHERE manual_canonical_path LIKE
+      '/home/harikr/Master-Repository/PC/%'
+ORDER BY plan_id;
+
+-- Normalize manual canonical paths:
+-- remove only the physical TABLET staging prefix.
+-- Does not touch source_path, master_path, hashes, or files.
+
+UPDATE canonical_plan
+SET
+    manual_canonical_path =
+        substr(
+            manual_canonical_path,
+            length('/home/harikr/Master-Repository/PC/') + 1
+        ),
+    updated_at = CURRENT_TIMESTAMP
+WHERE manual_canonical_path LIKE
+      '/home/harikr/Master-Repository/PC/%';
+
+SELECT COUNT(*) AS remaining_prefixed_paths
+FROM canonical_plan
+WHERE manual_canonical_path LIKE
+      '/home/harikr/Master-Repository/%';
+
+SELECT
+    COUNT(*) AS manual_paths,
+    SUM(
+        CASE
+            WHEN manual_canonical_path LIKE '/home/%' THEN 1
+            ELSE 0
+        END
+    ) AS absolute_paths
+FROM canonical_plan
+WHERE manual_canonical_path IS NOT NULL
+  AND TRIM(manual_canonical_path) <> '';
+
+SELECT
+    plan_id,
+    file_id,
+    manual_canonical_path
+FROM canonical_plan
+WHERE manual_canonical_path IS NOT NULL
+  AND TRIM(manual_canonical_path) <> ''
+  AND manual_canonical_path NOT LIKE 'Documents/%'
+ORDER BY plan_id;
+
+SELECT
+    cp.plan_id,
+    cp.file_id,
+    f.filename,
+    COALESCE(
+        NULLIF(TRIM(cp.manual_canonical_path), ''),
+        cp.proposed_canonical_path
+    ) AS effective_canonical_path,
+    cp.review_status
+FROM canonical_plan cp
+JOIN files f
+    ON f.file_id = cp.file_id
+ORDER BY effective_canonical_path;
+
+SELECT
+    COALESCE(
+        NULLIF(TRIM(manual_canonical_path), ''),
+        proposed_canonical_path
+    ) AS effective_canonical_path,
+    COUNT(*) AS file_count,
+    GROUP_CONCAT(file_id, ', ') AS file_ids
+FROM canonical_plan
+GROUP BY effective_canonical_path
+HAVING COUNT(*) > 1
+ORDER BY file_count DESC, effective_canonical_path;
+
+SELECT COUNT(*) AS missing_effective_paths
+FROM canonical_plan
+WHERE NULLIF(
+    TRIM(
+        COALESCE(
+            NULLIF(TRIM(manual_canonical_path), ''),
+            proposed_canonical_path
+        )
+    ),
+    ''
+) IS NULL;
+
+SELECT
+    COUNT(*) AS total_plans,
+    COUNT(DISTINCT file_id) AS distinct_files,
+    COUNT(DISTINCT
+        COALESCE(
+            NULLIF(TRIM(manual_canonical_path), ''),
+            proposed_canonical_path
+        )
+    ) AS distinct_destinations
+FROM canonical_plan;
+
+SELECT
+    cp.plan_id,
+    cp.file_id,
+    f.filename,
+    f.size_bytes,
+    f.sha256,
+    fs.device_id,
+    fs.source_path,
+    cp.manual_canonical_path,
+    cp.proposed_canonical_path
+FROM canonical_plan cp
+JOIN files f
+    ON f.file_id = cp.file_id
+JOIN file_sources fs
+    ON fs.file_id = cp.file_id
+WHERE cp.file_id IN (53, 65)
+ORDER BY cp.file_id, fs.device_id;
+
+SELECT review_status, COUNT(*) AS file_count
+FROM canonical_plan
+GROUP BY review_status
+ORDER BY review_status;
+
+SELECT
+    COUNT(*) AS applied_files,
+    COUNT(DISTINCT file_id) AS distinct_files
+FROM canonical_plan
+WHERE review_status = 'APPLIED';
+
+SELECT COUNT(*) AS canonical_collisions
+FROM (
+    SELECT canonical_path
+    FROM files
+    WHERE storage_state='IN_MASTER'
+    GROUP BY canonical_path
+    HAVING COUNT(*) > 1
+);
+
+SELECT
+    COUNT(*) AS applied_hash_mismatches
+FROM copy_manifest
+WHERE verification_method='SHA256_AFTER_CANONICAL_MOVE'
+  AND status='VERIFIED'
+  AND source_sha256 <> destination_sha256;
+
+SELECT
+    COUNT(*) AS review_rows,
+    SUM(
+        CASE
+            WHEN proposed_canonical_path IS NOT NULL
+             AND TRIM(proposed_canonical_path) <> ''
+            THEN 1
+            ELSE 0
+        END
+    ) AS with_proposed_path
+FROM canonical_plan
+WHERE review_status = 'REVIEW';
+
+SELECT
+    COALESCE(
+        NULLIF(TRIM(manual_canonical_path), ''),
+        proposed_canonical_path
+    ) AS effective_canonical_path,
+    COUNT(*) AS file_count,
+    GROUP_CONCAT(file_id, ', ') AS file_ids
+FROM canonical_plan
+GROUP BY effective_canonical_path
+HAVING COUNT(*) > 1
+ORDER BY file_count DESC, effective_canonical_path;
+
+SELECT
+    COUNT(*) AS review_rows,
+    SUM(
+        CASE
+            WHEN manual_canonical_path IS NOT NULL
+             AND TRIM(manual_canonical_path) <> ''
+            THEN 1
+            ELSE 0
+        END
+    ) AS with_manual_path
+FROM canonical_plan
+WHERE review_status = 'REVIEW';
+
+SELECT
+    COUNT(*) AS missing_effective_paths
+FROM canonical_plan
+WHERE review_status = 'REVIEW'
+  AND (
+      COALESCE(
+          NULLIF(TRIM(manual_canonical_path), ''),
+          NULLIF(TRIM(proposed_canonical_path), '')
+      ) IS NULL
+  );
+
+
+SELECT
+    COUNT(*) AS total_plans,
+    COUNT(DISTINCT file_id) AS distinct_files,
+    COUNT(
+        DISTINCT COALESCE(
+            NULLIF(TRIM(manual_canonical_path), ''),
+            proposed_canonical_path
+        )
+    ) AS distinct_destinations
+FROM canonical_plan;
+
+SELECT
+    COUNT(*) AS selected_files_without_plan
+FROM files f
+JOIN duplicate_members dm
+    ON dm.file_id = f.file_id
+LEFT JOIN duplicate_groups dg
+    ON dg.duplicate_group_id = dm.duplicate_group_id
+LEFT JOIN canonical_plan cp
+    ON cp.file_id = f.file_id
+WHERE
+    (
+        dg.duplicate_group_id IS NULL
+        OR dg.chosen_file_id = f.file_id
+    )
+    AND cp.file_id IS NULL;
+
+SELECT
+    COUNT(*) AS absolute_canonical_paths
+FROM canonical_plan
+WHERE
+    COALESCE(
+        NULLIF(TRIM(manual_canonical_path), ''),
+        proposed_canonical_path
+    ) LIKE '/%';
+
+SELECT
+    storage_state,
+    COUNT(*) AS file_count,
+    SUM(size_bytes) AS total_bytes
+FROM files
+GROUP BY storage_state
+ORDER BY storage_state;
+
+
+WITH ImageFolders AS (
+    SELECT DISTINCT
+        substr(
+            mma.relative_path,
+            1,
+            length(mma.relative_path)
+              - length(mma.filename)
+              - 1
+        ) AS source_folder
+    FROM multi_media_assets mma
+    WHERE mma.batch_id = 'NONDOC_20260820_202341'
+      AND mma.source_device_id = 'TABLET'
+      AND mma.category = 'PHOTO'
+)
+
+SELECT
+    img.source_folder,
+
+    COUNT(DISTINCT cp.file_id) AS matching_document_files,
+
+    GROUP_CONCAT(
+        DISTINCT COALESCE(
+            NULLIF(TRIM(cp.manual_canonical_path), ''),
+            cp.proposed_canonical_path
+        )
+    ) AS matching_document_canonical_paths
+
+FROM ImageFolders img
+
+JOIN file_sources fs
+    ON fs.source_path LIKE
+       '/home/harikr/Migration-Work/Tablet-Original/'
+       || img.source_folder
+       || '/%'
+
+JOIN canonical_plan cp
+    ON cp.file_id = fs.file_id
+
+GROUP BY
+    img.source_folder
+
+ORDER BY
+    img.source_folder;
+harikr@cloudburst-L:~/my_scripts/digital_archive$ /home/harikr/my_scripts/digital_archive/upload_data/media_manual_review_585.csv
+bash: /home/harikr/my_scripts/digital_archive/upload_data/media_manual_review_585.csv: Permission denied
+harikr@cloudburst-L:~/my_scripts/digital_archive$ head -3 ~/Migration-Work/media_manual_review_585.csv
+inventory_id,folder_path,source_device_id,relative_path,filename,category,size_bytes,manual_path_working,Test_1,manual_category,manual_canonical_path,manual_notes,Flag1 (processed?),flag2(file_name_retained),flag3(folder_retained)
+2616,Documents/Finance/ITR/FY_2025-26/HKR/,TABLET,Download/ITR2_AY_25-26_V1.1.zip,ITR2_AY_25-26_V1.1.zip,ARCHIVE,9265634,Documents/Finance/ITR/FY_2025-26/HKR/ITR2_AY_25-26_V1.1.zip,TRUE,ARCHIVE,Documents/Finance/ITR/FY_2025-26/HKR/ITR2_AY_25-26_V1.1.zip,itr files,PROCESSED,38,1
+2608,Download/Other/,TABLET,Download/Registration_and_Testing_Procedure.zip,Registration_and_Testing_Procedure.zip,ARCHIVE,86445582,Download/Other/Registration_and_Testing_Procedure.zip,TRUE,ARCHIVE,Download/Other/Registration_and_Testing_Procedure.zip,demo video,PROCESSED,16,1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ wc l ~/Migration-Work/media_manual_review_585.csv
+wc: l: No such file or directory
+   586   3986 215417 /home/harikr/Migration-Work/media_manual_review_585.csv
+   586   3986 215417 total
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 "$HOME/Master-Repository/.archive/catalog.db"
+SQLite version 3.45.1 2024-01-30 16:01:20
+Enter ".help" for usage hints.
+sqlite> .mode csv
+.import --skip 1 '/home/harikr/Migration-Work/media_manual_review_585.csv' media_manual_review_import
+unknown option: --skip
+options:
+  --noquote
+  --quote
+  --wordwrap on/off
+  --wrap N
+  --ww
+sqlite> .mode csv
+.import '/home/harikr/Migration-Work/media_manual_review_585.csv' media_manual_review_import
+extra argument: "/home/harikr/Migration-Work/media_manual_review_585.csv"
+sqlite> ^Z
+[1]+  Stopped                 sqlite3 "$HOME/Master-Repository/.archive/catalog.db"
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tail -n +2 \
+  /home/harikr/Migration-Work/media_manual_review_585.csv \
+  > /tmp/media_manual_review_585_noheader.csv
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 "$HOME/Master-Repository/.archive/catalog.db"
+SQLite version 3.45.1 2024-01-30 16:01:20
+Enter ".help" for usage hints.
+sqlite> .mode csv
+.import '/tmp/media_manual_review_585_noheader.csv' media_manual_review_import
+extra argument: "/tmp/media_manual_review_585_noheader.csv"
+sqlite> .quit
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 "$HOME/Master-Repository/.archive/catalog.db" <<'SQL'
+.mode csv
+.import /tmp/media_manual_review_585_noheader.csv media_manual_review_import
+SQL
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 "$HOME/Master-Repository/.archive/catalog.db" <<'SQL'
+SELECT
+    COUNT(*) AS rows_loaded,
+    COUNT(DISTINCT inventory_id) AS distinct_inventory_ids
+FROM media_manual_review_import;
+SQL
+585|585
+harikr@cloudburst-L:~/my_scripts/digital_archive$ sqlite3 "$HOME/Master-Repository/.archive/catalog.db" <<'SQL'
+PRAGMA table_info(media_manual_review_import);
+SQL
+0|inventory_id|INTEGER|0||0
+1|folder_path|TEXT|0||0
+2|source_device_id|TEXT|0||0
+3|relative_path|TEXT|0||0
+4|filename|TEXT|0||0
+5|category|TEXT|0||0
+6|size_bytes|INTEGER|0||0
+7|manual_path_working|TEXT|0||0
+8|test_1|TEXT|0||0
+9|manual_category|TEXT|0||0
+10|manual_canonical_path|TEXT|0||0
+11|manual_notes|TEXT|0||0
+12|flag1|TEXT|0||0
+13|flag2|TEXT|0||0
+14|flag3|TEXT|0||0
+harikr@cloudburst-L:~/my_scripts/digital_archive$ 

@@ -1,0 +1,1253 @@
+[2]+  Killed                  snap run beekeeper-studio
+harikr@cloudburst-L:~$ beekeper-studio
+Command 'beekeper-studio' not found, did you mean:
+  command 'beekeeper-studio' from snap beekeeper-studio (5.9.3)
+See 'snap info <snapname>' for additional versions.
+harikr@cloudburst-L:~$ ls -lh /home/harikr/Master-Repository/.archive/catalog.db
+-rw-r--r-- 1 harikr harikr 388K Aug 19 15:42 /home/harikr/Master-Repository/.archive/catalog.db
+harikr@cloudburst-L:~$ sqlite3 /home/harikr/Master-Repository/.archive/catalog.db \
+  "SELECT COUNT(*) FROM files;"
+310
+harikr@cloudburst-L:~$ cd ~/my_scripts/digital_archive
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p /tmp/digital_archive_masterbuild_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tar -xzf ~/Downloads/digital_archive_masterbuild_v1.tar.gz \
+  -C /tmp/digital_archive_masterbuild_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_masterbuild_v1/digital_archive_masterbuild/* \
+  ~/my_scripts/digital_archive/
+cp: -r not specified; omitting directory '/tmp/digital_archive_masterbuild_v1/digital_archive_masterbuild/sql'
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p ~/my_scripts/digital_archive/sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_masterbuild_v1/digital_archive_masterbuild/sql/IMPORTANT_QUERIES.sql \
+  ~/my_scripts/digital_archive/sql/
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x ~/my_scripts/digital_archive/init_catalog_v2.py
+chmod +x ~/my_scripts/digital_archive/init_catalog_v2.sh
+chmod +x ~/my_scripts/digital_archive/verify_master_schema.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ^C
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 ~/my_scripts/digital_archive/init_catalog_v2.py \
+  "$HOME/Master-Repository/.archive/catalog.db"
+Catalog DB: /home/harikr/Master-Repository/.archive/catalog.db
+Schema updated successfully
+New tables: folders, copy_manifest
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 ~/my_scripts/digital_archive/verify_master_schema.py \
+  "$HOME/Master-Repository/.archive/catalog.db"
+devices                2
+files                  310
+file_sources           310
+restore_preferences    0
+duplicate_groups       17
+duplicate_members      35
+folders                0
+copy_manifest          0
+deletion_events        0
+file_xattrs            0
+
+Copy manifest status:
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cd ~/my_scripts/digital_archive
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p /tmp/digital_archive_manifest_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tar -xzf ~/Downloads/digital_archive_manifest_v1.tar.gz \
+  -C /tmp/digital_archive_manifest_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_manifest_v1/digital_archive_manifest/* \
+  ~/my_scripts/digital_archive/
+cp: -r not specified; omitting directory '/tmp/digital_archive_manifest_v1/digital_archive_manifest/sql'
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p ~/my_scripts/digital_archive/sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_manifest_v1/digital_archive_manifest/sql/MASTER_PLAN_QUERIES.sql \
+  ~/my_scripts/digital_archive/sql/
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x ~/my_scripts/digital_archive/plan_master_copy.py
+chmod +x ~/my_scripts/digital_archive/plan_master_copy.sh
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ~/my_scripts/digital_archive/plan_master_copy.sh \
+  "$HOME/Master-Repository/.archive/catalog.db" \
+  "$HOME/Master-Repository" \
+  --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+  --source-root PC "$HOME/Documents"
+============================================================
+Script       : plan_master_copy.sh
+Started      : 2026-08-19 18:36:35 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_master_copy_log_20260819_183635.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : PLAN ONLY
+Purpose      : Generate PLANNED master copy manifest.
+
+MODE                  : PLAN ONLY
+Database              : /home/harikr/Master-Repository/.archive/catalog.db
+Master root           : /home/harikr/Master-Repository
+
+catalog_master_candidates: 292
+planned                 : 292
+skipped                 : 0
+errors                  : 0
+planned_db_count        : 292
+
+No source files were copied, moved, deleted, renamed, or modified.
+Review the PLANNED rows in Beekeeper Studio before the copy stage.
+
+============================================================
+Completed    : 2026-08-19 18:36:37 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_master_copy_log_20260819_183635.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p /tmp/digital_archive_copy_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p ~/my_scripts/digital_archive/sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tar -xzf ~/Downloads/digital_archive_copy_v1.tar.gz \
+  -C /tmp/digital_archive_copy_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_copy_v1/digital_archive_copy/* \
+  ~/my_scripts/digital_archive/
+cp: -r not specified; omitting directory '/tmp/digital_archive_copy_v1/digital_archive_copy/sql'
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_copy_v1/digital_archive_copy/sql/COPY_MASTER_QUERIES.sql \
+  ~/my_scripts/digital_archive/sql/
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x ~/my_scripts/digital_archive/copy_planned_master.py
+chmod +x ~/my_scripts/digital_archive/copy_planned_master.sh
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ~/my_scripts/digital_archive/copy_planned_master.sh \
+  "$HOME/Master-Repository/.archive/catalog.db" \
+  "$HOME/Master-Repository"
+============================================================
+Script       : copy_planned_master.sh
+Started      : 2026-08-19 18:44:47 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/copy_planned_master_log_20260819_184447.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : PHYSICAL COPY + SHA-256 VERIFICATION
+Master root  : /home/harikr/Master-Repository
+Source files : NEVER modified
+
+MODE                : PHYSICAL COPY + VERIFICATION
+Database            : /home/harikr/Master-Repository/.archive/catalog.db
+Master root         : /home/harikr/Master-Repository
+Rows to process     : 292
+Source files        : NEVER modified
+
+[225] Configure Service Accounts.txt
+  VERIFIED
+[7] 2025-26_AIS.pdf
+  VERIFIED
+[12] 2025-26_TIS.pdf
+  VERIFIED
+[237] 26AS_AFRPH7413L-2026.pdf
+  VERIFIED
+[254] AIS_feedback_2025-26_AFA_1407202619264291.pdf
+  VERIFIED
+[275] AIS_feedback_2025-26_AIS_SFT_12072026.csv
+  VERIFIED
+[235] HKR_Tax_working_2025_26.ods
+  VERIFIED
+[267] ITR3-Preview-2025-26.pdf
+  VERIFIED
+[243] ITR_ACK_2025-26-529502220140726.pdf
+  VERIFIED
+[270] ITR_HKR_2024-25.pdf
+  VERIFIED
+[196] ITR_HKR_2025-26.pdf
+  VERIFIED
+[197] BilledStatements_9004_12-07-24_12.44 (1).pdf
+  VERIFIED
+[280] BilledStatements_9004_12-07-24_12.44.pdf
+  VERIFIED
+[251] BilledStatements_9004_12-07-24_12.45 (1).pdf
+  VERIFIED
+[240] BilledStatements_9004_12-07-24_12.45 (2).pdf
+  VERIFIED
+[276] BilledStatements_9004_12-07-24_12.45 (3).pdf
+  VERIFIED
+[252] BilledStatements_9004_12-07-24_12.45 (4).pdf
+  VERIFIED
+[191] BilledStatements_9004_12-07-24_12.45.pdf
+  VERIFIED
+[230] BilledStatements_9004_12-07-24_12.46 (1).pdf
+  VERIFIED
+[281] BilledStatements_9004_12-07-24_12.46 (2).pdf
+  VERIFIED
+[200] BilledStatements_9004_12-07-24_12.46 (3).pdf
+  VERIFIED
+[287] BilledStatements_9004_12-07-24_12.46 (4).pdf
+  VERIFIED
+[268] BilledStatements_9004_12-07-24_12.46.pdf
+  VERIFIED
+[15] HdfcDoc.zip
+  VERIFIED
+[222] Acct_Statement_XXXXXXXX5268_14072026 (1).xls
+  VERIFIED
+[220] Acct_Statement_XXXXXXXX5268_14072026 (2).xls
+  VERIFIED
+[238] Acct_Statement_XXXXXXXX5268_14072026.xls
+  VERIFIED
+[221] 1370647_Client_Ledger_Report.xlsx
+  VERIFIED
+[226] 1370647_Equity (STT paid)_Tax Profit & Loss_Detailed_Report.xlsx
+  VERIFIED
+[249] 1370647_Equity_Orderlog_Report.xlsx
+  VERIFIED
+[260] 1370647_Equity_Profit & Loss_Detailed_Report.xlsx
+  VERIFIED
+[193] Equity Trade Details_12-07-2026_172502.xls
+  VERIFIED
+[278] HANAIR88_CG_Summary_2026-27.ods
+  VERIFIED
+[14] HANAIR88_CapitalGain_Summary_for_ALL(3).xlsx
+  VERIFIED
+[206] HANAIR88_PnL_Summary_2026_27.ods
+  VERIFIED
+[10] HANAIR88_ProfitLoss_Summary_for_ALL(2).xlsx
+  VERIFIED
+[228] 242500099817.pdf
+  VERIFIED
+[279] 252610701261.pdf
+  VERIFIED
+[215] HDGETF_1781240766.xls
+  VERIFIED
+[272] Half Yearly HDFC Gold ETF - 31-March-2025.xlsx
+  VERIFIED
+[285] Monthly HDFC Gold ETF - 30 June 2025.xlsx
+  VERIFIED
+[194] Monthly HDFC Gold ETF - 31 July 2025.xlsx
+  VERIFIED
+[211] Monthly HDFC Gold ETF - 31 May 2025.xlsx
+  VERIFIED
+[286] AFRPH7413L_FORM16A_2025-26_Q3.PDF
+  VERIFIED
+[199] AFRPH7413L_FORM16A_2025-26_Q4.PDF
+  VERIFIED
+[274] Acct_Statement_XXXXXXXX4964_11072026.xls
+  VERIFIED
+[190] expense_Acct Statement_4964_11072026_15.28.22.xls
+  VERIFIED
+[256] sib_stmt_name_acn_4.pdf
+  VERIFIED
+[192] sib_stmt_name_acn_4_2024.pdf
+  VERIFIED
+[250] sib_stmt_name_acn_4_2026.pdf
+  VERIFIED
+[255] notes_hkr_2025_26.txt
+  VERIFIED
+[291] xx.ods
+  VERIFIED
+[266] ACK324678870100726_SKP_FY2025-26.pdf
+  VERIFIED
+[16] EFLPS6835B-2019.pdf
+  VERIFIED
+[264] EFLPS6835B-2026.pdf
+  VERIFIED
+[283] Feedback_2025-26_AFA_1007202619209694.pdf
+  VERIFIED
+[213] ITR-3-computation(youtube)-updated.ods
+  VERIFIED
+[207] ITR-3-computation-Copy.xlsx
+  VERIFIED
+[234] ITR3-Preview-SKP-FY2025-26.pdf
+  VERIFIED
+[261] ITR_3_working_chatgpt.odt
+  VERIFIED
+[202] ITR_SKP_2025-26.pdf
+  VERIFIED
+[245] Q1.txt
+  VERIFIED
+[3] XXXPS6835X_2025-26_AIS.pdf
+  VERIFIED
+[9] XXXPS6835X_2025-26_TIS.pdf
+  VERIFIED
+[5] Treasury TAN_260625_020350.docx
+  VERIFIED
+[282] Treasury TAN_260625_020350.odt
+  VERIFIED
+[1] accounstatementpdf.pdf
+  VERIFIED
+[4] accounstatementpdf_260624_235836.pdf
+  VERIFIED
+[204] PhonePe_Stmt_Apr2026_Jul2026.pdf
+  VERIFIED
+[216] PhonePe_Stmt_Jan2026_Mar2026.pdf
+  VERIFIED
+[218] S-MONEY.ods
+  VERIFIED
+[259] SKP_Ac_Stmt_X2070_2022-23.pdf
+  VERIFIED
+[292] SKP_Ac_Stmt_X2070_2023-24.pdf
+  VERIFIED
+[248] SKP_Ac_Stmt_X2070_2024-25.pdf
+  VERIFIED
+[8] SKP_Ac_Stmt_X2070_2025-26.pdf
+  VERIFIED
+[209] SKP_Ac_Stmt_X2070_2026_Apr-2026_Jul.pdf
+  VERIFIED
+[263] superMoney_Stmt_Feb2026_Jul2026.pdf
+  VERIFIED
+[232] superMoney_Stmt_Feb2026_Jul2026.txt
+  VERIFIED
+[6] ledger-JJW692.xlsx
+  VERIFIED
+[289] pnl-JJW692.ods
+  VERIFIED
+[13] pnl-JJW692.xlsx
+  VERIFIED
+[242] retention_account_statement_JJW692.pdf
+  VERIFIED
+[17] taxpnl-JJW692-2025_2026-Q1-Q4 (1).xlsx
+  VERIFIED
+[208] taxpnl-JJW692-2025_2026-Q1-Q4.xlsx
+  VERIFIED
+[198] income from salary 3 23.txt
+  VERIFIED
+[2] itr 3 for intraday trading - Google Search.mht
+  VERIFIED
+[257] stcg.csv
+  VERIFIED
+[224] taxpnl-JJW692-2025_2026-Q1-Q4_final.ods
+  VERIFIED
+[214] 1.GSP199_IAM_BigQuery.odt
+  VERIFIED
+[233] 2.GSP647_IAM_Permissions.odt
+  VERIFIED
+[203] 3.GSP190_IAM_Custom_Roles.odt
+  VERIFIED
+[231] ARC134_Configure Service Accounts and IAM Roles.odt
+  VERIFIED
+[219] Arcade Voyage: Identity Management and Pre-trained AI APIs.txt
+  VERIFIED
+[269] fb_chat_bulk_delete.odt
+  VERIFIED
+[223] gmail_label_manager.odt
+  VERIFIED
+[247] gmail_label_manager_phases.odt
+  VERIFIED
+[212] gmail_label_manager_v2.odt
+  VERIFIED
+[258] gmail_label_manager_v2_edited.odt
+  VERIFIED
+[271] script_logs.txt
+  VERIFIED
+[217] mf_data.pdf
+  VERIFIED
+[277] mf_data.txt
+  VERIFIED
+[253] sort_filters_chat.odt
+  VERIFIED
+[288] HariPANCard.pdf
+  VERIFIED
+[227] Hari_BTech_Cert.pdf
+  VERIFIED
+[246] PayRevisionHari.pdf
+  VERIFIED
+[262] PaySlip1.pdf
+  VERIFIED
+[273] PaySlip2_attested.pdf
+  VERIFIED
+[244] PaySlip3.pdf
+  VERIFIED
+[201] RelievingLetter.pdf
+  VERIFIED
+[236] TNMAS00313090000132018_2024.pdf
+  VERIFIED
+[189] PayRevision258065.pdf
+  VERIFIED
+[265] PaySlip (1).pdf
+  VERIFIED
+[241] PaySlip (2).pdf
+  VERIFIED
+[210] PaySlip (3).pdf
+  VERIFIED
+[284] buck-boost-2025-11-04_183227.zip
+  VERIFIED
+[229] buck-boost-2025-11-04_185555.zip
+  VERIFIED
+[290] buck-boost-2025-11-04_190723.zip
+  VERIFIED
+[195] buck-boost-2025-11-04_192055.zip
+  VERIFIED
+[239] buck-boost-2025-11-04_225304.zip
+  VERIFIED
+[205] report.txt
+  VERIFIED
+[11] Hari_DA_BA_13.8Yr_Resume.pdf
+  VERIFIED
+[80] Thirumandamkunnu_SB Collect.PDF
+  VERIFIED
+[109] Thirumandamkunnu_State Bank Collect.PDF
+  VERIFIED
+[59] medicine_list_25.xlsx
+  VERIFIED
+[47] claim_compare-WPS Office.xlsx
+  VERIFIED
+[179] 1370647 - Profit And Loss Summary for ALL.xls
+  VERIFIED
+[23] 1801.pdf
+  VERIFIED
+[187] 2026-EROLLGEN-S11-104-SIR-DraftRoll-Revision1-MAL-209-WI.pdf
+  VERIFIED
+[116] 2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-188-WI.pdf (1).html
+  VERIFIED
+[140] 2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-188-WI.pdf.html
+  VERIFIED
+[51] 2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-189-WI.pdf
+  VERIFIED
+[135] 2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-209-WI.pdf
+  VERIFIED
+[160] 2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-210-WI (1).pdf
+  VERIFIED
+[45] 2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-210-WI.pdf
+  VERIFIED
+[48] 2301101496310401000.pdf
+  VERIFIED
+[165] 33b7cdd6-0b45-42b3-a163-0d98eb991748 (1).pdf
+  VERIFIED
+[101] 33b7cdd6-0b45-42b3-a163-0d98eb991748.pdf
+  VERIFIED
+[62] ACK730094400090925.pdf
+  VERIFIED
+[79] ACK739004840090925.pdf
+  VERIFIED
+[75] AFRPH7413L-2025.pdf
+  VERIFIED
+[164] AOJPR9419P-2025 (1).pdf
+  VERIFIED
+[127] AOJPR9419P-2025.pdf
+  VERIFIED
+[64] AWE1411131.pdf
+  VERIFIED
+[113] Adhyatma-Ramayanam-Malayalam-by-Ezhuthachan.pdf
+  VERIFIED
+[148] Common Contract Note_03-09-2025_233159.xls
+  VERIFIED
+[41] Common Contract Note_03-09-2025_233213.xls
+  VERIFIED
+[55] EAadhaar_0634106161091620180421104557_0807202504533.pdf
+  VERIFIED
+[123] EAadhaar_0634106161091620180421104557_080720250462.pdf
+  VERIFIED
+[155] EAadhaar_0634106161091620180421104557_080720250470.pdf
+  VERIFIED
+[145] EAadhaar_2003100040907820110918135617_11092025153352.pdf
+  VERIFIED
+[174] EFLPS6835B-2025.pdf
+  VERIFIED
+[183] Equity Contract Note_03-09-2025_234236.xls
+  VERIFIED
+[72] Equity Order Log_03-09-2025_211635.xls
+  VERIFIED
+[108] Equity Order Log_03-09-2025_211807.xls
+  VERIFIED
+[20] Equity Trade Bills_03-09-2025_233831.pdf
+  VERIFIED
+[143] Form12BA.pdf
+  VERIFIED
+[83] Form12ba_258065.pdf
+  VERIFIED
+[87] Form16_258065_Annexure.pdf
+  VERIFIED
+[44] Form16_258065_PartA.pdf
+  VERIFIED
+[104] Form16_258065_PartB.pdf
+  VERIFIED
+[178] Form_pdf_676533130090925.pdf
+  VERIFIED
+[137] Form_pdf_730094400090925.pdf
+  VERIFIED
+[185] Form_pdf_739004840090925.pdf
+  VERIFIED
+[40] FullandFinalStatement.pdf
+  VERIFIED
+[130] GuidelinetovalidateForm16.pdf
+  VERIFIED
+[43] HANAIR88_CapitalGain_Summary_for_ALL (1).xlsx
+  VERIFIED
+[147] HANAIR88_CapitalGain_Summary_for_ALL (2).xlsx
+  VERIFIED
+[21] HANAIR88_CapitalGain_Summary_for_ALL (3).xlsx
+  VERIFIED
+[94] HANAIR88_CapitalGain_Summary_for_ALL(1).xlsx
+  VERIFIED
+[50] HANAIR88_CapitalGain_Summary_for_ALL(2).xlsx
+  VERIFIED
+[36] HANAIR88_CapitalGain_Summary_for_ALL.xlsx
+  VERIFIED
+[27] HANAIR88_ProfitLoss_Summary_for_ALL (1).xlsx
+  VERIFIED
+[110] HANAIR88_ProfitLoss_Summary_for_ALL (2).xlsx
+  VERIFIED
+[112] HANAIR88_ProfitLoss_Summary_for_ALL(1).xlsx
+  VERIFIED
+[120] HANAIR88_ProfitLoss_Summary_for_ALL.xlsx
+  VERIFIED
+[61] HT_3_Grp_hallticket.pdf
+  VERIFIED
+[90] HandyLib-9Oct25.xls
+  VERIFIED
+[92] ITR2_AY_25-26_V1.1.zip
+  VERIFIED
+[182] CSV_112A.csv
+  VERIFIED
+[132] CSV_115AD.csv
+  VERIFIED
+[77] ITR2_AY_25-26_V1.1.xlsm
+  VERIFIED
+[71] CSV_IT.csv
+  VERIFIED
+[67] CSV_TCS.csv
+  VERIFIED
+[39] CSV_TDS1.csv
+  VERIFIED
+[98] CSV_TDS2.csv
+  VERIFIED
+[175] CSV_TDS3.csv
+  VERIFIED
+[117] KL04010303890-2026E.pdf
+  VERIFIED
+[134] KL04010303891-2026E.pdf
+  VERIFIED
+[125] KL20250654007173.pdf
+  VERIFIED
+[167] Kerala.pdf
+  VERIFIED
+[128] Long Term Days Left Transaction Details for 1370647.xls
+  VERIFIED
+[31] Long Term Days Left Transaction Details for 1370647.xlsx
+  VERIFIED
+[74] MF003(10MB).rar
+  VERIFIED
+[154] OG-26-9906-1801-00070791.pdf
+  VERIFIED
+[138] PRIME-1450.pdf
+  VERIFIED
+[139] PaySlip (1).pdf
+  VERIFIED
+[151] PaySlip (2).pdf
+  VERIFIED
+[157] PaySlip.pdf
+  VERIFIED
+[126] Policy.pdf
+  VERIFIED
+[28] Product List_20_8_2025 @ 17_3_23.csv
+  VERIFIED
+[168] Product List_20_8_2025 @ 17_4_33.csv
+  VERIFIED
+[34] Product List_20_8_2025 @ 17_5_3.csv
+  VERIFIED
+[57] Q1.txt
+  VERIFIED
+[89] 1. kwid_policy_2025-26_bagic.docx
+  VERIFIED
+[146] Acct Statement_XX4964_04092025.xls
+  VERIFIED
+[159] AnswerKey 93-2025.pdf
+  VERIFIED
+[173] DOC-20250909-WA0000..pdf
+  VERIFIED
+[150] ID card 23 Sept 2025 (1).pdf
+  VERIFIED
+[52] wego_2024_25_23991612851_24765154931.pdf
+  VERIFIED
+[188] Registration_and_Testing_Procedure.zip
+  VERIFIED
+[107] Untitled document.zip
+  VERIFIED
+[162] Untitleddocument.html
+  VERIFIED
+[141] XXXPH7413X_2024-25_AIS.pdf
+  VERIFIED
+[114] XXXPH7413X_2024-25_TIS.pdf
+  VERIFIED
+[91] XXXPR9419X_2024-25_AIS.pdf
+  VERIFIED
+[156] XXXPR9419X_2024-25_TIS.pdf
+  VERIFIED
+[53] XXXPS6835X_2024-25_AIS (1).pdf
+  VERIFIED
+[82] XXXPS6835X_2024-25_AIS.pdf
+  VERIFIED
+[68] XXXPS6835X_2024-25_TIS.pdf
+  VERIFIED
+[186] product_20_8_2025 @ 17_1_55.pdf
+  VERIFIED
+[70] product_20_8_2025 @ 17_2_51.pdf
+  VERIFIED
+[106] product_20_8_2025 @ 17_3_23.pdf
+  VERIFIED
+[32] revenue.kerala.gov.in_revenueportalbeta_downloadfrmfolder_online.php_dept_receiptno=KL04010303891_2026&receiptdt=2026-04-06&passcode=3189150 (1).mht
+  VERIFIED
+[122] revenue.kerala.gov.in_revenueportalbeta_downloadfrmfolder_online.php_dept_receiptno=KL04010303891_2026&receiptdt=2026-04-06&passcode=3189150.mht
+  VERIFIED
+[97] rkn_eAadhaar.pdf
+  VERIFIED
+[184] rkn_election_id.pdf
+  VERIFIED
+[38] rkn_tsb_acc_stmt_2024_25.pdf
+  VERIFIED
+[153] skp_tsb_acc_stmt_2024_25.pdf
+  VERIFIED
+[65] woocommerce.10.1.1.zip
+  VERIFIED
+[100] PremiumPaidStatement_2022-2023_.pdf
+  VERIFIED
+[176] PremiumPaidStatement_2023-2024_.pdf
+  VERIFIED
+[163] PremiumPaidStatement_2024-2025_.pdf
+  VERIFIED
+[144] Shari_lic_neft_reg_.pdf
+  VERIFIED
+[86] Form 10BA_Filed Form_FY2022_23.pdf
+  VERIFIED
+[172] Form_ITR2_651430840240723_2022-23.pdf
+  VERIFIED
+[103] AOJPR9419P-26AS-2023-24.pdf
+  VERIFIED
+[60] ITR_FY23-24.pdf
+  VERIFIED
+[177] ITR_FY23-24_Receipt.pdf
+  VERIFIED
+[63] XXXPR9419X_2023-24_AIS.pdf
+  VERIFIED
+[73] 15881610004964_1720707420761.pdf
+  VERIFIED
+[99] 15881610004964_1720707456018.xlsx
+  VERIFIED
+[22] 15882470005268_1720707480570.xls
+  VERIFIED
+[105] A042XXXXXXXXXXXXX1162_4194953427.pdf
+  VERIFIED
+[26] AFRPH7413L-2024.pdf
+  VERIFIED
+[42] FY2023-24_24071300378961HDFC_ChallanReceipt.pdf
+  VERIFIED
+[181] FY2023-24_ITR_ACK693755040130724.pdf
+  VERIFIED
+[46] Form16_258065_FY2023_24.pdf
+  VERIFIED
+[76] Form_ITR2_693755040130724_FY2023-24.pdf
+  VERIFIED
+[158] XXXPH7413X_2023-24_AIS.pdf
+  VERIFIED
+[161] XXXPH7413X_2024-25_AIS.pdf
+  VERIFIED
+[133] XXXPH7413X_2024-25_TIS.pdf
+  VERIFIED
+[37] ACK603167980240626.pdf
+  VERIFIED
+[111] XXXPR9419X_2025-26_AIS.pdf
+  VERIFIED
+[18] XXXPR9419X_2025-26_TIS.pdf
+  VERIFIED
+[166] accounstatementpdf.pdf
+  VERIFIED
+[58] itr 3 for intraday trading - Google Search.PDF
+  VERIFIED
+[24] taxpnl-JJW692-2025_2026-Q1-Q4.xlsx
+  VERIFIED
+[35] claim_compare-WPS Office.xlsx
+  VERIFIED
+[25] rkn_medisepkerala.in_user_claims.pdf
+  VERIFIED
+[88] skp_medisepkerala.in_user_claims.pdf
+  VERIFIED
+[78] Medisep_HANDBOOK_dec02.pdf
+  VERIFIED
+[129] Radhakn_Medisep_1048462.pdf
+  VERIFIED
+[19] Radhakn_Medisep_StatusReport_250301.pdf
+  VERIFIED
+[149] Sobhana_Medisep_1046913.pdf
+  VERIFIED
+[115] Sobhana_Medisep_StatusReport_250301.pdf
+  VERIFIED
+[30] Sree_631543_Uro_20250227.pdf
+  VERIFIED
+[180] Sree_631543_g.Anest_20250227.pdf
+  VERIFIED
+[119] Sree_Birth_Certificate.pdf
+  VERIFIED
+[33] Sree_Birth_Regn.pdf
+  VERIFIED
+[169] Sree_scan_1-20250126.pdf
+  VERIFIED
+[29] GalaxyTab_S9_FE_ExtWarranty.pdf
+  VERIFIED
+[56] GalaxyTab_S9_FE_Invoice.pdf
+  VERIFIED
+[49] GalaxyTab_S9_FE_PaymentSlip.pdf
+  VERIFIED
+[102] 1389769 Flo Digital Warranty Card_compressed_260601_162603.pdf
+  VERIFIED
+[170] 36537486_Digital_warranty_card805815337754034201.pdf
+  VERIFIED
+[54] kwid_challan_1_20250410.PDF
+  VERIFIED
+[131] kwid_mob_updt_20250708.PDF
+  VERIFIED
+[95] kwid_mob_updt_20250716.PDF
+  VERIFIED
+[96] kwid_policy_2025-26_bagic.pdf
+  VERIFIED
+[85] wego_RC_renewal_Form_25.PDF
+  VERIFIED
+[136] wego_RC_renewal_fee_receipt.PDF
+  VERIFIED
+[69] wego_all_vehicle_history.PDF
+  VERIFIED
+[171] wego_pucc_20250313-20250912.PDF
+  VERIFIED
+[152] wego_tax_licence_20250701-20300630.pdf
+  VERIFIED
+[121] wego_tax_receipt_20250701-20300630.pdf
+  VERIFIED
+[66] Breakup_FullFinalSettlement_FFS20246258065.pdf
+  VERIFIED
+[124] Form12BA.pdf
+  VERIFIED
+[142] FullandFinalStatement.pdf
+  VERIFIED
+[81] Application_psc_computer_programmer.pdf
+  VERIFIED
+[93] PSC_Comp_Pgmr_Not_0072024_1252024.pdf
+  VERIFIED
+[84] PaySlip.pdf
+  VERIFIED
+[118] SeparationLetter_258065.pdf
+  VERIFIED
+
+SUMMARY
+-------
+planned                     : 292
+verified                    : 292
+failed                      : 0
+skipped_existing_verified   : 0
+
+============================================================
+Completed    : 2026-08-19 18:45:08 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/copy_planned_master_log_20260819_184447.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 ~/my_scripts/digital_archive/verify_master_schema.py \
+  "$HOME/Master-Repository/.archive/catalog.db"
+devices                2
+files                  310
+file_sources           310
+restore_preferences    0
+duplicate_groups       17
+duplicate_members      35
+folders                61
+copy_manifest          292
+deletion_events        0
+file_xattrs            292
+
+Copy manifest status:
+VERIFIED     292
+harikr@cloudburst-L:~/my_scripts/digital_archive$ echo "=== TOP LEVEL ==="
+find "$HOME/Master-Repository" \
+  -maxdepth 2 \
+  -path "$HOME/Master-Repository/.archive" -prune -o \
+  -print | sort
+=== TOP LEVEL ===
+/home/harikr/Master-Repository
+/home/harikr/Master-Repository/PC
+/home/harikr/Master-Repository/PC/Configure Service Accounts.txt
+/home/harikr/Master-Repository/PC/google_cloud
+/home/harikr/Master-Repository/PC/ITR
+/home/harikr/Master-Repository/PC/personal_job
+/home/harikr/Master-Repository/PC/schemas
+/home/harikr/Master-Repository/TABLET
+/home/harikr/Master-Repository/TABLET/Documents
+/home/harikr/Master-Repository/TABLET/Download
+/home/harikr/Master-Repository/TABLET/`epsilon
+/home/harikr/Master-Repository/TABLET/#Personal Docs#
+harikr@cloudburst-L:~/my_scripts/digital_archive$ echo "=== FILE COUNTS ==="
+find "$HOME/Master-Repository/TABLET" -type f 2>/dev/null | wc -l
+find "$HOME/Master-Repository/PC" -type f 2>/dev/null | wc -l
+=== FILE COUNTS ===
+172
+120
+harikr@cloudburst-L:~/my_scripts/digital_archive$ du -sh "$HOME/Master-Repository"
+du -sh "$HOME/Master-Repository/TABLET" 2>/dev/null
+du -sh "$HOME/Master-Repository/PC" 2>/dev/null
+324M	/home/harikr/Master-Repository
+273M	/home/harikr/Master-Repository/TABLET
+51M	/home/harikr/Master-Repository/PC
+harikr@cloudburst-L:~/my_scripts/digital_archive$ while IFS= read -r path; do
+    [[ -f "$path" ]] || echo "MISSING: $path"
+done < <(
+    sqlite3 -noheader -batch \
+      "$HOME/Master-Repository/.archive/catalog.db" \
+      "SELECT destination_path FROM copy_manifest WHERE status='VERIFIED';"
+)
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tree -L 5 \
+  "$HOME/Master-Repository/TABLET" \
+  "$HOME/Master-Repository/PC" 2>/dev/null
+harikr@cloudburst-L:~/my_scripts/digital_archive$ find "$HOME/Master-Repository/TABLET" -maxdepth 5 -print | sort
+find "$HOME/Master-Repository/PC" -maxdepth 5 -print | sort
+/home/harikr/Master-Repository/TABLET
+/home/harikr/Master-Repository/TABLET/Documents
+/home/harikr/Master-Repository/TABLET/Documents/claim_compare-WPS Office.xlsx
+/home/harikr/Master-Repository/TABLET/Download
+/home/harikr/Master-Repository/TABLET/Download/1370647 - Profit And Loss Summary for ALL.xls
+/home/harikr/Master-Repository/TABLET/Download/1801.pdf
+/home/harikr/Master-Repository/TABLET/Download/2026-EROLLGEN-S11-104-SIR-DraftRoll-Revision1-MAL-209-WI.pdf
+/home/harikr/Master-Repository/TABLET/Download/2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-188-WI.pdf (1).html
+/home/harikr/Master-Repository/TABLET/Download/2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-188-WI.pdf.html
+/home/harikr/Master-Repository/TABLET/Download/2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-189-WI.pdf
+/home/harikr/Master-Repository/TABLET/Download/2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-209-WI.pdf
+/home/harikr/Master-Repository/TABLET/Download/2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-210-WI (1).pdf
+/home/harikr/Master-Repository/TABLET/Download/2026-FC-EROLLGEN-S11-104-SIR-FinalRoll-Revision2-MAL-210-WI.pdf
+/home/harikr/Master-Repository/TABLET/Download/2301101496310401000.pdf
+/home/harikr/Master-Repository/TABLET/Download/33b7cdd6-0b45-42b3-a163-0d98eb991748 (1).pdf
+/home/harikr/Master-Repository/TABLET/Download/33b7cdd6-0b45-42b3-a163-0d98eb991748.pdf
+/home/harikr/Master-Repository/TABLET/Download/ACK730094400090925.pdf
+/home/harikr/Master-Repository/TABLET/Download/ACK739004840090925.pdf
+/home/harikr/Master-Repository/TABLET/Download/Adhyatma-Ramayanam-Malayalam-by-Ezhuthachan.pdf
+/home/harikr/Master-Repository/TABLET/Download/AFRPH7413L-2025.pdf
+/home/harikr/Master-Repository/TABLET/Download/AOJPR9419P-2025 (1).pdf
+/home/harikr/Master-Repository/TABLET/Download/AOJPR9419P-2025.pdf
+/home/harikr/Master-Repository/TABLET/Download/AWE1411131.pdf
+/home/harikr/Master-Repository/TABLET/Download/Common Contract Note_03-09-2025_233159.xls
+/home/harikr/Master-Repository/TABLET/Download/Common Contract Note_03-09-2025_233213.xls
+/home/harikr/Master-Repository/TABLET/Download/EAadhaar_0634106161091620180421104557_0807202504533.pdf
+/home/harikr/Master-Repository/TABLET/Download/EAadhaar_0634106161091620180421104557_080720250462.pdf
+/home/harikr/Master-Repository/TABLET/Download/EAadhaar_0634106161091620180421104557_080720250470.pdf
+/home/harikr/Master-Repository/TABLET/Download/EAadhaar_2003100040907820110918135617_11092025153352.pdf
+/home/harikr/Master-Repository/TABLET/Download/EFLPS6835B-2025.pdf
+/home/harikr/Master-Repository/TABLET/Download/Equity Contract Note_03-09-2025_234236.xls
+/home/harikr/Master-Repository/TABLET/Download/Equity Order Log_03-09-2025_211635.xls
+/home/harikr/Master-Repository/TABLET/Download/Equity Order Log_03-09-2025_211807.xls
+/home/harikr/Master-Repository/TABLET/Download/Equity Trade Bills_03-09-2025_233831.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form12ba_258065.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form12BA.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form16_258065_Annexure.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form16_258065_PartA.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form16_258065_PartB.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form_pdf_676533130090925.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form_pdf_730094400090925.pdf
+/home/harikr/Master-Repository/TABLET/Download/Form_pdf_739004840090925.pdf
+/home/harikr/Master-Repository/TABLET/Download/FullandFinalStatement.pdf
+/home/harikr/Master-Repository/TABLET/Download/GuidelinetovalidateForm16.pdf
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_CapitalGain_Summary_for_ALL (1).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_CapitalGain_Summary_for_ALL(1).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_CapitalGain_Summary_for_ALL (2).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_CapitalGain_Summary_for_ALL(2).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_CapitalGain_Summary_for_ALL (3).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_CapitalGain_Summary_for_ALL.xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_ProfitLoss_Summary_for_ALL (1).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_ProfitLoss_Summary_for_ALL(1).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_ProfitLoss_Summary_for_ALL (2).xlsx
+/home/harikr/Master-Repository/TABLET/Download/HANAIR88_ProfitLoss_Summary_for_ALL.xlsx
+/home/harikr/Master-Repository/TABLET/Download/HandyLib-9Oct25.xls
+/home/harikr/Master-Repository/TABLET/Download/HT_3_Grp_hallticket.pdf
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/112A & 115AD
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/112A & 115AD/CSV_112A.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/112A & 115AD/CSV_115AD.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1.xlsm
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/TCS & TDS & IT
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/TCS & TDS & IT/CSV_IT.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/TCS & TDS & IT/CSV_TCS.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/TCS & TDS & IT/CSV_TDS1.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/TCS & TDS & IT/CSV_TDS2.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1/ITR2_AY_25-26_V1.1/TCS & TDS & IT/CSV_TDS3.csv
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1.zip
+/home/harikr/Master-Repository/TABLET/Download/Kerala.pdf
+/home/harikr/Master-Repository/TABLET/Download/KL04010303890-2026E.pdf
+/home/harikr/Master-Repository/TABLET/Download/KL04010303891-2026E.pdf
+/home/harikr/Master-Repository/TABLET/Download/KL20250654007173.pdf
+/home/harikr/Master-Repository/TABLET/Download/Long Term Days Left Transaction Details for 1370647.xls
+/home/harikr/Master-Repository/TABLET/Download/Long Term Days Left Transaction Details for 1370647.xlsx
+/home/harikr/Master-Repository/TABLET/Download/MF003(10MB).rar
+/home/harikr/Master-Repository/TABLET/Download/OG-26-9906-1801-00070791.pdf
+/home/harikr/Master-Repository/TABLET/Download/PaySlip (1).pdf
+/home/harikr/Master-Repository/TABLET/Download/PaySlip (2).pdf
+/home/harikr/Master-Repository/TABLET/Download/PaySlip.pdf
+/home/harikr/Master-Repository/TABLET/Download/Policy.pdf
+/home/harikr/Master-Repository/TABLET/Download/PRIME-1450.pdf
+/home/harikr/Master-Repository/TABLET/Download/product_20_8_2025 @ 17_1_55.pdf
+/home/harikr/Master-Repository/TABLET/Download/product_20_8_2025 @ 17_2_51.pdf
+/home/harikr/Master-Repository/TABLET/Download/product_20_8_2025 @ 17_3_23.pdf
+/home/harikr/Master-Repository/TABLET/Download/Product List_20_8_2025 @ 17_3_23.csv
+/home/harikr/Master-Repository/TABLET/Download/Product List_20_8_2025 @ 17_4_33.csv
+/home/harikr/Master-Repository/TABLET/Download/Product List_20_8_2025 @ 17_5_3.csv
+/home/harikr/Master-Repository/TABLET/Download/Q1.txt
+/home/harikr/Master-Repository/TABLET/Download/Quick Share
+/home/harikr/Master-Repository/TABLET/Download/Quick Share/1. kwid_policy_2025-26_bagic.docx
+/home/harikr/Master-Repository/TABLET/Download/Quick Share/Acct Statement_XX4964_04092025.xls
+/home/harikr/Master-Repository/TABLET/Download/Quick Share/AnswerKey 93-2025.pdf
+/home/harikr/Master-Repository/TABLET/Download/Quick Share/DOC-20250909-WA0000..pdf
+/home/harikr/Master-Repository/TABLET/Download/Quick Share/ID card 23 Sept 2025 (1).pdf
+/home/harikr/Master-Repository/TABLET/Download/Quick Share/wego_2024_25_23991612851_24765154931.pdf
+/home/harikr/Master-Repository/TABLET/Download/Registration_and_Testing_Procedure.zip
+/home/harikr/Master-Repository/TABLET/Download/revenue.kerala.gov.in_revenueportalbeta_downloadfrmfolder_online.php_dept_receiptno=KL04010303891_2026&receiptdt=2026-04-06&passcode=3189150 (1).mht
+/home/harikr/Master-Repository/TABLET/Download/revenue.kerala.gov.in_revenueportalbeta_downloadfrmfolder_online.php_dept_receiptno=KL04010303891_2026&receiptdt=2026-04-06&passcode=3189150.mht
+/home/harikr/Master-Repository/TABLET/Download/rkn_eAadhaar.pdf
+/home/harikr/Master-Repository/TABLET/Download/rkn_election_id.pdf
+/home/harikr/Master-Repository/TABLET/Download/rkn_tsb_acc_stmt_2024_25.pdf
+/home/harikr/Master-Repository/TABLET/Download/skp_tsb_acc_stmt_2024_25.pdf
+/home/harikr/Master-Repository/TABLET/Download/Untitled document
+/home/harikr/Master-Repository/TABLET/Download/Untitled document/Untitleddocument.html
+/home/harikr/Master-Repository/TABLET/Download/Untitled document.zip
+/home/harikr/Master-Repository/TABLET/Download/woocommerce.10.1.1.zip
+/home/harikr/Master-Repository/TABLET/Download/XXXPH7413X_2024-25_AIS.pdf
+/home/harikr/Master-Repository/TABLET/Download/XXXPH7413X_2024-25_TIS.pdf
+/home/harikr/Master-Repository/TABLET/Download/XXXPR9419X_2024-25_AIS.pdf
+/home/harikr/Master-Repository/TABLET/Download/XXXPR9419X_2024-25_TIS.pdf
+/home/harikr/Master-Repository/TABLET/Download/XXXPS6835X_2024-25_AIS (1).pdf
+/home/harikr/Master-Repository/TABLET/Download/XXXPS6835X_2024-25_AIS.pdf
+/home/harikr/Master-Repository/TABLET/Download/XXXPS6835X_2024-25_TIS.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Bills_n_Payments
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Bills_n_Payments/LIC
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Bills_n_Payments/LIC/PremiumPaidStatement_2022-2023_.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Bills_n_Payments/LIC/PremiumPaidStatement_2023-2024_.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Bills_n_Payments/LIC/PremiumPaidStatement_2024-2025_.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Bills_n_Payments/LIC/Shari
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2022-23
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2022-23/Form 10BA_Filed Form_FY2022_23.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2022-23/Form_ITR2_651430840240723_2022-23.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2023-24
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2023-24/Achan
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2023-24/HKR
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2024-25
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2024-25/XXXPH7413X_2024-25_AIS.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2024-25/XXXPH7413X_2024-25_TIS.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2025-26
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2025-26/RKN
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Finance/FY 2025-26/SKP
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Medisep_claims
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Medisep_claims/claim_compare-WPS Office.xlsx
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Medisep_claims/rkn_medisepkerala.in_user_claims.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Medisep_claims/skp_medisepkerala.in_user_claims.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Radhakrishnan
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Radhakrishnan/Medisep_HANDBOOK_dec02.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Radhakrishnan/Radhakn_Medisep_1048462.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Radhakrishnan/Radhakn_Medisep_StatusReport_250301.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sobhana
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sobhana/Sobhana_Medisep_1046913.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sobhana/Sobhana_Medisep_StatusReport_250301.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sreekutty
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_631543_g.Anest_20250227.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_631543_Uro_20250227.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_Birth_Certificate.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_Birth_Regn.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_scan_1-20250126.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Shopping
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Shopping/GalaxyTab_S9_FE
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Shopping/GalaxyTab_S9_FE/GalaxyTab_S9_FE_ExtWarranty.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Shopping/GalaxyTab_S9_FE/GalaxyTab_S9_FE_Invoice.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Shopping/GalaxyTab_S9_FE/GalaxyTab_S9_FE_PaymentSlip.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/kwid
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/kwid/amaron_battery_06_2026
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/kwid/kwid_challan_1_20250410.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/kwid/kwid_mob_updt_20250708.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/kwid/kwid_mob_updt_20250716.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/kwid/kwid_policy_2025-26_bagic.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/wego_all_vehicle_history.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/wego_pucc_20250313-20250912.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/wego_RC_renewal_fee_receipt.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/wego_RC_renewal_Form_25.PDF
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/wego_tax_licence_20250701-20300630.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal/Vehicle/wego_tax_receipt_20250701-20300630.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/Breakup_FullFinalSettlement_FFS20246258065.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/Form12BA.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/FullandFinalStatement.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/Jobs
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/Jobs/PSC
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/Jobs/PSC/Application_psc_computer_programmer.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/Jobs/PSC/PSC_Comp_Pgmr_Not_0072024_1252024.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/PaySlip.pdf
+/home/harikr/Master-Repository/TABLET/`epsilon/Work/SeparationLetter_258065.pdf
+/home/harikr/Master-Repository/TABLET/#Personal Docs#
+/home/harikr/Master-Repository/TABLET/#Personal Docs#/Hari_DA_BA_13.8Yr_Resume.pdf
+/home/harikr/Master-Repository/TABLET/#Personal Docs#/medicine_list_25.xlsx
+/home/harikr/Master-Repository/TABLET/#Personal Docs#/Thirumandamkunnu_SB Collect.PDF
+/home/harikr/Master-Repository/TABLET/#Personal Docs#/Thirumandamkunnu_State Bank Collect.PDF
+/home/harikr/Master-Repository/PC
+/home/harikr/Master-Repository/PC/Configure Service Accounts.txt
+/home/harikr/Master-Repository/PC/google_cloud
+/home/harikr/Master-Repository/PC/google_cloud/1.GSP199_IAM_BigQuery.odt
+/home/harikr/Master-Repository/PC/google_cloud/2.GSP647_IAM_Permissions.odt
+/home/harikr/Master-Repository/PC/google_cloud/3.GSP190_IAM_Custom_Roles.odt
+/home/harikr/Master-Repository/PC/google_cloud/ARC134_Configure Service Accounts and IAM Roles.odt
+/home/harikr/Master-Repository/PC/google_cloud/Arcade Voyage: Identity Management and Pre-trained AI APIs.txt
+/home/harikr/Master-Repository/PC/google_cloud/fb_chat_bulk_delete.odt
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts/gmail_label_manager.odt
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts/gmail_label_manager_phases.odt
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts/gmail_label_manager_v2_edited.odt
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts/gmail_label_manager_v2.odt
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts/script_logs.txt
+/home/harikr/Master-Repository/PC/google_cloud/mail_filters
+/home/harikr/Master-Repository/PC/google_cloud/mail_filters/mf_data.pdf
+/home/harikr/Master-Repository/PC/google_cloud/mail_filters/mf_data.txt
+/home/harikr/Master-Repository/PC/google_cloud/mail_filters/sort_filters_chat.odt
+/home/harikr/Master-Repository/PC/ITR
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/2025-26_AIS.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/2025-26_TIS.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/26AS_AFRPH7413L-2026.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/accn_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/accn_stmts/cc_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/accn_stmts/current_acc_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/accn_stmts/demat_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/accn_stmts/deposit_acc_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/accn_stmts/sb_acc_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/AIS_feedback_2025-26_AFA_1407202619264291.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/AIS_feedback_2025-26_AIS_SFT_12072026.csv
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/HKR_Tax_working_2025_26.ods
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/ITR3-Preview-2025-26.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/ITR_ACK_2025-26-529502220140726.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/ITR_HKR_2024-25.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/ITR_HKR_2025-26.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/notes_hkr_2025_26.txt
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/HKR/xx.ods
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/accn_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/accn_stmts/accounstatementpdf_260624_235836.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/accn_stmts/accounstatementpdf.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/accn_stmts/historical
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/accn_stmts/Treasury TAN_260625_020350.docx
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/accn_stmts/Treasury TAN_260625_020350.odt
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/ACK324678870100726_SKP_FY2025-26.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts/ledger-JJW692.xlsx
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts/pnl-JJW692.ods
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts/pnl-JJW692.xlsx
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts/retention_account_statement_JJW692.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts/taxpnl-JJW692-2025_2026-Q1-Q4 (1).xlsx
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/demat_stmts/taxpnl-JJW692-2025_2026-Q1-Q4.xlsx
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/EFLPS6835B-2019.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/EFLPS6835B-2026.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/Feedback_2025-26_AFA_1007202619209694.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/income from salary 3 23.txt
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/ITR-3-computation-Copy.xlsx
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/ITR-3-computation(youtube)-updated.ods
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/itr 3 for intraday trading - Google Search.mht
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/ITR3-Preview-SKP-FY2025-26.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/ITR_3_working_chatgpt.odt
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/ITR_SKP_2025-26.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/Q1.txt
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/stcg.csv
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/taxpnl-JJW692-2025_2026-Q1-Q4_final.ods
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/XXXPS6835X_2025-26_AIS.pdf
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26/SKP/XXXPS6835X_2025-26_TIS.pdf
+/home/harikr/Master-Repository/PC/personal_job
+/home/harikr/Master-Repository/PC/personal_job/Hari_BTech_Cert.pdf
+/home/harikr/Master-Repository/PC/personal_job/HariPANCard.pdf
+/home/harikr/Master-Repository/PC/personal_job/PayRevisionHari.pdf
+/home/harikr/Master-Repository/PC/personal_job/PaySlip1.pdf
+/home/harikr/Master-Repository/PC/personal_job/PaySlip2_attested.pdf
+/home/harikr/Master-Repository/PC/personal_job/PaySlip3.pdf
+/home/harikr/Master-Repository/PC/personal_job/pwd
+/home/harikr/Master-Repository/PC/personal_job/pwd/PayRevision258065.pdf
+/home/harikr/Master-Repository/PC/personal_job/pwd/PaySlip (1).pdf
+/home/harikr/Master-Repository/PC/personal_job/pwd/PaySlip (2).pdf
+/home/harikr/Master-Repository/PC/personal_job/pwd/PaySlip (3).pdf
+/home/harikr/Master-Repository/PC/personal_job/RelievingLetter.pdf
+/home/harikr/Master-Repository/PC/personal_job/TNMAS00313090000132018_2024.pdf
+/home/harikr/Master-Repository/PC/schemas
+/home/harikr/Master-Repository/PC/schemas/buck-boost
+/home/harikr/Master-Repository/PC/schemas/buck-boost/buck-boost-backups
+/home/harikr/Master-Repository/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_183227.zip
+/home/harikr/Master-Repository/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_185555.zip
+/home/harikr/Master-Repository/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_190723.zip
+/home/harikr/Master-Repository/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_192055.zip
+/home/harikr/Master-Repository/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_225304.zip
+/home/harikr/Master-Repository/PC/schemas/buck-boost/report.txt
+harikr@cloudburst-L:~/my_scripts/digital_archive$ echo "=== FILE COUNTS ==="
+find "$HOME/Master-Repository/TABLET" -type f | wc -l
+find "$HOME/Master-Repository/PC" -type f | wc -l
+=== FILE COUNTS ===
+172
+120
+harikr@cloudburst-L:~/my_scripts/digital_archive$ echo "=== SIZES ==="
+du -sh "$HOME/Master-Repository/TABLET"
+du -sh "$HOME/Master-Repository/PC"
+du -sh "$HOME/Master-Repository/.archive"
+=== SIZES ===
+273M	/home/harikr/Master-Repository/TABLET
+51M	/home/harikr/Master-Repository/PC
+688K	/home/harikr/Master-Repository/.archive
+harikr@cloudburst-L:~/my_scripts/digital_archive$ echo "=== TABLET TOP LEVEL ==="
+find "$HOME/Master-Repository/TABLET" -mindepth 1 -maxdepth 2 -type d | sort
+
+echo "=== PC TOP LEVEL ==="
+find "$HOME/Master-Repository/PC" -mindepth 1 -maxdepth 2 -type d | sort
+=== TABLET TOP LEVEL ===
+/home/harikr/Master-Repository/TABLET/Documents
+/home/harikr/Master-Repository/TABLET/Download
+/home/harikr/Master-Repository/TABLET/Download/ITR2_AY_25-26_V1.1
+/home/harikr/Master-Repository/TABLET/Download/Quick Share
+/home/harikr/Master-Repository/TABLET/Download/Untitled document
+/home/harikr/Master-Repository/TABLET/`epsilon
+/home/harikr/Master-Repository/TABLET/`epsilon/Personal
+/home/harikr/Master-Repository/TABLET/`epsilon/Work
+/home/harikr/Master-Repository/TABLET/#Personal Docs#
+=== PC TOP LEVEL ===
+/home/harikr/Master-Repository/PC/google_cloud
+/home/harikr/Master-Repository/PC/google_cloud/gmail_manager_scripts
+/home/harikr/Master-Repository/PC/google_cloud/mail_filters
+/home/harikr/Master-Repository/PC/ITR
+/home/harikr/Master-Repository/PC/ITR/FY-2025-26
+/home/harikr/Master-Repository/PC/personal_job
+/home/harikr/Master-Repository/PC/personal_job/pwd
+/home/harikr/Master-Repository/PC/schemas
+/home/harikr/Master-Repository/PC/schemas/buck-boost
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p /tmp/digital_archive_storage_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tar -xzf ~/Downloads/digital_archive_storage_v1.tar.gz \
+  -C /tmp/digital_archive_storage_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_storage_v1/digital_archive_storage/migrate_storage_fields.py .
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_storage_v1/digital_archive_storage/STORAGE_README.md .
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_storage_v1/digital_archive_storage/STORAGE_MIGRATION.sql .
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_storage_v1/digital_archive_storage/sql/STORAGE_STATE_QUERIES.sql sql/
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x migrate_storage_fields.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 ~/my_scripts/digital_archive/migrate_storage_fields.py \
+  "$HOME/Master-Repository/.archive/catalog.db"
+Added files.canonical_path
+Added files.storage_state
+Added files.external_device_id
+Added files.external_path
+Added files.moved_out_at
+Added files.storage_move_reason
+
+Catalog migration completed.
+No source or master files were moved or deleted.
+canonical_path           populated=310
+storage_state            populated=310
+external_device_id       populated=0
+external_path            populated=0
+moved_out_at             populated=0
+storage_move_reason      populated=0
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p /tmp/digital_archive_canonical_plan_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tar -xzf ~/Downloads/digital_archive_canonical_plan_v1.tar.gz \
+  -C /tmp/digital_archive_canonical_plan_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_canonical_plan_v1/digital_archive_canonical_plan/* .
+cp: -r not specified; omitting directory '/tmp/digital_archive_canonical_plan_v1/digital_archive_canonical_plan/__pycache__'
+cp: -r not specified; omitting directory '/tmp/digital_archive_canonical_plan_v1/digital_archive_canonical_plan/sql'
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_canonical_plan_v1/digital_archive_canonical_plan/sql/CANONICAL_PLAN_QUERIES.sql sql/
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x plan_canonical_paths.py
+chmod +x plan_canonical_paths.sh
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./plan_canonical_paths.sh \
+  "$HOME/Master-Repository/.archive/catalog.db"
+============================================================
+Script       : plan_canonical_paths.sh
+Started      : 2026-08-19 19:17:29 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_191729.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : CANONICAL PLAN ONLY
+Purpose      : Propose final logical document paths.
+No filesystem changes will be made.
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/plan_canonical_paths.py", line 209, in <module>
+    SCHEMA = r + schema + r
+             ^
+NameError: name 'r' is not defined. Did you mean: 're'?
+
+============================================================
+Completed    : 2026-08-19 19:17:31 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_191729.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cd ~/my_scripts/digital_archive
+
+mkdir -p /tmp/digital_archive_canonical_plan_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ tar -xzf ~/Downloads/digital_archive_canonical_plan_v1.1.tar.gz \
+  -C /tmp/digital_archive_canonical_plan_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_canonical_plan_v1/digital_archive_canonical_plan/plan_canonical_paths.py .
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x plan_canonical_paths.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile ./plan_canonical_paths.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ./plan_canonical_paths.sh \
+  "$HOME/Master-Repository/.archive/catalog.db"
+============================================================
+Script       : plan_canonical_paths.sh
+Started      : 2026-08-19 19:21:52 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_192152.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : CANONICAL PLAN ONLY
+Purpose      : Propose final logical document paths.
+No filesystem changes will be made.
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/plan_canonical_paths.py", line 209, in <module>
+    SCHEMA = r + schema + r
+             ^
+NameError: name 'r' is not defined. Did you mean: 're'?
+
+============================================================
+Completed    : 2026-08-19 19:21:53 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_192152.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ ~/my_scripts/digital_archive/plan_canonical_paths.sh \
+  "$HOME/Master-Repository/.archive/catalog.db"
+============================================================
+Script       : plan_canonical_paths.sh
+Started      : 2026-08-19 19:27:25 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_192725.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : CANONICAL PLAN ONLY
+Purpose      : Propose final logical document paths.
+No filesystem changes will be made.
+
+MODE            : CANONICAL PLAN ONLY
+Database        : /home/harikr/Master-Repository/.archive/catalog.db
+Master records  : 292
+Plans generated : 292
+Status          : REVIEW
+
+No files moved, renamed, deleted, or modified.
+
+============================================================
+Completed    : 2026-08-19 19:27:26 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_192725.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cd ~/my_scripts/digital_archive
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p /tmp/digital_archive_manual_plan_v1
+tar -xzf ~/Downloads/digital_archive_manual_plan_v1.tar.gz \
+  -C /tmp/digital_archive_manual_plan_v1
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_manual_plan_v1/digital_archive_manual_plan/migrate_manual_plan_fields.py .
+cp /tmp/digital_archive_manual_plan_v1/digital_archive_manual_plan/MANUAL_CANONICAL_README.md .
+cp /tmp/digital_archive_manual_plan_v1/digital_archive_manual_plan/MANUAL_PLAN_MIGRATION.sql .
+harikr@cloudburst-L:~/my_scripts/digital_archive$ mkdir -p sql
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp /tmp/digital_archive_manual_plan_v1/digital_archive_manual_plan/sql/MANUAL_CANONICAL_QUERIES.sql sql/
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x migrate_manual_plan_fields.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 ~/my_scripts/digital_archive/migrate_manual_plan_fields.py \
+  "$HOME/Master-Repository/.archive/catalog.db"
+Added: canonical_plan.manual_canonical_path
+Added: canonical_plan.manual_category
+Added: canonical_plan.manual_notes
+
+Migration complete.
+No source/master files were modified.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ cp "$HOME/Master-Repository/.archive/catalog.db" \
+   "$HOME/Master-Repository/.archive/catalog_before_canonical_replan_$(date +%Y%m%d_%H%M%S).db"
+harikr@cloudburst-L:~/my_scripts/digital_archive$ chmod +x ~/my_scripts/digital_archive/plan_canonical_paths.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 -m py_compile \
+  ~/my_scripts/digital_archive/plan_canonical_paths.py
+harikr@cloudburst-L:~/my_scripts/digital_archive$ python3 ~/my_scripts/digital_archive/plan_canonical_paths.py \
+  --db "$HOME/Master-Repository/.archive/catalog.db" \
+  --source-root TABLET "$HOME/Migration-Work/Tablet-Original" \
+  --source-root PC "$HOME/Documents"
+MODE            : CANONICAL PLAN ONLY
+Database        : /home/harikr/Master-Repository/.archive/catalog.db
+Master records  : 292
+Plans generated : 292
+
+No files were moved, renamed, deleted, or modified.
+harikr@cloudburst-L:~/my_scripts/digital_archive$ 

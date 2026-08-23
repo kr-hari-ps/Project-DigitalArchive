@@ -1,0 +1,164 @@
+============================================================
+Script       : move_duplicate_sources_to_bin.sh
+Started      : 2026-08-20 16:13:44 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/move_duplicate_sources_to_bin_log_20260820_161344.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : DUPLICATE SOURCE CLEANUP
+Bin root     : /home/harikr/Master-Repository/_Bin
+Requested    : --dry-run
+Only non-chosen exact duplicates are eligible.
+
+========================================================================
+DUPLICATE SOURCE CLEANUP
+========================================================================
+MODE       : DRY RUN
+Candidates : 18
+Bin root   : /home/harikr/Master-Repository/_Bin
+
+Only non-chosen exact duplicates from KEEP_ONE groups are eligible.
+
+[DUP-0001] accounstatementpdf.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/accounstatementpdf.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/accn_stmts/accounstatementpdf.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/accounstatementpdf.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0002] itr 3 for intraday trading - Google Search.mht
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/itr 3 for intraday trading - Google Search.mht
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/itr 3 for intraday trading - Google Search.mht
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/itr 3 for intraday trading - Google Search.mht
+  DRY-RUN: validated; no move performed.
+
+[DUP-0003] XXXPS6835X_2025-26_AIS.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/XXXPS6835X_2025-26_AIS.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/XXXPS6835X_2025-26_AIS.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/XXXPS6835X_2025-26_AIS.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0004] accounstatementpdf_260624_235836.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/accounstatementpdf_260624_235836.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/accn_stmts/accounstatementpdf_260624_235836.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/accounstatementpdf_260624_235836.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0005] Treasury TAN_260625_020350.docx
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/Treasury TAN_260625_020350.docx
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/accn_stmts/Treasury TAN_260625_020350.docx
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/Treasury TAN_260625_020350.docx
+  DRY-RUN: validated; no move performed.
+
+[DUP-0006] ledger-JJW692.xlsx
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/ledger-JJW692.xlsx
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/demat_stmts/ledger-JJW692.xlsx
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/ledger-JJW692.xlsx
+  DRY-RUN: validated; no move performed.
+
+[DUP-0007] XXXPH7413X_2025-26_AIS.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/Download/XXXPH7413X_2025-26_AIS.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/2025-26_AIS.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/XXXPH7413X_2025-26_AIS.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0008] SKP_Ac_Stmt_X2070_NAMEDDMM.pdf
+  DEVICE : PC
+  SOURCE : /home/harikr/Documents/ITR/FY-2025-26/SKP/accn_stmts/SKP_Ac_Stmt_X2070_NAMEDDMM.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/accn_stmts/historical/SKP_Ac_Stmt_X2070_2025-26.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/PC_deleted/SKP_Ac_Stmt_X2070_NAMEDDMM.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0008] SKP_Ac_Stmt_X2070_NAMEDDMM.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/SKP_Ac_Stmt_X2070_NAMEDDMM.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/accn_stmts/historical/SKP_Ac_Stmt_X2070_2025-26.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/SKP_Ac_Stmt_X2070_NAMEDDMM.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0009] XXXPS6835X_2025-26_TIS.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/XXXPS6835X_2025-26_TIS.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/XXXPS6835X_2025-26_TIS.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/XXXPS6835X_2025-26_TIS.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0010] HANAIR88_ProfitLoss_Summary_for_ALL(2).xlsx
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/Download/HANAIR88_ProfitLoss_Summary_for_ALL(2).xlsx
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/accn_stmts/demat_stmts/HANAIR88_ProfitLoss_Summary_for_ALL(2).xlsx
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/HANAIR88_ProfitLoss_Summary_for_ALL(2).xlsx
+  DRY-RUN: validated; no move performed.
+
+[DUP-0011] Hari_DA_BA_13.8Yr_Resume.pdf
+  DEVICE : PC
+  SOURCE : /home/harikr/Documents/personal_job/Hari_DA_BA_13.8Yr_Resume.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Work/Certs_Resumes/Hari_DA_BA_13.8Yr_Resume.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/PC_deleted/Hari_DA_BA_13.8Yr_Resume.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0012] XXXPH7413X_2025-26_TIS.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/Download/XXXPH7413X_2025-26_TIS.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/2025-26_TIS.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/XXXPH7413X_2025-26_TIS.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0013] pnl-JJW692.xlsx
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/pnl-JJW692.xlsx
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/demat_stmts/pnl-JJW692.xlsx
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/pnl-JJW692.xlsx
+  DRY-RUN: validated; no move performed.
+
+[DUP-0014] HANAIR88_CapitalGain_Summary_for_ALL(3).xlsx
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/Download/HANAIR88_CapitalGain_Summary_for_ALL(3).xlsx
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/accn_stmts/demat_stmts/HANAIR88_CapitalGain_Summary_for_ALL(3).xlsx
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/HANAIR88_CapitalGain_Summary_for_ALL(3).xlsx
+  DRY-RUN: validated; no move performed.
+
+[DUP-0015] HdfcDoc.zip
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Banking/HdfcDoc.zip
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/accn_stmts/cc_stmts/HdfcDoc/HdfcDoc.zip
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/HdfcDoc.zip
+  DRY-RUN: validated; no move performed.
+
+[DUP-0016] EFLPS6835B-2019.pdf
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/EFLPS6835B-2019.pdf
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/EFLPS6835B-2019.pdf
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/EFLPS6835B-2019.pdf
+  DRY-RUN: validated; no move performed.
+
+[DUP-0017] taxpnl-JJW692-2025_2026-Q1-Q4 (1).xlsx
+  DEVICE : TABLET
+  SOURCE : /home/harikr/Migration-Work/Tablet-Original/`epsilon/Personal/Finance/FY 2025-26/SKP/taxpnl-JJW692-2025_2026-Q1-Q4 (1).xlsx
+  MASTER : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/demat_stmts/taxpnl-JJW692-2025_2026-Q1-Q4 (1).xlsx
+  BIN    : /home/harikr/Master-Repository/_Bin/TABLET_deleted/taxpnl-JJW692-2025_2026-Q1-Q4 (1).xlsx
+  DRY-RUN: validated; no move performed.
+
+========================================================================
+SUMMARY
+========================================================================
+Candidates : 18
+Validated  : 18
+Moved      : 0
+Failed     : 0
+
+DRY RUN ONLY - no files or database records were changed.
+
+============================================================
+Completed    : 2026-08-20 16:13:45 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/move_duplicate_sources_to_bin_log_20260820_161344.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================

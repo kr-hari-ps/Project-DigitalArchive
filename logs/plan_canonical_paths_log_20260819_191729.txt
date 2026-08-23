@@ -1,0 +1,24 @@
+============================================================
+Script       : plan_canonical_paths.sh
+Started      : 2026-08-19 19:17:29 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_191729.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : CANONICAL PLAN ONLY
+Purpose      : Propose final logical document paths.
+No filesystem changes will be made.
+
+Traceback (most recent call last):
+  File "/home/harikr/my_scripts/digital_archive/plan_canonical_paths.py", line 209, in <module>
+    SCHEMA = r + schema + r
+             ^
+NameError: name 'r' is not defined. Did you mean: 're'?
+
+============================================================
+Completed    : 2026-08-19 19:17:31 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/plan_canonical_paths_log_20260819_191729.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================

@@ -1,0 +1,3586 @@
+============================================================
+Script       : move_media_canonical.sh
+Started      : 2026-08-23 15:23:09 IST
+User         : harikr
+Source       : /home/harikr/Master-Repository/.archive/catalog.db
+Run log      : /home/harikr/my_scripts/digital_archive/logs/move_media_canonical_log_20260823_152309.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
+Mode         : MEDIA CANONICAL MOVE
+Batch        : MEDIA_CANONICAL_20260823
+Requested    : --execute
+Original Tablet/PC source trees are NOT touched.
+
+========================================================================
+MEDIA CANONICAL MOVE
+========================================================================
+MODE          : EXECUTE
+Batch         : MEDIA_CANONICAL_20260823
+Planned rows  : 585
+Master root   : /home/harikr/Master-Repository
+Original Tablet/PC source trees are NOT touched.
+
+[22] inventory_id=2497
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-19-പ്രചേതസ്സുകളുടെ കഥ.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-019-പ്രചേതസ്സുകളുടെ കഥ.mp3
+  RENAME : Narayaneeyam-Dasakam-19-പ്രചേതസ്സുകളുടെ കഥ.mp3 -> ഥ.mp3
+  MOVED + VERIFIED + APPLIED
+
+[23] inventory_id=2498
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-8-നൈമിത്തികപ്രളയം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-008-നൈമിത്തികപ്രളയം.mp3
+  RENAME : Narayaneeyam-Dasakam-8-നൈമിത്തികപ്രളയം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[24] inventory_id=2499
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-7-ബ്രഹ്മാവിൻ്റെ-വൈകുണ്ഠദർശനം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-007-ബ്രഹ്മാവിൻ്റെ-വൈകുണ്ഠദർശനം.mp3
+  RENAME : Narayaneeyam-Dasakam-7-ബ്രഹ്മാവിൻ്റെ-വൈകുണ്ഠദർശനം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[25] inventory_id=2500
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-1-ഭഗവത്സ്വരൂപവർണ്ണനം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-001-ഭഗവത്സ്വരൂപവർണ്ണനം.mp3
+  RENAME : Narayaneeyam-Dasakam-1-ഭഗവത്സ്വരൂപവർണ്ണനം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[26] inventory_id=2501
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-3-ഭക്തിപ്രാർത്ഥന.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-003-ഭക്തിപ്രാർത്ഥന.mp3
+  RENAME : Narayaneeyam-Dasakam-3-ഭക്തിപ്രാർത്ഥന.mp3 -> ന.mp3
+  MOVED + VERIFIED + APPLIED
+
+[27] inventory_id=2502
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-12-വരാഹാവതാരം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-012-വരാഹാവതാരം.mp3
+  RENAME : Narayaneeyam-Dasakam-12-വരാഹാവതാരം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[28] inventory_id=2503
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-4-അഷ്ടാംഗയോഗം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-004-അഷ്ടാംഗയോഗം.mp3
+  RENAME : Narayaneeyam-Dasakam-4-അഷ്ടാംഗയോഗം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[29] inventory_id=2504
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-11-ജയവിജയശാപം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-011-ജയവിജയശാപം.mp3
+  RENAME : Narayaneeyam-Dasakam-11-ജയവിജയശാപം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[30] inventory_id=2505
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-10-സൃഷ്ടിഭേദങ്ങൾ.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-010-സൃഷ്ടിഭേദങ്ങൾ.mp3
+  RENAME : Narayaneeyam-Dasakam-10-സൃഷ്ടിഭേദങ്ങൾ.mp3 -> ൾ.mp3
+  MOVED + VERIFIED + APPLIED
+
+[31] inventory_id=2506
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-2-ഭകതിമഹത്ത്വം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-002-ഭകതിമഹത്ത്വം.mp3
+  RENAME : Narayaneeyam-Dasakam-2-ഭകതിമഹത്ത്വം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[32] inventory_id=2507
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-9-ഭുവനനിർമ്മിതി.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-009-ഭുവനനിർമ്മിതി.mp3
+  RENAME : Narayaneeyam-Dasakam-9-ഭുവനനിർമ്മിതി.mp3 -> ി.mp3
+  MOVED + VERIFIED + APPLIED
+
+[33] inventory_id=2508
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-17-ധ്രുവചരിതം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-017-ധ്രുവചരിതം.mp3
+  RENAME : Narayaneeyam-Dasakam-17-ധ്രുവചരിതം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[34] inventory_id=2509
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-5-വിരാട്പുരുഷോത്പത്തി.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-005-വിരാട്പുരുഷോത്പത്തി.mp3
+  RENAME : Narayaneeyam-Dasakam-5-വിരാട്പുരുഷോത്പത്തി.mp3 -> ി.mp3
+  MOVED + VERIFIED + APPLIED
+
+[35] inventory_id=2510
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-13-ഹിരണ്യാക്ഷവധം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-013-ഹിരണ്യാക്ഷവധം.mp3
+  RENAME : Narayaneeyam-Dasakam-13-ഹിരണ്യാക്ഷവധം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[36] inventory_id=2511
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-14-കപിലാവതാരം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-014-കപിലാവതാരം.mp3
+  RENAME : Narayaneeyam-Dasakam-14-കപിലാവതാരം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[37] inventory_id=2512
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-20-ഋഷഭയോഗീശ്വരചരിതം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-020-ഋഷഭയോഗീശ്വരചരിതം.mp3
+  RENAME : Narayaneeyam-Dasakam-20-ഋഷഭയോഗീശ്വരചരിതം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[38] inventory_id=2513
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-15-കപിലോപദേശം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-015-കപിലോപദേശം.mp3
+  RENAME : Narayaneeyam-Dasakam-15-കപിലോപദേശം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[39] inventory_id=2514
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-16-നരനാരായണാവതാരം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-016-നരനാരായണാവതാരം.mp3
+  RENAME : Narayaneeyam-Dasakam-16-നരനാരായണാവതാരം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[40] inventory_id=2515
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-6-വിരാട്സ്വരൂപവർണനം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-006-വിരാട്സ്വരൂപവർണനം.mp3
+  RENAME : Narayaneeyam-Dasakam-6-വിരാട്സ്വരൂപവർണനം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[41] inventory_id=2516
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Y/Narayaneeyam-Dasakam-18-പൃഥുചരിതം.mp3
+  TO     : /home/harikr/Master-Repository/Music/Devotional/Narayaneeyam/Narayaneeyam-Dasakam-018-പൃഥുചരിതം.mp3
+  RENAME : Narayaneeyam-Dasakam-18-പൃഥുചരിതം.mp3 -> ം.mp3
+  MOVED + VERIFIED + APPLIED
+
+[42] inventory_id=2517
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Notes_251211_163905.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/Notes_251211_163905.jpg
+  MOVED + VERIFIED + APPLIED
+
+[43] inventory_id=2518
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260416_152006.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260416_152006.jpg
+  MOVED + VERIFIED + APPLIED
+
+[44] inventory_id=2520
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_142203.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251231_142203.jpg
+  MOVED + VERIFIED + APPLIED
+
+[45] inventory_id=2522
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_150751.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_150751.jpg
+  MOVED + VERIFIED + APPLIED
+
+[46] inventory_id=2523
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_221656.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251228_221656.jpg
+  MOVED + VERIFIED + APPLIED
+
+[47] inventory_id=2524
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251124_224727.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251124_224727.jpg
+  MOVED + VERIFIED + APPLIED
+
+[48] inventory_id=2525
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20250519_150449.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20250519_150449.jpg
+  MOVED + VERIFIED + APPLIED
+
+[49] inventory_id=2526
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_150119.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_150119.jpg
+  MOVED + VERIFIED + APPLIED
+
+[50] inventory_id=2527
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251202_135429.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251202_135429.jpg
+  MOVED + VERIFIED + APPLIED
+
+[51] inventory_id=2528
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251223_153411.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251223_153411.jpg
+  MOVED + VERIFIED + APPLIED
+
+[52] inventory_id=2529
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/360_F_1257798875_pck20HpmX7IbSRTHSvVp6T13CrwyATcF.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Icons/padlock_blue_icon.jpg
+  RENAME : 360_F_1257798875_pck20HpmX7IbSRTHSvVp6T13CrwyATcF.jpg -> icon.jpg
+  MOVED + VERIFIED + APPLIED
+
+[53] inventory_id=2530
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_144600.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251231_144600.jpg
+  MOVED + VERIFIED + APPLIED
+
+[54] inventory_id=2531
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145745.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_145745.jpg
+  MOVED + VERIFIED + APPLIED
+
+[55] inventory_id=2532
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_145852.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251231_145852.jpg
+  MOVED + VERIFIED + APPLIED
+
+[56] inventory_id=2533
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251231_141255.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251231_141255.jpg
+  MOVED + VERIFIED + APPLIED
+
+[57] inventory_id=2534
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145135.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_145135.jpg
+  MOVED + VERIFIED + APPLIED
+
+[58] inventory_id=2535
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_155051.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251112_155051.jpg
+  MOVED + VERIFIED + APPLIED
+
+[59] inventory_id=2536
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_160240.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251019_160240.jpg
+  MOVED + VERIFIED + APPLIED
+
+[60] inventory_id=2537
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_143852.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_143852.jpg
+  MOVED + VERIFIED + APPLIED
+
+[61] inventory_id=2538
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_192329.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251112_192329.jpg
+  MOVED + VERIFIED + APPLIED
+
+[62] inventory_id=2539
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/2026_1.png.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Sudoku/Badge_2026_01.jpg
+  RENAME : 2026_1.png.jpg -> 6_01.jpg
+  MOVED + VERIFIED + APPLIED
+
+[63] inventory_id=2540
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_144825.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251226_144825.jpg
+  MOVED + VERIFIED + APPLIED
+
+[64] inventory_id=2541
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_155654.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251019_155654.jpg
+  MOVED + VERIFIED + APPLIED
+
+[65] inventory_id=2542
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_235627.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251115_235627.jpg
+  MOVED + VERIFIED + APPLIED
+
+[66] inventory_id=2543
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_155040.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251112_155040.jpg
+  MOVED + VERIFIED + APPLIED
+
+[67] inventory_id=2544
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/2026_2.png.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Sudoku/Badge_2026_02.jpg
+  RENAME : 2026_2.png.jpg -> 6_02.jpg
+  MOVED + VERIFIED + APPLIED
+
+[68] inventory_id=2545
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251229_144524.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251229_144524.jpg
+  MOVED + VERIFIED + APPLIED
+
+[69] inventory_id=2546
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251116_002105.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251116_002105.jpg
+  MOVED + VERIFIED + APPLIED
+
+[70] inventory_id=2547
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251202_003950.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251202_003950.jpg
+  MOVED + VERIFIED + APPLIED
+
+[71] inventory_id=2549
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260424_152212.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260424_152212.jpg
+  MOVED + VERIFIED + APPLIED
+
+[72] inventory_id=2550
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PENUP_20251229_151613.png
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/PENUP_20251229_151613.png
+  MOVED + VERIFIED + APPLIED
+
+[73] inventory_id=2551
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_150136.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_150136.jpg
+  MOVED + VERIFIED + APPLIED
+
+[74] inventory_id=2552
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_145947.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251228_145947.jpg
+  MOVED + VERIFIED + APPLIED
+
+[75] inventory_id=2553
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/lock-3d-lock-icon-3d-lock-symbol-3d-lock-image-free-png.png
+  TO     : /home/harikr/Master-Repository/Pictures/Icons/padlock_3D.png
+  RENAME : lock-3d-lock-icon-3d-lock-symbol-3d-lock-image-free-png.png -> k_3D.png
+  MOVED + VERIFIED + APPLIED
+
+[76] inventory_id=2554
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_192603.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251112_192603.jpg
+  MOVED + VERIFIED + APPLIED
+
+[77] inventory_id=2555
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251229_145344.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251229_145344.jpg
+  MOVED + VERIFIED + APPLIED
+
+[78] inventory_id=2556
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251201_001101.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251201_001101.jpg
+  MOVED + VERIFIED + APPLIED
+
+[79] inventory_id=2557
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251130_235458.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251130_235458.jpg
+  MOVED + VERIFIED + APPLIED
+
+[80] inventory_id=2558
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_175919.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251115_175919.jpg
+  MOVED + VERIFIED + APPLIED
+
+[81] inventory_id=2559
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/image (1).png
+  TO     : /home/harikr/Master-Repository/Pictures/Other/tg_rankes.png
+  RENAME : image (1).png -> nkes.png
+  MOVED + VERIFIED + APPLIED
+
+[82] inventory_id=2560
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251223_150311.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251223_150311.jpg
+  MOVED + VERIFIED + APPLIED
+
+[83] inventory_id=2561
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_153713.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251226_153713.jpg
+  MOVED + VERIFIED + APPLIED
+
+[84] inventory_id=2562
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20250519_150435.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20250519_150435.jpg
+  MOVED + VERIFIED + APPLIED
+
+[85] inventory_id=2563
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_145914.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251226_145914.jpg
+  MOVED + VERIFIED + APPLIED
+
+[86] inventory_id=2564
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_154843.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251228_154843.jpg
+  MOVED + VERIFIED + APPLIED
+
+[87] inventory_id=2565
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251226_145659.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251226_145659.jpg
+  MOVED + VERIFIED + APPLIED
+
+[88] inventory_id=2567
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251227_155032.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251227_155032.jpg
+  MOVED + VERIFIED + APPLIED
+
+[89] inventory_id=2569
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251204_001939.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251204_001939.jpg
+  MOVED + VERIFIED + APPLIED
+
+[90] inventory_id=2570
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/Abyss_Challenge.png.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Sudoku/Abyss_Challenge.jpg
+  RENAME : Abyss_Challenge.png.jpg -> enge.jpg
+  MOVED + VERIFIED + APPLIED
+
+[91] inventory_id=2571
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_191959.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251115_191959.jpg
+  MOVED + VERIFIED + APPLIED
+
+[92] inventory_id=2572
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145613.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_145613.jpg
+  MOVED + VERIFIED + APPLIED
+
+[93] inventory_id=2573
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_224111.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251112_224111.jpg
+  MOVED + VERIFIED + APPLIED
+
+[94] inventory_id=2574
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_161028.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251019_161028.jpg
+  MOVED + VERIFIED + APPLIED
+
+[95] inventory_id=2575
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/2025_10.png.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Sudoku/Badge_2025_10.jpg
+  RENAME : 2025_10.png.jpg -> 5_10.jpg
+  MOVED + VERIFIED + APPLIED
+
+[96] inventory_id=2578
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251115_235615.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251115_235615.jpg
+  MOVED + VERIFIED + APPLIED
+
+[97] inventory_id=2579
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_161039.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251019_161039.jpg
+  MOVED + VERIFIED + APPLIED
+
+[98] inventory_id=2581
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_143841.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_143841.jpg
+  MOVED + VERIFIED + APPLIED
+
+[99] inventory_id=2582
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/padlock-9118374_1280.png
+  TO     : /home/harikr/Master-Repository/Pictures/Icons/padlock_gold.png
+  RENAME : padlock-9118374_1280.png -> gold.png
+  MOVED + VERIFIED + APPLIED
+
+[100] inventory_id=2583
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/Library_Wonders.png.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Walls/Library_Wonders.jpg
+  RENAME : Library_Wonders.png.jpg -> ders.jpg
+  MOVED + VERIFIED + APPLIED
+
+[101] inventory_id=2584
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/1756116574201.jpg
+  TO     : /home/harikr/Master-Repository/Business/eCom/shobha_llc_icon.jpg
+  RENAME : 1756116574201.jpg -> icon.jpg
+  MOVED + VERIFIED + APPLIED
+
+[102] inventory_id=2585
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251229_151616.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251229_151616.jpg
+  MOVED + VERIFIED + APPLIED
+
+[103] inventory_id=2586
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251228_151146.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251228_151146.jpg
+  MOVED + VERIFIED + APPLIED
+
+[104] inventory_id=2587
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260101_145559.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260101_145559.jpg
+  MOVED + VERIFIED + APPLIED
+
+[105] inventory_id=2588
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251112_230536.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251112_230536.jpg
+  MOVED + VERIFIED + APPLIED
+
+[106] inventory_id=2589
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251019_161500.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251019_161500.jpg
+  MOVED + VERIFIED + APPLIED
+
+[107] inventory_id=2590
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251223_153248.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251223_153248.jpg
+  MOVED + VERIFIED + APPLIED
+
+[108] inventory_id=2591
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20260105_175542.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20260105_175542.jpg
+  MOVED + VERIFIED + APPLIED
+
+[109] inventory_id=2592
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/Lava_Challenge.png (1).jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Sudoku/Lava_Challenge.jpg
+  RENAME : Lava_Challenge.png (1).jpg -> enge.jpg
+  MOVED + VERIFIED + APPLIED
+
+[110] inventory_id=2593
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251227_154504.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251227_154504.jpg
+  MOVED + VERIFIED + APPLIED
+
+[111] inventory_id=2594
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/penup_20251116_185911.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20251116_185911.jpg
+  MOVED + VERIFIED + APPLIED
+
+[112] inventory_id=2596
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/handy_book_library.db
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/handy_book_library.db
+  MOVED + VERIFIED + APPLIED
+
+[113] inventory_id=2597
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/woocommerce.10.1.1.zip
+  TO     : /home/harikr/Master-Repository/Business/eCom/woocommerce.10.1.1.zip
+  MOVED + VERIFIED + APPLIED
+
+[114] inventory_id=2598
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/IMG-20250913-WA0001.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Hospital/Hari/Appointment_IMG-20250913-WA0001.jpg
+  RENAME : IMG-20250913-WA0001.jpg -> A0001.jpg
+  MOVED + VERIFIED + APPLIED
+
+[115] inventory_id=2601
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (2).jpeg
+  TO     : /home/harikr/Master-Repository/Business/eCom/sample_product_2.jpeg
+  RENAME : images (2).jpeg -> t_2.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[116] inventory_id=2602
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/copilot_image_1765457093500.jpeg
+  TO     : /home/harikr/Master-Repository/Electronics/Buck_boost_copilot_image_1765457093500.jpeg
+  RENAME : copilot_image_1765457093500.jpeg -> 093500.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[117] inventory_id=2603
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/download.jpeg
+  TO     : /home/harikr/Master-Repository/Business/eCom/sample_product_1.jpeg
+  RENAME : download.jpeg -> t_1.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[118] inventory_id=2606
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (3).jpeg
+  TO     : /home/harikr/Master-Repository/Business/eCom/sample_product_3.jpeg
+  RENAME : images (3).jpeg -> t_3.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[119] inventory_id=2607
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/AFRPH7413L_upload_2025-2608-09-2025--23-13-27.json
+  TO     : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/AFRPH7413L_upload_2025-2608-09-2025--23-13-27.json
+  MOVED + VERIFIED + APPLIED
+
+[120] inventory_id=2608
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Registration_and_Testing_Procedure.zip
+  TO     : /home/harikr/Master-Repository/Download/Other/Registration_and_Testing_Procedure.zip
+  MOVED + VERIFIED + APPLIED
+
+[121] inventory_id=2610
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (4).jpeg
+  TO     : /home/harikr/Master-Repository/Business/eCom/sample_product_4.jpeg
+  RENAME : images (4).jpeg -> t_4.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[122] inventory_id=2611
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images (1).jpeg
+  TO     : /home/harikr/Master-Repository/Business/eCom/sample_product_5.jpeg
+  RENAME : images (1).jpeg -> t_5.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[123] inventory_id=2612
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/images.jpeg
+  TO     : /home/harikr/Master-Repository/Business/eCom/sample_product_6.jpeg
+  RENAME : images.jpeg -> t_6.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[124] inventory_id=2613
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/copilot_image_1765457525396.jpeg
+  TO     : /home/harikr/Master-Repository/Electronics/Buck_boost_copilot_image_1765457525396.jpeg
+  RENAME : copilot_image_1765457525396.jpeg -> 525396.jpeg
+  MOVED + VERIFIED + APPLIED
+
+[125] inventory_id=2615
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/AFRPH7413L_upload_2025-2609-09-2025--00-06-19.json
+  TO     : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/AFRPH7413L_upload_2025-2609-09-2025--00-06-19.json
+  MOVED + VERIFIED + APPLIED
+
+[126] inventory_id=2616
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/ITR2_AY_25-26_V1.1.zip
+  TO     : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/ITR2_AY_25-26_V1.1.zip
+  MOVED + VERIFIED + APPLIED
+
+[127] inventory_id=2617
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Screenshot_20250406_200025_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Govt/HariNivas_plot/Screenshot_20250406_200025_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[128] inventory_id=2618
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Screenshot_20250406_201026_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Govt/HariNivas_plot/Screenshot_20250406_201026_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[129] inventory_id=2619
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Screenshot_20250406_200129_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Govt/HariNivas_plot/Screenshot_20250406_200129_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[130] inventory_id=2620
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/#Personal Docs#/HariNivas_plot/Notes_250406_203033.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Govt/HariNivas_plot/Notes_250406_203033.jpg
+  MOVED + VERIFIED + APPLIED
+
+[131] inventory_id=2621
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Work/Jobs/SmartSelect_20240717_094747_LinkedIn.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Work/Jobs/SmartSelect_20240717_094747_LinkedIn.jpg
+  MOVED + VERIFIED + APPLIED
+
+[132] inventory_id=2622
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Finance/TrdgIncome_Reported.mp4
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Finance/Trading/TrdgIncome_Reported.mp4
+  MOVED + VERIFIED + APPLIED
+
+[133] inventory_id=2623
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250225_222339.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Identity_n_Accounts/20250225_222339.jpg
+  MOVED + VERIFIED + APPLIED
+
+[134] inventory_id=2624
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250225_222339.png
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Identity_n_Accounts/20250225_222339.png
+  MOVED + VERIFIED + APPLIED
+
+[135] inventory_id=2625
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250219_080149.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Identity_n_Accounts/20250219_080149.jpg
+  MOVED + VERIFIED + APPLIED
+
+[136] inventory_id=2626
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Identity_n_Accounts/20250219_075932.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Identity_n_Accounts/20250219_075932.jpg
+  MOVED + VERIFIED + APPLIED
+
+[137] inventory_id=2627
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_scan_1-20250126.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Hospital/Sreekutty/Sree_scan_1-20250126.jpg
+  MOVED + VERIFIED + APPLIED
+
+[138] inventory_id=2628
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Hospital/Sreekutty/Sree_Lab_IMG-20250227.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Hospital/Sreekutty/Sree_Lab_IMG-20250227.jpg
+  MOVED + VERIFIED + APPLIED
+
+[139] inventory_id=2629
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/Personal/Vehicle/kwid/amaron_battery_06_2026/IMG-20260601-WA0007.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Vehicle/kwid/amaron_battery_06_2026/IMG-20260601-WA0007.jpg
+  MOVED + VERIFIED + APPLIED
+
+[140] inventory_id=2630
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/IMG-20240915-WA0004.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Profile_pics/IMG-20240915-WA0004.jpg
+  MOVED + VERIFIED + APPLIED
+
+[141] inventory_id=2631
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/20250219_075503.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Profile_pics/20250219_075503.jpg
+  MOVED + VERIFIED + APPLIED
+
+[142] inventory_id=2632
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/20250219_075608.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Profile_pics/20250219_075608.jpg
+  MOVED + VERIFIED + APPLIED
+
+[143] inventory_id=2633
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/20250225_233930.png
+  TO     : /home/harikr/Master-Repository/Pictures/Profile_pics/20250225_233930.png
+  MOVED + VERIFIED + APPLIED
+
+[144] inventory_id=2634
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/PSX_20240712_194011.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Profile_pics/PSX_20240712_194011.jpg
+  MOVED + VERIFIED + APPLIED
+
+[145] inventory_id=2635
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Profile_pics/InShot_20240712_192822515.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Profile_pics/InShot_20240712_192822515.jpg
+  MOVED + VERIFIED + APPLIED
+
+[146] inventory_id=2636
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-marieke-schonfeld-1309710-2514035.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Walls/pexels-marieke-schonfeld-1309710-2514035.jpg
+  MOVED + VERIFIED + APPLIED
+
+[147] inventory_id=2637
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-gochrisgoxyz-1643409.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Walls/pexels-gochrisgoxyz-1643409.jpg
+  MOVED + VERIFIED + APPLIED
+
+[148] inventory_id=2638
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-fabiano-rodrigues-794857-1662298.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Walls/pexels-fabiano-rodrigues-794857-1662298.jpg
+  MOVED + VERIFIED + APPLIED
+
+[149] inventory_id=2639
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/`epsilon/media_data/Walls/pexels-iriser-1366957.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/Walls/pexels-iriser-1366957.jpg
+  MOVED + VERIFIED + APPLIED
+
+[150] inventory_id=2640
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250730_020110_Instagram.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250730_020110_Instagram.jpg
+  MOVED + VERIFIED + APPLIED
+
+[151] inventory_id=2641
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260609_130704_Google.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20260609_130704_Google.jpg
+  MOVED + VERIFIED + APPLIED
+
+[152] inventory_id=2642
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250903_235449_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250903_235449_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[153] inventory_id=2643
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162525_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_162525_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[154] inventory_id=2644
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152727_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_152727_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[155] inventory_id=2645
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155255_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_155255_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[156] inventory_id=2646
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_151415_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_151415_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[157] inventory_id=2647
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250903_235453_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250903_235453_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[158] inventory_id=2648
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_154554_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_154554_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[159] inventory_id=2649
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250708_000400_NextGen mParivahan.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250708_000400_NextGen mParivahan.jpg
+  MOVED + VERIFIED + APPLIED
+
+[160] inventory_id=2650
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_151345_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_151345_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[161] inventory_id=2651
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251015_073357_NextGen mParivahan.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20251015_073357_NextGen mParivahan.jpg
+  MOVED + VERIFIED + APPLIED
+
+[162] inventory_id=2652
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/thumbnail_Screenshot_20260609_125837_Google.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/thumbnail_Screenshot_20260609_125837_Google.jpg
+  MOVED + VERIFIED + APPLIED
+
+[163] inventory_id=2653
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/thumbnail_Screenshot_20260609_130705_Google.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/thumbnail_Screenshot_20260609_130705_Google.jpg
+  MOVED + VERIFIED + APPLIED
+
+[164] inventory_id=2654
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_153214_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_153214_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[165] inventory_id=2655
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250730_040539_Facebook.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250730_040539_Facebook.jpg
+  MOVED + VERIFIED + APPLIED
+
+[166] inventory_id=2656
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162546_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_162546_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[167] inventory_id=2657
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250716_113013_Adobe Acrobat.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250716_113013_Adobe Acrobat.jpg
+  MOVED + VERIFIED + APPLIED
+
+[168] inventory_id=2658
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152706_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_152706_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[169] inventory_id=2659
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/PhoneUpdateError.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/PhoneUpdateError.jpg
+  MOVED + VERIFIED + APPLIED
+
+[170] inventory_id=2660
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_154357_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_154357_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[171] inventory_id=2661
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152442_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_152442_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[172] inventory_id=2662
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155434_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_155434_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[173] inventory_id=2663
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251013_223403_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20251013_223403_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[174] inventory_id=2664
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_153156_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_153156_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[175] inventory_id=2665
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162605_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_162605_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[176] inventory_id=2666
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162556_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_162556_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[177] inventory_id=2667
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155236_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_155236_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[178] inventory_id=2668
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250708_004430_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250708_004430_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[179] inventory_id=2669
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_151402_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_151402_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[180] inventory_id=2670
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_154611_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_154611_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[181] inventory_id=2671
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260427_142909_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20260427_142909_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[182] inventory_id=2672
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162441_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_162441_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[183] inventory_id=2673
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_155318_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_155318_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[184] inventory_id=2675
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_162455_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_162455_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[185] inventory_id=2676
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250921_215924_Instagram.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250921_215924_Instagram.jpg
+  MOVED + VERIFIED + APPLIED
+
+[186] inventory_id=2677
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251111_015801_YouTube.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20251111_015801_YouTube.jpg
+  MOVED + VERIFIED + APPLIED
+
+[187] inventory_id=2678
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251106_193518_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20251106_193518_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[188] inventory_id=2679
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20251116_000140_Gallery.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20251116_000140_Gallery.jpg
+  MOVED + VERIFIED + APPLIED
+
+[189] inventory_id=2680
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260609_130704_Google (1).jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20260609_130704_Google (1).jpg
+  MOVED + VERIFIED + APPLIED
+
+[190] inventory_id=2681
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20260424_131024_Chrome.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20260424_131024_Chrome.jpg
+  MOVED + VERIFIED + APPLIED
+
+[191] inventory_id=2682
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152427_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_152427_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[192] inventory_id=2683
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Screenshots/Screenshot_20250825_152525_SmartBiz.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Screenshots/Screenshot_20250825_152525_SmartBiz.jpg
+  MOVED + VERIFIED + APPLIED
+
+[193] inventory_id=2684
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/AR Doodle/20251226_153750.mp4
+  TO     : /home/harikr/Master-Repository/DCIM/AR Doodle/20251226_153750.mp4
+  MOVED + VERIFIED + APPLIED
+
+[194] inventory_id=2685
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/AR Doodle/20251226_153829.mp4
+  TO     : /home/harikr/Master-Repository/DCIM/AR Doodle/20251226_153829.mp4
+  MOVED + VERIFIED + APPLIED
+
+[195] inventory_id=2686
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/AR Doodle/20251226_153839.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/AR Doodle/20251226_153839.jpg
+  MOVED + VERIFIED + APPLIED
+
+[196] inventory_id=2687
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20250818_162914.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20250818_162914.jpg
+  MOVED + VERIFIED + APPLIED
+
+[197] inventory_id=2688
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_184636.mp4
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20260506_184636.mp4
+  MOVED + VERIFIED + APPLIED
+
+[198] inventory_id=2689
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_184539.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20260506_184539.jpg
+  MOVED + VERIFIED + APPLIED
+
+[199] inventory_id=2690
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20251116_230532.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20251116_230532.jpg
+  MOVED + VERIFIED + APPLIED
+
+[200] inventory_id=2691
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_185556.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20260506_185556.jpg
+  MOVED + VERIFIED + APPLIED
+
+[201] inventory_id=2692
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20251116_230529.jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20251116_230529.jpg
+  MOVED + VERIFIED + APPLIED
+
+[202] inventory_id=2693
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20260506_184620.mp4
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20260506_184620.mp4
+  MOVED + VERIFIED + APPLIED
+
+[203] inventory_id=2694
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/DCIM/Camera/20250818_162914(1).jpg
+  TO     : /home/harikr/Master-Repository/DCIM/Camera/20250818_162914(1).jpg
+  MOVED + VERIFIED + APPLIED
+
+[204] inventory_id=3250
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240925_130151.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20240925_130151.jpg
+  MOVED + VERIFIED + APPLIED
+
+[205] inventory_id=3251
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241006_165357.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20241006_165357.jpg
+  MOVED + VERIFIED + APPLIED
+
+[206] inventory_id=3252
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241006_163529.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20241006_163529.jpg
+  MOVED + VERIFIED + APPLIED
+
+[207] inventory_id=3253
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241013_094715.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20241013_094715.jpg
+  MOVED + VERIFIED + APPLIED
+
+[208] inventory_id=3254
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240710_225116.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20240710_225116.jpg
+  MOVED + VERIFIED + APPLIED
+
+[209] inventory_id=3255
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20241223_115936.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20241223_115936.jpg
+  MOVED + VERIFIED + APPLIED
+
+[210] inventory_id=3256
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240918_080416.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20240918_080416.jpg
+  MOVED + VERIFIED + APPLIED
+
+[211] inventory_id=3257
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Pictures/PenUp/penup_20240919_102413.jpg
+  TO     : /home/harikr/Master-Repository/Pictures/PenUp/penup_20240919_102413.jpg
+  MOVED + VERIFIED + APPLIED
+
+[212] inventory_id=3258
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Music/Samsung/Over_the_Horizon.m4a
+  TO     : /home/harikr/Master-Repository/Music/Samsung/Over_the_Horizon.m4a
+  MOVED + VERIFIED + APPLIED
+
+[213] inventory_id=3261
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/vasthu shastr…arma, aditya_20240910_010009.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/vasthu shastr…arma, aditya_20240910_010009.jpg
+  MOVED + VERIFIED + APPLIED
+
+[214] inventory_id=3262
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/uddhavopadesam_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/uddhavopadesam_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[215] inventory_id=3263
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/superhit hind…hakthi songs_20240910_005835.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/superhit hind…hakthi songs_20240910_005835.jpg
+  MOVED + VERIFIED + APPLIED
+
+[216] inventory_id=3264
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/0074637282_20240906_161424.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/0074637282_20240906_161424.jpg
+  MOVED + VERIFIED + APPLIED
+
+[217] inventory_id=3265
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  MOVED + VERIFIED + APPLIED
+
+[218] inventory_id=3266
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  MOVED + VERIFIED + APPLIED
+
+[219] inventory_id=3267
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/java fundamen…microsystems_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/java fundamen…microsystems_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[220] inventory_id=3268
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9798177970141_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9798177970141_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[221] inventory_id=3269
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788187972297_20240906_013009.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788187972297_20240906_013009.jpg
+  MOVED + VERIFIED + APPLIED
+
+[222] inventory_id=3270
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  MOVED + VERIFIED + APPLIED
+
+[223] inventory_id=3271
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  MOVED + VERIFIED + APPLIED
+
+[224] inventory_id=3272
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  MOVED + VERIFIED + APPLIED
+
+[225] inventory_id=3273
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/know your world by , siso_20240906_154620.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/know your world by , siso_20240906_154620.jpg
+  MOVED + VERIFIED + APPLIED
+
+[226] inventory_id=3274
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[227] inventory_id=3276
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/java programming langunge_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/java programming langunge_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[228] inventory_id=3277
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788124009475_20240910_005206.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788124009475_20240910_005206.jpg
+  MOVED + VERIFIED + APPLIED
+
+[229] inventory_id=3278
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/nakshatraphala panchangam_20240910_003924.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/nakshatraphala panchangam_20240910_003924.jpg
+  MOVED + VERIFIED + APPLIED
+
+[230] inventory_id=3279
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[231] inventory_id=3280
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreekrishna l…tam volume 1_20240906_092439.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreekrishna l…tam volume 1_20240906_092439.jpg
+  MOVED + VERIFIED + APPLIED
+
+[232] inventory_id=3281
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_2.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_2.jpg
+  MOVED + VERIFIED + APPLIED
+
+[233] inventory_id=3282
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_041447.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_041447.jpg
+  MOVED + VERIFIED + APPLIED
+
+[234] inventory_id=3283
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780752882178 vol10_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9780752882178 vol10_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[235] inventory_id=3284
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/mathematics f… janardhanan_20240906_190140.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/mathematics f… janardhanan_20240906_190140.jpg
+  MOVED + VERIFIED + APPLIED
+
+[236] inventory_id=3286
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780070486362_20240906_141340.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9780070486362_20240906_141340.jpg
+  MOVED + VERIFIED + APPLIED
+
+[237] inventory_id=3287
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  MOVED + VERIFIED + APPLIED
+
+[238] inventory_id=3288
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/malayalam eng…h dictionary_20240906_095950.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/malayalam eng…h dictionary_20240906_095950.jpg
+  MOVED + VERIFIED + APPLIED
+
+[239] inventory_id=3289
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol10_8.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol10_8.jpg
+  MOVED + VERIFIED + APPLIED
+
+[240] inventory_id=3290
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  MOVED + VERIFIED + APPLIED
+
+[241] inventory_id=3291
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/fundamentals …ics class xl_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/fundamentals …ics class xl_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[242] inventory_id=3292
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8187430141_20240906_113355.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8187430141_20240906_113355.jpg
+  MOVED + VERIFIED + APPLIED
+
+[243] inventory_id=3293
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/satyam sanath…, sree matha_20240910_005033.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/satyam sanath…, sree matha_20240910_005033.jpg
+  MOVED + VERIFIED + APPLIED
+
+[244] inventory_id=3294
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/rekha jyothis…opalakrishna_20240910_004312.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/rekha jyothis…opalakrishna_20240910_004312.jpg
+  MOVED + VERIFIED + APPLIED
+
+[245] inventory_id=3295
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_045718.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_045718.jpg
+  MOVED + VERIFIED + APPLIED
+
+[246] inventory_id=3296
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8125914226_20240906_200734.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8125914226_20240906_200734.jpg
+  MOVED + VERIFIED + APPLIED
+
+[247] inventory_id=3297
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315426 copy1_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[248] inventory_id=3298
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  MOVED + VERIFIED + APPLIED
+
+[249] inventory_id=3299
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164945.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164945.jpg
+  MOVED + VERIFIED + APPLIED
+
+[250] inventory_id=3301
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree rama sth… kochanniyan_20240910_005457.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree rama sth… kochanniyan_20240910_005457.jpg
+  MOVED + VERIFIED + APPLIED
+
+[251] inventory_id=3302
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ering 4e mgu_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ering 4e mgu_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[252] inventory_id=3303
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  MOVED + VERIFIED + APPLIED
+
+[253] inventory_id=3304
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  MOVED + VERIFIED + APPLIED
+
+[254] inventory_id=3305
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  MOVED + VERIFIED + APPLIED
+
+[255] inventory_id=3306
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  MOVED + VERIFIED + APPLIED
+
+[256] inventory_id=3308
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  MOVED + VERIFIED + APPLIED
+
+[257] inventory_id=3309
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree hanuman … kochanniyan_20240910_005256.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree hanuman … kochanniyan_20240910_005256.jpg
+  MOVED + VERIFIED + APPLIED
+
+[258] inventory_id=3310
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8126503181_20240906_175635.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8126503181_20240906_175635.jpg
+  MOVED + VERIFIED + APPLIED
+
+[259] inventory_id=3311
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[260] inventory_id=3312
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram copy1_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram copy1_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[261] inventory_id=3313
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/jyothisham by…palakrishnan_20240910_003337.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/jyothisham by…palakrishnan_20240910_003337.jpg
+  MOVED + VERIFIED + APPLIED
+
+[262] inventory_id=3314
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/geetha - vija…it chaithnya_20240910_003006.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/geetha - vija…it chaithnya_20240910_003006.jpg
+  MOVED + VERIFIED + APPLIED
+
+[263] inventory_id=3315
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  MOVED + VERIFIED + APPLIED
+
+[264] inventory_id=3316
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree vishnu s…ma sthothram_20240909_231649.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree vishnu s…ma sthothram_20240909_231649.jpg
+  MOVED + VERIFIED + APPLIED
+
+[265] inventory_id=3317
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788121924986_20240906_143756.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788121924986_20240906_143756.jpg
+  MOVED + VERIFIED + APPLIED
+
+[266] inventory_id=3318
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/introduction …d techniques_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/introduction …d techniques_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[267] inventory_id=3319
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/ultimate visu…l dictionary_20240906_105908.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/ultimate visu…l dictionary_20240906_105908.jpg
+  MOVED + VERIFIED + APPLIED
+
+[268] inventory_id=3320
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_032811.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_032811.jpg
+  MOVED + VERIFIED + APPLIED
+
+[269] inventory_id=3321
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  MOVED + VERIFIED + APPLIED
+
+[270] inventory_id=3322
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  MOVED + VERIFIED + APPLIED
+
+[271] inventory_id=3323
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  MOVED + VERIFIED + APPLIED
+
+[272] inventory_id=3324
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…am) volume 2_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[273] inventory_id=3325
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/marananathara chadangukal_20240910_003732.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/marananathara chadangukal_20240910_003732.jpg
+  MOVED + VERIFIED + APPLIED
+
+[274] inventory_id=3326
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315620_20240909_232442.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315620_20240909_232442.jpg
+  MOVED + VERIFIED + APPLIED
+
+[275] inventory_id=3327
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163231.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163231.jpg
+  MOVED + VERIFIED + APPLIED
+
+[276] inventory_id=3328
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/millennium ma…lish grammar_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/millennium ma…lish grammar_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[277] inventory_id=3329
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788129706010_20240906_142734.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788129706010_20240906_142734.jpg
+  MOVED + VERIFIED + APPLIED
+
+[278] inventory_id=3330
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/purushasookth…nasookthavum_20240910_004228.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/purushasookth…nasookthavum_20240910_004228.jpg
+  MOVED + VERIFIED + APPLIED
+
+[279] inventory_id=3331
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788170089926_20240906_145001.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788170089926_20240906_145001.jpg
+  MOVED + VERIFIED + APPLIED
+
+[280] inventory_id=3332
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8126404981_20240909_044817.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8126404981_20240909_044817.jpg
+  MOVED + VERIFIED + APPLIED
+
+[281] inventory_id=3333
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/computer scie…ce malayalam_20240906_020843.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/computer scie…ce malayalam_20240906_020843.jpg
+  MOVED + VERIFIED + APPLIED
+
+[282] inventory_id=3334
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/devi sthuthik… kochanniyan_20240910_002432.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/devi sthuthik… kochanniyan_20240910_002432.jpg
+  MOVED + VERIFIED + APPLIED
+
+[283] inventory_id=3335
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree siva sah…ma sthothram_20240909_231306.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree siva sah…ma sthothram_20240909_231306.jpg
+  MOVED + VERIFIED + APPLIED
+
+[284] inventory_id=3336
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  MOVED + VERIFIED + APPLIED
+
+[285] inventory_id=3337
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100909.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100909.jpg
+  MOVED + VERIFIED + APPLIED
+
+[286] inventory_id=3338
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  MOVED + VERIFIED + APPLIED
+
+[287] inventory_id=3339
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/puranakathaka…d, harish r._20240910_004142.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/puranakathaka…d, harish r._20240910_004142.jpg
+  MOVED + VERIFIED + APPLIED
+
+[288] inventory_id=3340
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…വതം-(moolam)_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…വതം-(moolam)_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[289] inventory_id=3341
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  MOVED + VERIFIED + APPLIED
+
+[290] inventory_id=3342
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/subramaniya keerthanangal_20240910_005648.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/subramaniya keerthanangal_20240910_005648.jpg
+  MOVED + VERIFIED + APPLIED
+
+[291] inventory_id=3343
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/hindhumatha c…nthirangalum_20240910_003055.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/hindhumatha c…nthirangalum_20240910_003055.jpg
+  MOVED + VERIFIED + APPLIED
+
+[292] inventory_id=3344
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163405.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163405.jpg
+  MOVED + VERIFIED + APPLIED
+
+[293] inventory_id=3345
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_143444.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_143444.jpg
+  MOVED + VERIFIED + APPLIED
+
+[294] inventory_id=3346
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[295] inventory_id=3347
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  MOVED + VERIFIED + APPLIED
+
+[296] inventory_id=3348
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sudarshanam സ… s narayanan_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sudarshanam സ… s narayanan_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[297] inventory_id=3349
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/surabhi a mod…ractice book_20240906_193612.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/surabhi a mod…ractice book_20240906_193612.jpg
+  MOVED + VERIFIED + APPLIED
+
+[298] inventory_id=3350
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_085516.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_085516.jpg
+  MOVED + VERIFIED + APPLIED
+
+[299] inventory_id=3351
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225752.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225752.jpg
+  MOVED + VERIFIED + APPLIED
+
+[300] inventory_id=3352
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8171803911_20240910_003554.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8171803911_20240910_003554.jpg
+  MOVED + VERIFIED + APPLIED
+
+[301] inventory_id=3354
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/njanappana by…, poonthanam_20240909_230103.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/njanappana by…, poonthanam_20240909_230103.jpg
+  MOVED + VERIFIED + APPLIED
+
+[302] inventory_id=3355
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/systematic ap…ch to botany_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/systematic ap…ch to botany_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[303] inventory_id=3356
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780070140622_20240906_153927.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9780070140622_20240906_153927.jpg
+  MOVED + VERIFIED + APPLIED
+
+[304] inventory_id=3357
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120309845_20240906_162042.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788120309845_20240906_162042.jpg
+  MOVED + VERIFIED + APPLIED
+
+[305] inventory_id=3358
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788171302253_20240906_094834.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788171302253_20240906_094834.jpg
+  MOVED + VERIFIED + APPLIED
+
+[306] inventory_id=3359
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315574_20240909_031106.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315574_20240909_031106.jpg
+  MOVED + VERIFIED + APPLIED
+
+[307] inventory_id=3361
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/object-orient…gn using uml_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/object-orient…gn using uml_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[308] inventory_id=3362
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788185315591_20240909_025406.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788185315591_20240909_025406.jpg
+  MOVED + VERIFIED + APPLIED
+
+[309] inventory_id=3363
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/fundamentals …cs class xll_20240906_160708.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/fundamentals …cs class xll_20240906_160708.jpg
+  MOVED + VERIFIED + APPLIED
+
+[310] inventory_id=3364
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  MOVED + VERIFIED + APPLIED
+
+[311] inventory_id=3365
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163517.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788131710265_20240906_163517.jpg
+  MOVED + VERIFIED + APPLIED
+
+[312] inventory_id=3366
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ng mechanics_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/a textbook of…ng mechanics_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[313] inventory_id=3367
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103955.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103955.jpg
+  MOVED + VERIFIED + APPLIED
+
+[314] inventory_id=3368
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_230514.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185973253_20240909_230514.jpg
+  MOVED + VERIFIED + APPLIED
+
+[315] inventory_id=3369
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_035627.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/quantitative … examination_20240906_035627.jpg
+  MOVED + VERIFIED + APPLIED
+
+[316] inventory_id=3370
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram_20240909_230901.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree lalitha …ma sthothram_20240909_230901.jpg
+  MOVED + VERIFIED + APPLIED
+
+[317] inventory_id=3371
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/e-craft by , ecit_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/e-craft by , ecit_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[318] inventory_id=3373
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_084839.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam)_20240906_084839.jpg
+  MOVED + VERIFIED + APPLIED
+
+[319] inventory_id=3374
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164835.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8186009183_20240906_164835.jpg
+  MOVED + VERIFIED + APPLIED
+
+[320] inventory_id=3376
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sasyaharam by…palakrishnan_20240910_004934.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sasyaharam by…palakrishnan_20240910_004934.jpg
+  MOVED + VERIFIED + APPLIED
+
+[321] inventory_id=3377
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/plus two modern chemistry_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/plus two modern chemistry_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[322] inventory_id=3378
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam) copy1_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree maha bha… (malayalam) copy1_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[323] inventory_id=3379
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/introduction …lume 1 to 3)_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/introduction …lume 1 to 3)_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[324] inventory_id=3380
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  MOVED + VERIFIED + APPLIED
+
+[325] inventory_id=3381
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8174092153_20240906_145836.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8174092153_20240906_145836.jpg
+  MOVED + VERIFIED + APPLIED
+
+[326] inventory_id=3382
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  MOVED + VERIFIED + APPLIED
+
+[327] inventory_id=3383
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120320581_20240906_145344.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788120320581_20240906_145344.jpg
+  MOVED + VERIFIED + APPLIED
+
+[328] inventory_id=3384
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree siva sahasranamavali_20240909_231549.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree siva sahasranamavali_20240909_231549.jpg
+  MOVED + VERIFIED + APPLIED
+
+[329] inventory_id=3386
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  MOVED + VERIFIED + APPLIED
+
+[330] inventory_id=3387
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_230221.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_230221.jpg
+  MOVED + VERIFIED + APPLIED
+
+[331] inventory_id=3388
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/modern chemis…a.o., thomas vol10_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[332] inventory_id=3389
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[333] inventory_id=3390
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788187328278_20240906_180620.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788187328278_20240906_180620.jpg
+  MOVED + VERIFIED + APPLIED
+
+[334] inventory_id=3391
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/dheergayussin…oseph manuel_20240910_002708.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/dheergayussin…oseph manuel_20240910_002708.jpg
+  MOVED + VERIFIED + APPLIED
+
+[335] inventory_id=3392
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/hindukkal ari…adu gunangal_20240910_003235.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/hindukkal ari…adu gunangal_20240910_003235.jpg
+  MOVED + VERIFIED + APPLIED
+
+[336] inventory_id=3393
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120317451_20240906_000534.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788120317451_20240906_000534.jpg
+  MOVED + VERIFIED + APPLIED
+
+[337] inventory_id=3394
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sabarimala idathavalangal_20240910_004459.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sabarimala idathavalangal_20240910_004459.jpg
+  MOVED + VERIFIED + APPLIED
+
+[338] inventory_id=3396
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/naama geetha …it chaithnya_20240910_003823.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/naama geetha …it chaithnya_20240910_003823.jpg
+  MOVED + VERIFIED + APPLIED
+
+[339] inventory_id=3397
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sandhyanamam …endathengine_20240910_004626.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sandhyanamam …endathengine_20240910_004626.jpg
+  MOVED + VERIFIED + APPLIED
+
+[340] inventory_id=3398
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315426_20240909_232812.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315426_20240909_232812.jpg
+  MOVED + VERIFIED + APPLIED
+
+[341] inventory_id=3399
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/rogashanthikk… kshetrangal_20240910_004401.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/rogashanthikk… kshetrangal_20240910_004401.jpg
+  MOVED + VERIFIED + APPLIED
+
+[342] inventory_id=3400
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/kerala service rules_20240909_043156.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/kerala service rules_20240909_043156.jpg
+  MOVED + VERIFIED + APPLIED
+
+[343] inventory_id=3401
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225922.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315205_20240909_225922.jpg
+  MOVED + VERIFIED + APPLIED
+
+[344] inventory_id=3402
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree krishna … kochanniyan_20240910_005407.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree krishna … kochanniyan_20240910_005407.jpg
+  MOVED + VERIFIED + APPLIED
+
+[345] inventory_id=3403
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100647.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788190046138_20240907_100647.jpg
+  MOVED + VERIFIED + APPLIED
+
+[346] inventory_id=3404
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/deepa pooja_20240910_002314.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/deepa pooja_20240910_002314.jpg
+  MOVED + VERIFIED + APPLIED
+
+[347] inventory_id=3405
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi copy2_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ… mathrubhumi copy2_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[348] inventory_id=3406
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_035354.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9780000112194_20240909_035354.jpg
+  MOVED + VERIFIED + APPLIED
+
+[349] inventory_id=3407
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788178235448_20240909_033610.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788178235448_20240909_033610.jpg
+  MOVED + VERIFIED + APPLIED
+
+[350] inventory_id=3408
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[351] inventory_id=3409
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9789382515302 copy1_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9789382515302 copy1_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[352] inventory_id=3410
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_045806.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8189505025_20240909_045806.jpg
+  MOVED + VERIFIED + APPLIED
+
+[353] inventory_id=3411
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[354] inventory_id=3412
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/818912501X_20240906_111914.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/818912501X_20240906_111914.jpg
+  MOVED + VERIFIED + APPLIED
+
+[355] inventory_id=3413
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sree ganesha …ama stothram_20240909_230743.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sree ganesha …ama stothram_20240909_230743.jpg
+  MOVED + VERIFIED + APPLIED
+
+[356] inventory_id=3414
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8185315620 copy1_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8185315620 copy1_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[357] inventory_id=3415
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_034135.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788179501498_20240909_034135.jpg
+  MOVED + VERIFIED + APPLIED
+
+[358] inventory_id=3416
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788120330962_20240906_152416.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788120330962_20240906_152416.jpg
+  MOVED + VERIFIED + APPLIED
+
+[359] inventory_id=3417
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/aesopu, beerb… (malayalam)_2.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/aesopu, beerb… (malayalam)_2.jpg
+  MOVED + VERIFIED + APPLIED
+
+[360] inventory_id=3418
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/engineering g…s for degree_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/engineering g…s for degree_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[361] inventory_id=3419
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  MOVED + VERIFIED + APPLIED
+
+[362] inventory_id=3420
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/a high speed …tive english_20240906_194605.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/a high speed …tive english_20240906_194605.jpg
+  MOVED + VERIFIED + APPLIED
+
+[363] inventory_id=3421
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/108 upanishad…. n. p. unni_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/108 upanishad…. n. p. unni_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[364] inventory_id=3422
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…-(malayalam) copy2_9.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sreemad bhaga…-(malayalam) copy2_9.jpg
+  MOVED + VERIFIED + APPLIED
+
+[365] inventory_id=3423
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8188114006_20240906_140327.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8188114006_20240906_140327.jpg
+  MOVED + VERIFIED + APPLIED
+
+[366] inventory_id=3425
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  MOVED + VERIFIED + APPLIED
+
+[367] inventory_id=3426
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol20_9.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/electronics l… k.a., navas vol20_9.jpg
+  MOVED + VERIFIED + APPLIED
+
+[368] inventory_id=3427
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788131703090_20240906_013705.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788131703090_20240906_013705.jpg
+  MOVED + VERIFIED + APPLIED
+
+[369] inventory_id=3428
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_20240906_101428.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/aithihyamala …hil sankunni_20240906_101428.jpg
+  MOVED + VERIFIED + APPLIED
+
+[370] inventory_id=3429
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/bhajagovindam…. rama varma_20240909_225349.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/bhajagovindam…. rama varma_20240909_225349.jpg
+  MOVED + VERIFIED + APPLIED
+
+[371] inventory_id=3430
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103814.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8181310985_20240906_103814.jpg
+  MOVED + VERIFIED + APPLIED
+
+[372] inventory_id=3431
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/electromagnet…applications_20240906_005253.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/electromagnet…applications_20240906_005253.jpg
+  MOVED + VERIFIED + APPLIED
+
+[373] inventory_id=3432
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/java programm…ent workbook_20240906_155641.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/java programm…ent workbook_20240906_155641.jpg
+  MOVED + VERIFIED + APPLIED
+
+[374] inventory_id=3433
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788122416077_20240906_200047.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788122416077_20240906_200047.jpg
+  MOVED + VERIFIED + APPLIED
+
+[375] inventory_id=3434
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8176710482_20240906_135608.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8176710482_20240906_135608.jpg
+  MOVED + VERIFIED + APPLIED
+
+[376] inventory_id=3435
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  MOVED + VERIFIED + APPLIED
+
+[377] inventory_id=3436
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/8190180525_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/8190180525_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[378] inventory_id=3437
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/millennium ma…work book #2_20240906_201256.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/millennium ma…work book #2_20240906_201256.jpg
+  MOVED + VERIFIED + APPLIED
+
+[379] inventory_id=3439
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/9788189125639_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/9788189125639_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[380] inventory_id=3440
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/syamamadhuri …y , karakkad_20240910_005924.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/syamamadhuri …y , karakkad_20240910_005924.jpg
+  MOVED + VERIFIED + APPLIED
+
+[381] inventory_id=3441
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/manusmrithi മ…krishnakumar_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/manusmrithi മ…krishnakumar_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[382] inventory_id=3442
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Photos/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Photos/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  MOVED + VERIFIED + APPLIED
+
+[383] inventory_id=3443
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/vasthu shastr…arma, aditya_20240910_010009.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/vasthu shastr…arma, aditya_20240910_010009.jpg
+  MOVED + VERIFIED + APPLIED
+
+[384] inventory_id=3444
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/uddhavopadesam_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/uddhavopadesam_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[385] inventory_id=3445
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/superhit hind…hakthi songs_20240910_005835.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/superhit hind…hakthi songs_20240910_005835.jpg
+  MOVED + VERIFIED + APPLIED
+
+[386] inventory_id=3446
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/0074637282_20240906_161424.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/0074637282_20240906_161424.jpg
+  MOVED + VERIFIED + APPLIED
+
+[387] inventory_id=3447
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/ayurveda arog… വിജ്ഞാനകോശം_20240906_182511.jpg
+  MOVED + VERIFIED + APPLIED
+
+[388] inventory_id=3448
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/bhakthakavi p…ukrithikalum_20240910_002053.jpg
+  MOVED + VERIFIED + APPLIED
+
+[389] inventory_id=3449
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/java fundamen…microsystems_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/java fundamen…microsystems_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[390] inventory_id=3450
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9798177970141_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9798177970141_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[391] inventory_id=3451
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788187972297_20240906_013009.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788187972297_20240906_013009.jpg
+  MOVED + VERIFIED + APPLIED
+
+[392] inventory_id=3452
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111526.jpg
+  MOVED + VERIFIED + APPLIED
+
+[393] inventory_id=3453
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_095500.jpg
+  MOVED + VERIFIED + APPLIED
+
+[394] inventory_id=3454
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085804.jpg
+  MOVED + VERIFIED + APPLIED
+
+[395] inventory_id=3455
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/know your world by , siso_20240906_154620.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/know your world by , siso_20240906_154620.jpg
+  MOVED + VERIFIED + APPLIED
+
+[396] inventory_id=3456
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[397] inventory_id=3458
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/java programming langunge_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/java programming langunge_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[398] inventory_id=3459
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788124009475_20240910_005206.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788124009475_20240910_005206.jpg
+  MOVED + VERIFIED + APPLIED
+
+[399] inventory_id=3460
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/nakshatraphala panchangam_20240910_003924.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/nakshatraphala panchangam_20240910_003924.jpg
+  MOVED + VERIFIED + APPLIED
+
+[400] inventory_id=3461
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[401] inventory_id=3462
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreekrishna l…tam volume 1_20240906_092439.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreekrishna l…tam volume 1_20240906_092439.jpg
+  MOVED + VERIFIED + APPLIED
+
+[402] inventory_id=3463
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_2.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_2.jpg
+  MOVED + VERIFIED + APPLIED
+
+[403] inventory_id=3464
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_041447.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_041447.jpg
+  MOVED + VERIFIED + APPLIED
+
+[404] inventory_id=3465
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780752882178 vol10_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9780752882178 vol10_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[405] inventory_id=3466
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/mathematics f… janardhanan_20240906_190140.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/mathematics f… janardhanan_20240906_190140.jpg
+  MOVED + VERIFIED + APPLIED
+
+[406] inventory_id=3468
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780070486362_20240906_141340.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9780070486362_20240906_141340.jpg
+  MOVED + VERIFIED + APPLIED
+
+[407] inventory_id=3469
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/nootettu hari…ഹരി കീർത്തനം_20240910_004028.jpg
+  MOVED + VERIFIED + APPLIED
+
+[408] inventory_id=3470
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/malayalam eng…h dictionary_20240906_095950.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/malayalam eng…h dictionary_20240906_095950.jpg
+  MOVED + VERIFIED + APPLIED
+
+[409] inventory_id=3471
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol10_8.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol10_8.jpg
+  MOVED + VERIFIED + APPLIED
+
+[410] inventory_id=3472
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/haindava vija… വിഞ്ജാനകോശം_9.jpg
+  MOVED + VERIFIED + APPLIED
+
+[411] inventory_id=3473
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/fundamentals …ics class xl_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/fundamentals …ics class xl_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[412] inventory_id=3474
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8187430141_20240906_113355.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8187430141_20240906_113355.jpg
+  MOVED + VERIFIED + APPLIED
+
+[413] inventory_id=3475
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/satyam sanath…, sree matha_20240910_005033.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/satyam sanath…, sree matha_20240910_005033.jpg
+  MOVED + VERIFIED + APPLIED
+
+[414] inventory_id=3476
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/rekha jyothis…opalakrishna_20240910_004312.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/rekha jyothis…opalakrishna_20240910_004312.jpg
+  MOVED + VERIFIED + APPLIED
+
+[415] inventory_id=3477
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_045718.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_045718.jpg
+  MOVED + VERIFIED + APPLIED
+
+[416] inventory_id=3478
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8125914226_20240906_200734.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8125914226_20240906_200734.jpg
+  MOVED + VERIFIED + APPLIED
+
+[417] inventory_id=3479
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315426 copy1_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[418] inventory_id=3480
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125836.jpg
+  MOVED + VERIFIED + APPLIED
+
+[419] inventory_id=3481
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164945.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164945.jpg
+  MOVED + VERIFIED + APPLIED
+
+[420] inventory_id=3483
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree rama sth… kochanniyan_20240910_005457.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree rama sth… kochanniyan_20240910_005457.jpg
+  MOVED + VERIFIED + APPLIED
+
+[421] inventory_id=3484
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ering 4e mgu_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ering 4e mgu_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[422] inventory_id=3485
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_111058.jpg
+  MOVED + VERIFIED + APPLIED
+
+[423] inventory_id=3486
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_130133.jpg
+  MOVED + VERIFIED + APPLIED
+
+[424] inventory_id=3487
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/bharatheeya p…aimal, manoj_20240910_002237.jpg
+  MOVED + VERIFIED + APPLIED
+
+[425] inventory_id=3488
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/adhyathma ram…tu-malayalam_20240906_085735.jpg
+  MOVED + VERIFIED + APPLIED
+
+[426] inventory_id=3490
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreekrishna k…ഷ്ണ കർണാമൃതം_20240906_122248.jpg
+  MOVED + VERIFIED + APPLIED
+
+[427] inventory_id=3491
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree hanuman … kochanniyan_20240910_005256.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree hanuman … kochanniyan_20240910_005256.jpg
+  MOVED + VERIFIED + APPLIED
+
+[428] inventory_id=3492
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8126503181_20240906_175635.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8126503181_20240906_175635.jpg
+  MOVED + VERIFIED + APPLIED
+
+[429] inventory_id=3493
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/ningalkum oru…മഹാത്മാവാകാം_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[430] inventory_id=3494
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram copy1_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram copy1_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[431] inventory_id=3495
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/jyothisham by…palakrishnan_20240910_003337.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/jyothisham by…palakrishnan_20240910_003337.jpg
+  MOVED + VERIFIED + APPLIED
+
+[432] inventory_id=3496
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/geetha - vija…it chaithnya_20240910_003006.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/geetha - vija…it chaithnya_20240910_003006.jpg
+  MOVED + VERIFIED + APPLIED
+
+[433] inventory_id=3497
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/dhyanaslokang…mantrangalum_20240910_002803.jpg
+  MOVED + VERIFIED + APPLIED
+
+[434] inventory_id=3498
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree vishnu s…ma sthothram_20240909_231649.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree vishnu s…ma sthothram_20240909_231649.jpg
+  MOVED + VERIFIED + APPLIED
+
+[435] inventory_id=3499
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788121924986_20240906_143756.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788121924986_20240906_143756.jpg
+  MOVED + VERIFIED + APPLIED
+
+[436] inventory_id=3500
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/introduction …d techniques_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/introduction …d techniques_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[437] inventory_id=3501
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/ultimate visu…l dictionary_20240906_105908.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/ultimate visu…l dictionary_20240906_105908.jpg
+  MOVED + VERIFIED + APPLIED
+
+[438] inventory_id=3502
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_032811.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_032811.jpg
+  MOVED + VERIFIED + APPLIED
+
+[439] inventory_id=3503
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 1_20240906_093327.jpg
+  MOVED + VERIFIED + APPLIED
+
+[440] inventory_id=3504
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_20240906_093455.jpg
+  MOVED + VERIFIED + APPLIED
+
+[441] inventory_id=3505
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/dharmashastra…hnu smrithi)_20240910_002552.jpg
+  MOVED + VERIFIED + APPLIED
+
+[442] inventory_id=3506
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…am) volume 2_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[443] inventory_id=3507
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/marananathara chadangukal_20240910_003732.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/marananathara chadangukal_20240910_003732.jpg
+  MOVED + VERIFIED + APPLIED
+
+[444] inventory_id=3508
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315620_20240909_232442.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315620_20240909_232442.jpg
+  MOVED + VERIFIED + APPLIED
+
+[445] inventory_id=3509
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163231.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163231.jpg
+  MOVED + VERIFIED + APPLIED
+
+[446] inventory_id=3510
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/millennium ma…lish grammar_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/millennium ma…lish grammar_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[447] inventory_id=3511
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788129706010_20240906_142734.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788129706010_20240906_142734.jpg
+  MOVED + VERIFIED + APPLIED
+
+[448] inventory_id=3512
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/purushasookth…nasookthavum_20240910_004228.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/purushasookth…nasookthavum_20240910_004228.jpg
+  MOVED + VERIFIED + APPLIED
+
+[449] inventory_id=3513
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788170089926_20240906_145001.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788170089926_20240906_145001.jpg
+  MOVED + VERIFIED + APPLIED
+
+[450] inventory_id=3514
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8126404981_20240909_044817.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8126404981_20240909_044817.jpg
+  MOVED + VERIFIED + APPLIED
+
+[451] inventory_id=3515
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/computer scie…ce malayalam_20240906_020843.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/computer scie…ce malayalam_20240906_020843.jpg
+  MOVED + VERIFIED + APPLIED
+
+[452] inventory_id=3516
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/devi sthuthik… kochanniyan_20240910_002432.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/devi sthuthik… kochanniyan_20240910_002432.jpg
+  MOVED + VERIFIED + APPLIED
+
+[453] inventory_id=3517
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree siva sah…ma sthothram_20240909_231306.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree siva sah…ma sthothram_20240909_231306.jpg
+  MOVED + VERIFIED + APPLIED
+
+[454] inventory_id=3518
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/vishnu sahasr…a (bv trust)_20240909_234032.jpg
+  MOVED + VERIFIED + APPLIED
+
+[455] inventory_id=3519
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100909.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100909.jpg
+  MOVED + VERIFIED + APPLIED
+
+[456] inventory_id=3520
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/karyasiddhikk… kshetrangal_20240910_003516.jpg
+  MOVED + VERIFIED + APPLIED
+
+[457] inventory_id=3521
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/puranakathaka…d, harish r._20240910_004142.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/puranakathaka…d, harish r._20240910_004142.jpg
+  MOVED + VERIFIED + APPLIED
+
+[458] inventory_id=3522
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…വതം-(moolam)_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…വതം-(moolam)_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[459] inventory_id=3523
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad devi …് ദേവീഭാഗവതം_20240906_121407.jpg
+  MOVED + VERIFIED + APPLIED
+
+[460] inventory_id=3524
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/subramaniya keerthanangal_20240910_005648.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/subramaniya keerthanangal_20240910_005648.jpg
+  MOVED + VERIFIED + APPLIED
+
+[461] inventory_id=3525
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/hindhumatha c…nthirangalum_20240910_003055.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/hindhumatha c…nthirangalum_20240910_003055.jpg
+  MOVED + VERIFIED + APPLIED
+
+[462] inventory_id=3526
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163405.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163405.jpg
+  MOVED + VERIFIED + APPLIED
+
+[463] inventory_id=3527
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_143444.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_143444.jpg
+  MOVED + VERIFIED + APPLIED
+
+[464] inventory_id=3528
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/narayaneeyam …ം വ്യാഖ്യാനം_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[465] inventory_id=3529
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/kadhopanishad…a. bhaskaran_20240910_003426.jpg
+  MOVED + VERIFIED + APPLIED
+
+[466] inventory_id=3530
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sudarshanam സ… s narayanan_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sudarshanam സ… s narayanan_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[467] inventory_id=3531
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/surabhi a mod…ractice book_20240906_193612.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/surabhi a mod…ractice book_20240906_193612.jpg
+  MOVED + VERIFIED + APPLIED
+
+[468] inventory_id=3532
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_085516.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_085516.jpg
+  MOVED + VERIFIED + APPLIED
+
+[469] inventory_id=3533
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225752.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225752.jpg
+  MOVED + VERIFIED + APPLIED
+
+[470] inventory_id=3534
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8171803911_20240910_003554.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8171803911_20240910_003554.jpg
+  MOVED + VERIFIED + APPLIED
+
+[471] inventory_id=3536
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/njanappana by…, poonthanam_20240909_230103.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/njanappana by…, poonthanam_20240909_230103.jpg
+  MOVED + VERIFIED + APPLIED
+
+[472] inventory_id=3537
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/systematic ap…ch to botany_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/systematic ap…ch to botany_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[473] inventory_id=3538
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780070140622_20240906_153927.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9780070140622_20240906_153927.jpg
+  MOVED + VERIFIED + APPLIED
+
+[474] inventory_id=3539
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120309845_20240906_162042.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788120309845_20240906_162042.jpg
+  MOVED + VERIFIED + APPLIED
+
+[475] inventory_id=3540
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788171302253_20240906_094834.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788171302253_20240906_094834.jpg
+  MOVED + VERIFIED + APPLIED
+
+[476] inventory_id=3541
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315574_20240909_031106.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315574_20240909_031106.jpg
+  MOVED + VERIFIED + APPLIED
+
+[477] inventory_id=3543
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/object-orient…gn using uml_7.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/object-orient…gn using uml_7.jpg
+  MOVED + VERIFIED + APPLIED
+
+[478] inventory_id=3544
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788185315591_20240909_025406.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788185315591_20240909_025406.jpg
+  MOVED + VERIFIED + APPLIED
+
+[479] inventory_id=3545
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/fundamentals …cs class xll_20240906_160708.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/fundamentals …cs class xll_20240906_160708.jpg
+  MOVED + VERIFIED + APPLIED
+
+[480] inventory_id=3546
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…ദ് ഭഗവത് ഗീത_20240906_125719.jpg
+  MOVED + VERIFIED + APPLIED
+
+[481] inventory_id=3547
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163517.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788131710265_20240906_163517.jpg
+  MOVED + VERIFIED + APPLIED
+
+[482] inventory_id=3548
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ng mechanics_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/a textbook of…ng mechanics_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[483] inventory_id=3549
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103955.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103955.jpg
+  MOVED + VERIFIED + APPLIED
+
+[484] inventory_id=3550
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_230514.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185973253_20240909_230514.jpg
+  MOVED + VERIFIED + APPLIED
+
+[485] inventory_id=3551
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_035627.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/quantitative … examination_20240906_035627.jpg
+  MOVED + VERIFIED + APPLIED
+
+[486] inventory_id=3552
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram_20240909_230901.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree lalitha …ma sthothram_20240909_230901.jpg
+  MOVED + VERIFIED + APPLIED
+
+[487] inventory_id=3553
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/e-craft by , ecit_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/e-craft by , ecit_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[488] inventory_id=3555
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_084839.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam)_20240906_084839.jpg
+  MOVED + VERIFIED + APPLIED
+
+[489] inventory_id=3556
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164835.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8186009183_20240906_164835.jpg
+  MOVED + VERIFIED + APPLIED
+
+[490] inventory_id=3558
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sasyaharam by…palakrishnan_20240910_004934.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sasyaharam by…palakrishnan_20240910_004934.jpg
+  MOVED + VERIFIED + APPLIED
+
+[491] inventory_id=3559
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/plus two modern chemistry_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/plus two modern chemistry_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[492] inventory_id=3560
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam) copy1_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree maha bha… (malayalam) copy1_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[493] inventory_id=3561
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/introduction …lume 1 to 3)_0.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/introduction …lume 1 to 3)_0.jpg
+  MOVED + VERIFIED + APPLIED
+
+[494] inventory_id=3562
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/arogyaparipal…yoga'yiloode_20240910_001759.jpg
+  MOVED + VERIFIED + APPLIED
+
+[495] inventory_id=3563
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8174092153_20240906_145836.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8174092153_20240906_145836.jpg
+  MOVED + VERIFIED + APPLIED
+
+[496] inventory_id=3564
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi_20240907_112028.jpg
+  MOVED + VERIFIED + APPLIED
+
+[497] inventory_id=3565
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120320581_20240906_145344.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788120320581_20240906_145344.jpg
+  MOVED + VERIFIED + APPLIED
+
+[498] inventory_id=3566
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree siva sahasranamavali_20240909_231549.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree siva sahasranamavali_20240909_231549.jpg
+  MOVED + VERIFIED + APPLIED
+
+[499] inventory_id=3568
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sarveswara na…kunhjikuttan_20240910_004850.jpg
+  MOVED + VERIFIED + APPLIED
+
+[500] inventory_id=3569
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_230221.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_230221.jpg
+  MOVED + VERIFIED + APPLIED
+
+[501] inventory_id=3570
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/modern chemis…a.o., thomas vol10_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[502] inventory_id=3571
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/krishna, the …യോത്തമപുരുഷൻ_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[503] inventory_id=3572
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788187328278_20240906_180620.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788187328278_20240906_180620.jpg
+  MOVED + VERIFIED + APPLIED
+
+[504] inventory_id=3573
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/dheergayussin…oseph manuel_20240910_002708.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/dheergayussin…oseph manuel_20240910_002708.jpg
+  MOVED + VERIFIED + APPLIED
+
+[505] inventory_id=3574
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/hindukkal ari…adu gunangal_20240910_003235.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/hindukkal ari…adu gunangal_20240910_003235.jpg
+  MOVED + VERIFIED + APPLIED
+
+[506] inventory_id=3575
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120317451_20240906_000534.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788120317451_20240906_000534.jpg
+  MOVED + VERIFIED + APPLIED
+
+[507] inventory_id=3576
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sabarimala idathavalangal_20240910_004459.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sabarimala idathavalangal_20240910_004459.jpg
+  MOVED + VERIFIED + APPLIED
+
+[508] inventory_id=3578
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/naama geetha …it chaithnya_20240910_003823.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/naama geetha …it chaithnya_20240910_003823.jpg
+  MOVED + VERIFIED + APPLIED
+
+[509] inventory_id=3579
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sandhyanamam …endathengine_20240910_004626.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sandhyanamam …endathengine_20240910_004626.jpg
+  MOVED + VERIFIED + APPLIED
+
+[510] inventory_id=3580
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315426_20240909_232812.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315426_20240909_232812.jpg
+  MOVED + VERIFIED + APPLIED
+
+[511] inventory_id=3581
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/rogashanthikk… kshetrangal_20240910_004401.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/rogashanthikk… kshetrangal_20240910_004401.jpg
+  MOVED + VERIFIED + APPLIED
+
+[512] inventory_id=3582
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/kerala service rules_20240909_043156.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/kerala service rules_20240909_043156.jpg
+  MOVED + VERIFIED + APPLIED
+
+[513] inventory_id=3583
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225922.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315205_20240909_225922.jpg
+  MOVED + VERIFIED + APPLIED
+
+[514] inventory_id=3584
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree krishna … kochanniyan_20240910_005407.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree krishna … kochanniyan_20240910_005407.jpg
+  MOVED + VERIFIED + APPLIED
+
+[515] inventory_id=3585
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100647.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788190046138_20240907_100647.jpg
+  MOVED + VERIFIED + APPLIED
+
+[516] inventory_id=3586
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/deepa pooja_20240910_002314.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/deepa pooja_20240910_002314.jpg
+  MOVED + VERIFIED + APPLIED
+
+[517] inventory_id=3587
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi copy2_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ… mathrubhumi copy2_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[518] inventory_id=3588
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_035354.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9780000112194_20240909_035354.jpg
+  MOVED + VERIFIED + APPLIED
+
+[519] inventory_id=3589
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788178235448_20240909_033610.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788178235448_20240909_033610.jpg
+  MOVED + VERIFIED + APPLIED
+
+[520] inventory_id=3590
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/mruthasanjeev…മൃതസഞ്ജീവിനി_4.jpg
+  MOVED + VERIFIED + APPLIED
+
+[521] inventory_id=3591
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9789382515302 copy1_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9789382515302 copy1_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[522] inventory_id=3592
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_045806.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8189505025_20240909_045806.jpg
+  MOVED + VERIFIED + APPLIED
+
+[523] inventory_id=3593
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[524] inventory_id=3594
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/818912501X_20240906_111914.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/818912501X_20240906_111914.jpg
+  MOVED + VERIFIED + APPLIED
+
+[525] inventory_id=3595
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sree ganesha …ama stothram_20240909_230743.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sree ganesha …ama stothram_20240909_230743.jpg
+  MOVED + VERIFIED + APPLIED
+
+[526] inventory_id=3596
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8185315620 copy1_3.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8185315620 copy1_3.jpg
+  MOVED + VERIFIED + APPLIED
+
+[527] inventory_id=3597
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_034135.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788179501498_20240909_034135.jpg
+  MOVED + VERIFIED + APPLIED
+
+[528] inventory_id=3598
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788120330962_20240906_152416.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788120330962_20240906_152416.jpg
+  MOVED + VERIFIED + APPLIED
+
+[529] inventory_id=3599
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/aesopu, beerb… (malayalam)_2.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/aesopu, beerb… (malayalam)_2.jpg
+  MOVED + VERIFIED + APPLIED
+
+[530] inventory_id=3600
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/engineering g…s for degree_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/engineering g…s for degree_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[531] inventory_id=3601
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/panchangam പഞ്ചാംഗം 1199_20240907_110848.jpg
+  MOVED + VERIFIED + APPLIED
+
+[532] inventory_id=3602
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/a high speed …tive english_20240906_194605.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/a high speed …tive english_20240906_194605.jpg
+  MOVED + VERIFIED + APPLIED
+
+[533] inventory_id=3603
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/108 upanishad…. n. p. unni_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/108 upanishad…. n. p. unni_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[534] inventory_id=3604
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…-(malayalam) copy2_9.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sreemad bhaga…-(malayalam) copy2_9.jpg
+  MOVED + VERIFIED + APPLIED
+
+[535] inventory_id=3605
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8188114006_20240906_140327.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8188114006_20240906_140327.jpg
+  MOVED + VERIFIED + APPLIED
+
+[536] inventory_id=3607
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/vivekananda s…ിത്യ സംഗ്രഹം_20240906_111227.jpg
+  MOVED + VERIFIED + APPLIED
+
+[537] inventory_id=3608
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol20_9.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/electronics l… k.a., navas vol20_9.jpg
+  MOVED + VERIFIED + APPLIED
+
+[538] inventory_id=3609
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788131703090_20240906_013705.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788131703090_20240906_013705.jpg
+  MOVED + VERIFIED + APPLIED
+
+[539] inventory_id=3610
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_20240906_101428.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/aithihyamala …hil sankunni_20240906_101428.jpg
+  MOVED + VERIFIED + APPLIED
+
+[540] inventory_id=3611
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/bhajagovindam…. rama varma_20240909_225349.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/bhajagovindam…. rama varma_20240909_225349.jpg
+  MOVED + VERIFIED + APPLIED
+
+[541] inventory_id=3612
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103814.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8181310985_20240906_103814.jpg
+  MOVED + VERIFIED + APPLIED
+
+[542] inventory_id=3613
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/electromagnet…applications_20240906_005253.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/electromagnet…applications_20240906_005253.jpg
+  MOVED + VERIFIED + APPLIED
+
+[543] inventory_id=3614
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/java programm…ent workbook_20240906_155641.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/java programm…ent workbook_20240906_155641.jpg
+  MOVED + VERIFIED + APPLIED
+
+[544] inventory_id=3615
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788122416077_20240906_200047.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788122416077_20240906_200047.jpg
+  MOVED + VERIFIED + APPLIED
+
+[545] inventory_id=3616
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8176710482_20240906_135608.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8176710482_20240906_135608.jpg
+  MOVED + VERIFIED + APPLIED
+
+[546] inventory_id=3617
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/grihaaishwary… ഗൃഹഐശ്വര്യം_20240906_181738.jpg
+  MOVED + VERIFIED + APPLIED
+
+[547] inventory_id=3618
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/8190180525_6.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/8190180525_6.jpg
+  MOVED + VERIFIED + APPLIED
+
+[548] inventory_id=3619
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/millennium ma…work book #2_20240906_201256.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/millennium ma…work book #2_20240906_201256.jpg
+  MOVED + VERIFIED + APPLIED
+
+[549] inventory_id=3621
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/9788189125639_5.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/9788189125639_5.jpg
+  MOVED + VERIFIED + APPLIED
+
+[550] inventory_id=3622
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/syamamadhuri …y , karakkad_20240910_005924.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/syamamadhuri …y , karakkad_20240910_005924.jpg
+  MOVED + VERIFIED + APPLIED
+
+[551] inventory_id=3623
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/manusmrithi മ…krishnakumar_1.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/manusmrithi മ…krishnakumar_1.jpg
+  MOVED + VERIFIED + APPLIED
+
+[552] inventory_id=3624
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/handy_library_manual_backup_10092025_v1/Icons/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  TO     : /home/harikr/Master-Repository/handy_library_manual_backup_10092025_v1/Icons/sarvadosha pa…a sthuthikal_20240910_004758.jpg
+  MOVED + VERIFIED + APPLIED
+
+[553] inventory_id=3625
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Recordings/Voice Recorder/Voice 260725_160710.m4a
+  TO     : /home/harikr/Master-Repository/Recordings/Voice Recorder/Voice 260725_160710.m4a
+  MOVED + VERIFIED + APPLIED
+
+[554] inventory_id=3626
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/MF003(10MB)/MF003(10MB).wmv
+  TO     : /home/harikr/Master-Repository/Download/Other/MF003(10MB)/MF003(10MB).wmv
+  MOVED + VERIFIED + APPLIED
+
+[555] inventory_id=3627
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225752.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225752.jpg
+  MOVED + VERIFIED + APPLIED
+
+[556] inventory_id=3628
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250813_130451_new.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20250813_130451_new.jpg
+  MOVED + VERIFIED + APPLIED
+
+[557] inventory_id=3629
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/wego_RC_20250813_125922.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/wego_RC_20250813_125922.jpg
+  MOVED + VERIFIED + APPLIED
+
+[558] inventory_id=3630
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225933.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225933.jpg
+  MOVED + VERIFIED + APPLIED
+
+[559] inventory_id=3631
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250716_110028.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20250716_110028.jpg
+  MOVED + VERIFIED + APPLIED
+
+[560] inventory_id=3632
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250716_101244.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20250716_101244.jpg
+  MOVED + VERIFIED + APPLIED
+
+[561] inventory_id=3633
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225708.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225708.jpg
+  MOVED + VERIFIED + APPLIED
+
+[562] inventory_id=3634
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250911_122534.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20250911_122534.jpg
+  MOVED + VERIFIED + APPLIED
+
+[563] inventory_id=3635
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225742.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225742.jpg
+  MOVED + VERIFIED + APPLIED
+
+[564] inventory_id=3636
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20250813_125922_new.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20250813_125922_new.jpg
+  MOVED + VERIFIED + APPLIED
+
+[565] inventory_id=3637
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225910.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225910.jpg
+  MOVED + VERIFIED + APPLIED
+
+[566] inventory_id=3638
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225732(1).jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225732(1).jpg
+  MOVED + VERIFIED + APPLIED
+
+[567] inventory_id=3639
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225942.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225942.jpg
+  MOVED + VERIFIED + APPLIED
+
+[568] inventory_id=3640
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225732.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225732.jpg
+  MOVED + VERIFIED + APPLIED
+
+[569] inventory_id=3641
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/wego_RC_20250813_125922(1).jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/wego_RC_20250813_125922(1).jpg
+  MOVED + VERIFIED + APPLIED
+
+[570] inventory_id=3642
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/Quick Share/20251129_225810.jpg
+  TO     : /home/harikr/Master-Repository/Download/Quick Share/20251129_225810.jpg
+  MOVED + VERIFIED + APPLIED
+
+[571] inventory_id=3643
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-KEYBOARD_DUMP.log
+  TO     : /home/harikr/Master-Repository/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-KEYBOARD_DUMP.log
+  MOVED + VERIFIED + APPLIED
+
+[572] inventory_id=3644
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-FOTA_UPDATE.log
+  TO     : /home/harikr/Master-Repository/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-FOTA_UPDATE.log
+  MOVED + VERIFIED + APPLIED
+
+[573] inventory_id=3645
+  DEVICE : TABLET
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/TABLET/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-CM.log
+  TO     : /home/harikr/Master-Repository/Download/log/KeyboardLog/SmartKeyboardManager_dumpState-CM.log
+  MOVED + VERIFIED + APPLIED
+
+[574] inventory_id=3654
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/test.kicad_prl
+  TO     : /home/harikr/Master-Repository/schemas/test.kicad_prl
+  MOVED + VERIFIED + APPLIED
+
+[575] inventory_id=3655
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/test.kicad_pro
+  TO     : /home/harikr/Master-Repository/schemas/test.kicad_pro
+  MOVED + VERIFIED + APPLIED
+
+[576] inventory_id=3656
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/test.kicad_sch
+  TO     : /home/harikr/Master-Repository/schemas/test.kicad_sch
+  MOVED + VERIFIED + APPLIED
+
+[577] inventory_id=3657
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/personal_job/hari_aadhar_scan.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Identity_n_Accounts/hari_aadhar_scan.jpg
+  MOVED + VERIFIED + APPLIED
+
+[578] inventory_id=3658
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/personal_job/Photo_Hari.jpg
+  TO     : /home/harikr/Master-Repository/Documents/Personal/Identity_n_Accounts/Photo_Hari.jpg
+  MOVED + VERIFIED + APPLIED
+
+[579] inventory_id=3659
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/package.json
+  TO     : /home/harikr/Master-Repository/apps_scripts/package.json
+  MOVED + VERIFIED + APPLIED
+
+[580] inventory_id=3660
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/GmailFilterModificationIncremental.gs
+  TO     : /home/harikr/Master-Repository/apps_scripts/GmailFilterModificationIncremental.gs
+  MOVED + VERIFIED + APPLIED
+
+[581] inventory_id=3661
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/package-lock.json
+  TO     : /home/harikr/Master-Repository/apps_scripts/package-lock.json
+  MOVED + VERIFIED + APPLIED
+
+[582] inventory_id=3662
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/apps_scripts/GmailFilterModificationIncrementalUpdate.gs
+  TO     : /home/harikr/Master-Repository/apps_scripts/GmailFilterModificationIncrementalUpdate.gs
+  MOVED + VERIFIED + APPLIED
+
+[583] inventory_id=3663
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_pcb
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost.kicad_pcb
+  MOVED + VERIFIED + APPLIED
+
+[584] inventory_id=3664
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_sch
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost.kicad_sch
+  MOVED + VERIFIED + APPLIED
+
+[585] inventory_id=3665
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_sch-bak
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost.kicad_sch-bak
+  MOVED + VERIFIED + APPLIED
+
+[586] inventory_id=3666
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/fp-info-cache
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/fp-info-cache
+  MOVED + VERIFIED + APPLIED
+
+[587] inventory_id=3667
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/IRFZ44N.sub
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/IRFZ44N.sub
+  MOVED + VERIFIED + APPLIED
+
+[588] inventory_id=3668
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_pro
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost.kicad_pro
+  MOVED + VERIFIED + APPLIED
+
+[589] inventory_id=3669
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost.kicad_prl
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost.kicad_prl
+  MOVED + VERIFIED + APPLIED
+
+[590] inventory_id=3670
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_185555.zip
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_185555.zip
+  MOVED + VERIFIED + APPLIED
+
+[591] inventory_id=3671
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_192055.zip
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_192055.zip
+  MOVED + VERIFIED + APPLIED
+
+[592] inventory_id=3672
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_190723.zip
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_190723.zip
+  MOVED + VERIFIED + APPLIED
+
+[593] inventory_id=3673
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_225304.zip
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_225304.zip
+  MOVED + VERIFIED + APPLIED
+
+[594] inventory_id=3674
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_183227.zip
+  TO     : /home/harikr/Master-Repository/schemas/buck-boost/buck-boost-backups/buck-boost-2025-11-04_183227.zip
+  MOVED + VERIFIED + APPLIED
+
+[595] inventory_id=3675
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/LTspiceXVII/lib/sub/TL494.sub
+  TO     : /home/harikr/Master-Repository/LtspiceXVII/lib/sub/TL494.sub
+  MOVED + VERIFIED + APPLIED
+
+[596] inventory_id=3676
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/LTspiceXVII/lib/sym/TL494.asy
+  TO     : /home/harikr/Master-Repository/LtspiceXVII/lib/sym/TL494.asy
+  MOVED + VERIFIED + APPLIED
+
+[597] inventory_id=3677
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/ITR/FY-2025-26/SKP/EFLPS6835B_upload_2026-277-10-2026--2-50-54-PM.json
+  TO     : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/SKP/EFLPS6835B_upload_2026-277-10-2026--2-50-54-PM.json
+  MOVED + VERIFIED + APPLIED
+
+[598] inventory_id=3678
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/ITR/FY-2025-26/HKR/AFRPH7413L_upload_2026-277-14-2026--7-22-39-PM.json
+  TO     : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/AFRPH7413L_upload_2026-277-14-2026--7-22-39-PM.json
+  MOVED + VERIFIED + APPLIED
+
+[599] inventory_id=3679
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/ITR/FY-2025-26/HKR/accn_stmts/cc_stmts/HdfcDoc/HdfcDoc.zip
+  TO     : /home/harikr/Master-Repository/Documents/Finance/ITR/FY_2025-26/HKR/accn_stmts/cc_stmts/HdfcDoc/HdfcDoc.zip
+  APPLIED: matching destination already exists.
+
+[600] inventory_id=3680
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/xsl_sorted_mailFilters.xml
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/xsl_sorted_mailFilters.xml
+  MOVED + VERIFIED + APPLIED
+
+[601] inventory_id=3681
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/sort_filters.py
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/sort_filters.py
+  MOVED + VERIFIED + APPLIED
+
+[602] inventory_id=3682
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/fixed_native_sort.xsl
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/fixed_native_sort.xsl
+  MOVED + VERIFIED + APPLIED
+
+[603] inventory_id=3683
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/py_sorted_mailFilters.xml
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/py_sorted_mailFilters.xml
+  MOVED + VERIFIED + APPLIED
+
+[604] inventory_id=3684
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/sort_filters.py.save
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/sort_filters.py.save
+  MOVED + VERIFIED + APPLIED
+
+[605] inventory_id=3685
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/mailFilters.xml
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/mailFilters.xml
+  MOVED + VERIFIED + APPLIED
+
+[606] inventory_id=3686
+  DEVICE : PC
+  FROM   : /home/harikr/Master-Repository/MEDIA_STAGING/PC/google_cloud/mail_filters/sorted_mailFilters.xml
+  TO     : /home/harikr/Master-Repository/Cloud/google_cloud/mail_filters/sorted_mailFilters.xml
+  MOVED + VERIFIED + APPLIED
+
+========================================================================
+SUMMARY
+========================================================================
+Planned rows : 585
+Successful   : 585
+Failed       : 0
+Renames      : 40
+
+============================================================
+Completed    : 2026-08-23 15:24:14 IST
+Status       : SUCCESS
+Run log      : /home/harikr/my_scripts/digital_archive/logs/move_media_canonical_log_20260823_152309.txt
+Generic log  : /home/harikr/my_scripts/digital_archive/logs/scripts_out_log.txt
+============================================================
