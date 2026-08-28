@@ -717,7 +717,7 @@ def main():
                     WHERE file_id=?
                       AND source_device_id=?
                       AND source_path=?
-                      AND manual_canonical_path=?
+                      AND destination_path=?
                     """,
                     (
                         fid,
@@ -745,7 +745,7 @@ def main():
                         file_id,
                         source_device_id,
                         source_path,
-                        manual_canonical_path,
+                        destination_path,
                         source_sha256,
                         destination_sha256,
                         source_size_bytes,

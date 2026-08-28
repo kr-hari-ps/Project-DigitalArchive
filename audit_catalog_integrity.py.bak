@@ -1,0 +1,816 @@
+#!/usr/bin/env python3
+
+import argparse
+import csv
+import sqlite3
+from pathlib import Path
+from datetime import datetime
+import hashlib
+
+
+DEFAULT_DB = Path.home() / "Master-Repository/.archive/catalog.db"
+DEFAULT_DEVICE = "PHONE1_A73"
+DEFAULT_BATCH = "NONDOC_20260827_PHONE1_A73"
+
+def sha256_file(path, chunk_size=1024 * 1024):
+    h = hashlib.sha256()
+
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(chunk_size), b""):
+            h.update(chunk)
+
+    return h.hexdigest()
+
+def verify_master_object(
+    master_root,
+    master_path,
+    expected_sha,
+    expected_size,
+    verify_sha=False,
+):
+    """
+    Read-only physical verification.
+
+    Fast mode:
+        verifies path + size.
+
+    verify_sha=True:
+        additionally verifies SHA-256.
+
+    If the catalog path is stale, searches MASTER by
+    filename/size and then confirms SHA only for candidates.
+    """
+
+    if not master_path:
+        return (
+            "NO_MASTER_PATH",
+            None,
+            None,
+            None,
+            "NOT_CHECKED",
+            "NOT_CHECKED",
+            "FAIL",
+        )
+
+    catalog_path = Path(str(master_path))
+
+    if catalog_path.is_absolute():
+        resolved_path = catalog_path
+    else:
+        resolved_path = master_root / catalog_path
+
+    # ------------------------------------------------------------
+    # Catalog path exists
+    # ------------------------------------------------------------
+
+    if resolved_path.is_file():
+
+        physical_size = resolved_path.stat().st_size
+
+        size_status = (
+            "MATCH"
+            if physical_size == expected_size
+            else "MISMATCH"
+        )
+
+        if size_status != "MATCH":
+            return (
+                "VALID_PATH",
+                resolved_path,
+                physical_size,
+                None,
+                size_status,
+                "NOT_CHECKED",
+                "FAIL",
+            )
+
+        # Fast audit: do not hash the file.
+        if not verify_sha:
+            return (
+                "VALID_PATH",
+                resolved_path,
+                physical_size,
+                None,
+                "MATCH",
+                "NOT_CHECKED",
+                "PASS",
+            )
+
+        actual_sha = sha256_file(resolved_path)
+
+        sha_status = (
+            "MATCH"
+            if actual_sha.lower() == expected_sha.lower()
+            else "MISMATCH"
+        )
+
+        overall_status = (
+            "PASS"
+            if sha_status == "MATCH"
+            else "FAIL"
+        )
+
+        return (
+            "VALID_PATH",
+            resolved_path,
+            physical_size,
+            actual_sha,
+            "MATCH",
+            sha_status,
+            overall_status,
+        )
+
+    # ------------------------------------------------------------
+    # Catalog path is stale.
+    #
+    # First search by filename + size, then SHA only on candidates.
+    # ------------------------------------------------------------
+
+    candidates = []
+
+    filename = catalog_path.name
+
+    for candidate in master_root.rglob(filename):
+
+        if not candidate.is_file():
+            continue
+
+        try:
+            if candidate.stat().st_size == expected_size:
+                candidates.append(candidate)
+        except (OSError, PermissionError):
+            continue
+
+    # If we are doing the fast audit, finding a same-name/same-size
+    # candidate is enough to classify it as an alternate physical path.
+    # Full SHA verification can be requested separately.
+    if candidates and not verify_sha:
+        return (
+            "STALE_PATH_CANDIDATE_FOUND",
+            candidates[0],
+            candidates[0].stat().st_size,
+            None,
+            "MATCH",
+            "NOT_CHECKED",
+            "PASS",
+        )
+
+    # Full SHA validation of candidate(s).
+    for candidate in candidates:
+        try:
+            actual_sha = sha256_file(candidate)
+        except (OSError, PermissionError):
+            continue
+
+        if actual_sha.lower() == expected_sha.lower():
+            return (
+                "STALE_PATH_SHA_FOUND",
+                candidate,
+                candidate.stat().st_size,
+                actual_sha,
+                "MATCH",
+                "MATCH",
+                "PASS",
+            )
+
+    return (
+        "PHYSICALLY_MISSING",
+        resolved_path,
+        None,
+        None,
+        "NOT_FOUND",
+        "NOT_FOUND",
+        "FAIL",
+    )
+
+def resolve_master_path(master_root, master_path):
+    if not master_path:
+        return None
+
+    p = Path(str(master_path))
+
+    if p.is_absolute():
+        return p
+
+    return master_root / p
+
+
+
+def q1(con, sql, params=()):
+    row = con.execute(sql, params).fetchone()
+    return row[0] if row else 0
+
+
+def rows(con, sql, params=()):
+    return con.execute(sql, params).fetchall()
+
+
+def table_exists(con, name):
+    return q1(
+        con,
+        "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name=?",
+        (name,),
+    ) > 0
+
+
+def columns(con, table):
+    return {
+        r[1]
+        for r in con.execute(f"PRAGMA table_info({table})")
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Read-only Digital Archive catalog integrity audit")
+    ap.add_argument("--db", default=str(DEFAULT_DB))
+    ap.add_argument("--device", default=DEFAULT_DEVICE)
+    ap.add_argument("--batch", default=DEFAULT_BATCH)
+    ap.add_argument("--master-root", default=str(Path.home() / "Master-Repository"),)
+    ap.add_argument("--output-dir",default=str(Path.home()/ "my_scripts/digital_archive/catalog_integrity_reports"),)
+    ap.add_argument("--verify-sha", action="store_true", help="Perform physical SHA-256 verification.",)
+    args = ap.parse_args()
+
+    db = Path(args.db)
+    master_root = Path(args.master_root)
+    out = Path(args.output_dir)
+    out.mkdir(parents=True, exist_ok=True)
+
+    con = sqlite3.connect(db)
+    con.execute("PRAGMA foreign_keys=ON")
+
+    ts = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S")
+
+    print("=" * 78)
+    print("DIGITAL ARCHIVE CATALOG INTEGRITY AUDIT")
+    print("=" * 78)
+    print("DATABASE    :", db)
+    print("MASTER ROOT :", master_root)
+    print("DEVICE      :", args.device)
+    print("BATCH       :", args.batch)
+    print("READ ONLY   : YES")
+    print()
+
+    required_tables = [
+        "devices",
+        "files",
+        "file_sources",
+        "copy_manifest",
+        "folders",
+        "multi_media_assets",
+    ]
+
+    print("TABLE AVAILABILITY")
+    print("-" * 78)
+
+    for t in required_tables:
+        print(f"{t:25} : {'YES' if table_exists(con, t) else 'NO'}")
+
+    print()
+
+    # ------------------------------------------------------------------
+    # 1. A73 review population
+    # ------------------------------------------------------------------
+
+    a73 = rows(
+        con,
+        """
+        SELECT
+            keep_decision,
+            COUNT(*) AS file_count,
+            COUNT(DISTINCT lower(sha256)) AS unique_sha,
+            COALESCE(SUM(size_bytes),0) AS total_bytes
+        FROM multi_media_assets
+        WHERE batch_id=?
+        GROUP BY keep_decision
+        ORDER BY keep_decision
+        """,
+        (args.batch,),
+    )
+
+    print("A73 REVIEW POPULATION")
+    print("-" * 78)
+
+    for r in a73:
+        print(
+            f"{str(r[0]):25} : rows={r[1]:6} "
+            f"unique_sha={r[2]:6} bytes={r[3]}"
+        )
+
+    # ------------------------------------------------------------------
+    # 2. Device registration
+    # ------------------------------------------------------------------
+
+    device = con.execute(
+        """
+        SELECT device_id, device_name, device_type, active
+        FROM devices
+        WHERE device_id=?
+        """,
+        (args.device,),
+    ).fetchone()
+
+    print()
+    print("DEVICE")
+    print("-" * 78)
+    print(device if device else "MISSING")
+
+    # ------------------------------------------------------------------
+    # 3. A73 KEEP -> file_sources reconciliation
+    # ------------------------------------------------------------------
+
+    keep_rows = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM multi_media_assets
+        WHERE batch_id=?
+          AND keep_decision='KEEP'
+        """,
+        (args.batch,),
+    )
+
+    source_rows = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM file_sources
+        WHERE device_id=?
+        """,
+        (args.device,),
+    )
+
+    print()
+    print("SOURCE REGISTRATION")
+    print("-" * 78)
+    print("A73 KEEP rows              :", keep_rows)
+    print("file_sources for device    :", source_rows)
+
+    # ------------------------------------------------------------------
+    # 4. Duplicate source registrations
+    # ------------------------------------------------------------------
+
+    duplicate_sources = rows(
+        con,
+        """
+        SELECT
+            device_id,
+            source_path,
+            COUNT(*) AS occurrences
+        FROM file_sources
+        WHERE device_id=?
+        GROUP BY device_id, source_path
+        HAVING COUNT(*) > 1
+        ORDER BY occurrences DESC, source_path
+        """,
+        (args.device,),
+    )
+
+    print("Duplicate source paths     :", len(duplicate_sources))
+
+    # ------------------------------------------------------------------
+    # 5. A73 SHA -> files
+    # ------------------------------------------------------------------
+
+    a73_sha = q1(
+        con,
+        """
+        SELECT COUNT(DISTINCT lower(sha256))
+        FROM multi_media_assets
+        WHERE batch_id=?
+          AND keep_decision='KEEP'
+        """,
+        (args.batch,),
+    )
+
+    matched_sha = q1(
+        con,
+        """
+        SELECT COUNT(DISTINCT lower(m.sha256))
+        FROM multi_media_assets m
+        JOIN files f
+          ON lower(f.sha256)=lower(m.sha256)
+        WHERE m.batch_id=?
+          AND m.keep_decision='KEEP'
+        """,
+        (args.batch,),
+    )
+
+    print()
+    print("MASTER SHA RECONCILIATION")
+    print("-" * 78)
+    print("A73 KEEP unique SHA         :", a73_sha)
+    print("SHA represented in files    :", matched_sha)
+    print("SHA not represented        :", a73_sha - matched_sha)
+
+    # ------------------------------------------------------------------
+    # 6. Existing vs new A73 master objects
+    # ------------------------------------------------------------------
+
+    master_counts = rows(
+        con,
+        """
+        SELECT
+            CASE
+                WHEN EXISTS (
+                    SELECT 1
+                    FROM file_sources fs
+                    WHERE fs.file_id=f.file_id
+                      AND fs.device_id=?
+                )
+                THEN 'A73_SOURCE'
+                ELSE 'OTHER_SOURCE'
+            END AS source_class,
+            COUNT(*) AS file_count,
+            COUNT(DISTINCT lower(f.sha256)) AS unique_sha
+        FROM files f
+        WHERE lower(f.sha256) IN (
+            SELECT DISTINCT lower(sha256)
+            FROM multi_media_assets
+            WHERE batch_id=?
+              AND keep_decision='KEEP'
+        )
+        GROUP BY source_class
+        """,
+        (args.device, args.batch),
+    )
+
+    for r in master_counts:
+        print(
+            f"{r[0]:25} : files={r[1]:6} unique_sha={r[2]:6}"
+        )
+
+    # ------------------------------------------------------------------
+    # 7. copy_manifest reconciliation
+    # ------------------------------------------------------------------
+
+    manifest_count = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM copy_manifest
+        WHERE source_device_id=?
+        """,
+        (args.device,),
+    )
+
+    verified_count = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM copy_manifest
+        WHERE source_device_id=?
+          AND upper(status)='VERIFIED'
+        """,
+        (args.device,),
+    )
+
+    print()
+    print("COPY MANIFEST")
+    print("-" * 78)
+    print("A73 manifest rows           :", manifest_count)
+    print("VERIFIED rows               :", verified_count)
+
+    # ------------------------------------------------------------------
+    # 8. Manifest -> files path agreement
+    # ------------------------------------------------------------------
+
+    path_mismatch = rows(
+        con,
+        """
+        SELECT
+            cm.file_id,
+            cm.destination_path,
+            f.master_path
+        FROM copy_manifest cm
+        JOIN files f
+          ON f.file_id=cm.file_id
+        WHERE cm.source_device_id=?
+          AND COALESCE(cm.destination_path,'')
+              <> COALESCE(f.master_path,'')
+        """,
+        (args.device,),
+    )
+
+    print("Manifest/master path mismatch:", len(path_mismatch))
+
+
+    # ------------------------------------------------------------------
+    # 9. Physical master integrity
+    # ------------------------------------------------------------------
+
+    valid_path = []
+    stale_path_sha_found = []
+    physically_missing = []
+    no_master_path = []
+
+    size_errors = []
+    sha_errors = []
+
+    physical_results = []
+
+    a73_master_rows = rows(
+        con,
+        """
+        SELECT DISTINCT
+            f.file_id,
+            f.sha256,
+            f.master_path,
+            f.canonical_path,
+            f.size_bytes,
+            f.filename
+        FROM files f
+        JOIN file_sources fs
+          ON fs.file_id=f.file_id
+        WHERE fs.device_id=?
+        ORDER BY f.file_id
+        """,
+        (args.device,),
+    )
+
+    for fid, sha, master_path, canonical_path, size_bytes, filename in a73_master_rows:
+
+        result = verify_master_object(
+            master_root,
+            master_path,
+            sha.lower(),
+            size_bytes,
+            verify_sha=args.verify_sha,
+        )
+
+        (
+            path_status,
+            resolved_path,
+            physical_size,
+            physical_sha,
+            size_status,
+            sha_status,
+            overall_status,
+        ) = result
+
+        record = {
+            "file_id": fid,
+            "sha256": sha,
+            "filename": filename,
+            "canonical_path": canonical_path,
+            "catalog_master_path": master_path,
+            "resolved_physical_path": (
+                str(resolved_path)
+                if resolved_path
+                else ""
+            ),
+            "catalog_size_bytes": size_bytes,
+            "physical_size_bytes": physical_size,
+            "catalog_sha256": sha,
+            "physical_sha256": physical_sha or "",
+            "path_status": path_status,
+            "size_status": size_status,
+            "sha_status": sha_status,
+            "overall_status": overall_status,
+        }
+
+        physical_results.append(record)
+
+        if path_status == "VALID_PATH":
+            valid_path.append(record)
+
+        elif path_status == "STALE_PATH_SHA_FOUND":
+            stale_path_sha_found.append(record)
+
+        elif path_status == "PHYSICALLY_MISSING":
+            physically_missing.append(record)
+
+        elif path_status == "NO_MASTER_PATH":
+            no_master_path.append(record)
+
+        if size_status == "MISMATCH":
+            size_errors.append(record)
+
+        if sha_status == "MISMATCH":
+            sha_errors.append(record)
+
+    print()
+    print("PHYSICAL MASTER CHECK")
+    print("-" * 78)
+    print("A73-linked master objects     :", len(a73_master_rows))
+    print("VALID_PATH                    :", len(valid_path))
+    print("STALE_PATH_SHA_FOUND         :", len(stale_path_sha_found))
+    print("PHYSICALLY_MISSING            :", len(physically_missing))
+    print("NO_MASTER_PATH                :", len(no_master_path))
+    print("Physical size mismatches      :", len(size_errors))
+    print("Physical SHA mismatches       :", len(sha_errors))
+
+  
+    # ------------------------------------------------------------------
+    # 10. Orphan file_sources
+    # ------------------------------------------------------------------
+
+    orphan_sources = rows(
+        con,
+        """
+        SELECT fs.file_id, fs.device_id, fs.source_path
+        FROM file_sources fs
+        LEFT JOIN files f
+          ON f.file_id=fs.file_id
+        WHERE fs.device_id=?
+          AND f.file_id IS NULL
+        """,
+        (args.device,),
+    )
+
+    print("Orphan A73 file_sources     :", len(orphan_sources))
+
+    # ------------------------------------------------------------------
+    # 11. A73 source SHA vs files SHA
+    # ------------------------------------------------------------------
+
+    source_sha_errors = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM file_sources fs
+        JOIN files f
+          ON f.file_id=fs.file_id
+        WHERE fs.device_id=?
+          AND lower(COALESCE(fs.source_sha256,'')) <> lower(COALESCE(f.sha256,''))
+        """,
+        (args.device,),
+    )
+
+    print("Source/master SHA mismatch  :", source_sha_errors)
+
+    # ------------------------------------------------------------------
+    # 12. Canonical path nulls
+    # ------------------------------------------------------------------
+
+    canonical_nulls = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM files f
+        JOIN file_sources fs
+          ON fs.file_id=f.file_id
+        WHERE fs.device_id=?
+          AND (
+              f.canonical_path IS NULL
+              OR trim(f.canonical_path)=''
+          )
+        """,
+        (args.device,),
+    )
+
+    print("A73 masters without canonical path:", canonical_nulls)
+
+    # ------------------------------------------------------------------
+    # 13. Folder references
+    # ------------------------------------------------------------------
+
+    folder_count = q1(
+        con,
+        """
+        SELECT COUNT(*)
+        FROM folders
+        WHERE folder_type='MASTER'
+        """
+    )
+
+    print("MASTER folders              :", folder_count)
+
+    # ------------------------------------------------------------------
+    # 14. Write detailed CSV
+    # ------------------------------------------------------------------
+
+    report_csv = out / f"A73_catalog_integrity_{ts}.csv"
+
+    with report_csv.open(
+        "w",
+        encoding="utf-8",
+        newline="",
+    ) as f:
+
+        w = csv.writer(f)
+
+        w.writerow([
+            "section",
+            "file_id",
+            "sha256",
+            "source_path",
+            "master_path",
+            "canonical_path",
+            "size_bytes",
+            "physical_size_bytes",
+            "status",
+            "detail",
+        ])
+        
+        for r in physical_results:
+            w.writerow([
+                "A73_MASTER",
+                r["file_id"],
+                r["sha256"],
+                "",
+                r["catalog_master_path"],
+                r["canonical_path"],
+                r["catalog_size_bytes"],
+                r["physical_size_bytes"],
+                r["overall_status"],
+                (
+                    f"path={r['path_status']}; "
+                    f"size={r['size_status']}; "
+                    f"sha={r['sha_status']}; "
+                    f"physical={r['resolved_physical_path']}"
+                ),
+            ])
+        
+
+        for fid, sha, master_path, canonical_path, size_bytes, filename in a73_master_rows:
+            p = resolve_master_path(master_root, master_path)
+
+            actual_size = (
+                p.stat().st_size
+                if p and p.is_file()
+                else ""
+            )
+
+            canonical = q1(
+                con,
+                "SELECT COALESCE(canonical_path,'') FROM files WHERE file_id=?",
+                (fid,),
+            )
+
+            status = "PASS"
+
+            if not master_path:
+                status = "NO_MASTER_PATH"
+            elif not p.is_file():
+                status = "MISSING"
+            elif size_bytes is not None and actual_size != size_bytes:
+                status = "SIZE_MISMATCH"
+
+            w.writerow([
+                "A73_MASTER",
+                fid,
+                sha,
+                "",
+                master_path,
+                canonical,
+                size_bytes,
+                actual_size,
+                status,
+                "",
+            ])
+
+
+        for fid, device_id, source_path in orphan_sources:
+            w.writerow([
+                "ORPHAN_SOURCE",
+                fid,
+                "",
+                source_path,
+                "",
+                "",
+                "",
+                "",
+                "ERROR",
+                "file_sources references missing files.file_id",
+            ])
+
+    # ------------------------------------------------------------------
+    # Final summary
+    # ------------------------------------------------------------------
+
+    print()
+    print("=" * 78)
+    print("AUDIT SUMMARY")
+    print("=" * 78)
+
+    checks = [
+        ("DEVICE_PRESENT", device is not None),
+        ("KEEP_SOURCE_COUNT", keep_rows == source_rows),
+        ("ALL_KEEP_SHA_IN_FILES", matched_sha == a73_sha),
+        ("NO_DUPLICATE_SOURCE_PATHS", len(duplicate_sources) == 0),
+        ("MANIFEST_PATHS_AGREE", len(path_mismatch) == 0),
+        ("NO_PHYSICALLY_MISSING", len(physically_missing) == 0,),
+        ("NO_MASTER_PATH_ERRORS", len(no_master_path) == 0,),
+        ("NO_SIZE_ERRORS", len(size_errors) == 0,),
+        ("NO_SHA_ERRORS", len(sha_errors) == 0,),
+
+
+
+
+        ("NO_ORPHAN_SOURCES", len(orphan_sources) == 0),
+        ("SOURCE_MASTER_SHA_AGREE", source_sha_errors == 0),
+    ]
+
+    for name, passed in checks:
+        print(f"{name:35} : {'PASS' if passed else 'FAIL'}")
+
+    print()
+    print("REPORT CSV :", report_csv)
+    print()
+    print("DATABASE MODIFICATIONS : NONE")
+
+    con.close()
+
+
+if __name__ == "__main__":
+    main()
