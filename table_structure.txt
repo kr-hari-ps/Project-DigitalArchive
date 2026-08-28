@@ -1,0 +1,100 @@
+PRAGMA table_info(files);
+PRAGMA table_info(file_sources);
+PRAGMA table_info(copy_manifest);
+PRAGMA table_info(folders);
+
+SELECT 'files' AS table_name, * FROM pragma_table_info('files')
+UNION ALL
+SELECT 'multi_media_assets' AS table_name, * FROM pragma_table_info('multi_media_assets')
+UNION ALL
+SELECT 'file_sources' AS table_name, * FROM pragma_table_info('file_sources')
+UNION ALL
+SELECT 'copy_manifest' AS table_name, * FROM pragma_table_info('copy_manifest')
+UNION ALL
+SELECT 'folders' AS table_name, * FROM pragma_table_info('folders');
+
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |
+| table_name         | cid | name                    | type    | notnull | dflt_value        | pk |
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |
+| files              | 0   | file_id                 | INTEGER | 0       |                   | 1  |
+| files              | 1   | sha256                  | TEXT    | 1       |                   | 0  |
+| files              | 2   | master_path             | TEXT    | 0       |                   | 0  |
+| files              | 3   | filename                | TEXT    | 1       |                   | 0  |
+| files              | 4   | extension               | TEXT    | 0       |                   | 0  |
+| files              | 5   | size_bytes              | INTEGER | 1       |                   | 0  |
+| files              | 6   | media_type              | TEXT    | 0       |                   | 0  |
+| files              | 7   | capture_date            | TEXT    | 0       |                   | 0  |
+| files              | 8   | created_date            | TEXT    | 0       |                   | 0  |
+| files              | 9   | modified_date           | TEXT    | 0       |                   | 0  |
+| files              | 10  | status                  | TEXT    | 1       | 'MASTER'          | 0  |
+| files              | 11  | notes                   | TEXT    | 0       |                   | 0  |
+| files              | 12  | created_at              | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| files              | 13  | updated_at              | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| files              | 14  | canonical_path          | TEXT    | 0       |                   | 0  |
+| files              | 15  | storage_state           | TEXT    | 1       | 'IN_MASTER'       | 0  |
+| files              | 16  | external_device_id      | TEXT    | 0       |                   | 0  |
+| files              | 17  | external_path           | TEXT    | 0       |                   | 0  |
+| files              | 18  | moved_out_at            | TEXT    | 0       |                   | 0  |
+| files              | 19  | storage_move_reason     | TEXT    | 0       |                   | 0  |
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |
+| multi_media_assets | 0   | inventory_id            | INTEGER | 0       |                   | 1  |
+| multi_media_assets | 1   | batch_id                | TEXT    | 1       |                   | 0  |
+| multi_media_assets | 2   | source_device_id        | TEXT    | 1       |                   | 0  |
+| multi_media_assets | 3   | source_path             | TEXT    | 1       |                   | 0  |
+| multi_media_assets | 4   | relative_path           | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 5   | filename                | TEXT    | 1       |                   | 0  |
+| multi_media_assets | 6   | extension               | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 7   | category                | TEXT    | 1       |                   | 0  |
+| multi_media_assets | 8   | size_bytes              | INTEGER | 1       |                   | 0  |
+| multi_media_assets | 9   | sha256                  | TEXT    | 1       |                   | 0  |
+| multi_media_assets | 10  | duplicate_group         | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 11  | duplicate_status        | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 12  | keep_decision           | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 13  | proposed_category       | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 14  | proposed_canonical_path | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 15  | manual_category         | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 16  | manual_canonical_path   | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 17  | manual_notes            | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 18  | created_at              | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| multi_media_assets | 19  | updated_at              | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| multi_media_assets | 20  | source_created_at       | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 21  | source_modified_at      | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 22  | source_accessed_at      | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 23  | source_ctime_at         | TEXT    | 0       |                   | 0  |
+| multi_media_assets | 24  | duplicate_reason        | TEXT    | 0       |                   | 0  |
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |
+| file_sources       | 0   | file_id                 | INTEGER | 1       |                   | 1  |
+| file_sources       | 1   | device_id               | TEXT    | 1       |                   | 2  |
+| file_sources       | 2   | source_path             | TEXT    | 0       |                   | 3  |
+| file_sources       | 3   | source_filename         | TEXT    | 0       |                   | 0  |
+| file_sources       | 4   | source_size_bytes       | INTEGER | 0       |                   | 0  |
+| file_sources       | 5   | source_sha256           | TEXT    | 1       |                   | 0  |
+| file_sources       | 6   | source_modified_date    | TEXT    | 0       |                   | 0  |
+| file_sources       | 7   | first_seen_at           | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |
+| copy_manifest      | 0   | manifest_id             | INTEGER | 0       |                   | 1  |
+| copy_manifest      | 1   | file_id                 | INTEGER | 1       |                   | 0  |
+| copy_manifest      | 2   | source_device_id        | TEXT    | 1       |                   | 0  |
+| copy_manifest      | 3   | source_path             | TEXT    | 1       |                   | 0  |
+| copy_manifest      | 4   | destination_path        | TEXT    | 1       |                   | 0  |
+| copy_manifest      | 5   | source_sha256           | TEXT    | 1       |                   | 0  |
+| copy_manifest      | 6   | destination_sha256      | TEXT    | 0       |                   | 0  |
+| copy_manifest      | 7   | source_size_bytes       | INTEGER | 0       |                   | 0  |
+| copy_manifest      | 8   | destination_size_bytes  | INTEGER | 0       |                   | 0  |
+| copy_manifest      | 9   | copied_at               | TEXT    | 0       |                   | 0  |
+| copy_manifest      | 10  | verified_at             | TEXT    | 0       |                   | 0  |
+| copy_manifest      | 11  | status                  | TEXT    | 1       | 'PLANNED'         | 0  |
+| copy_manifest      | 12  | verification_method     | TEXT    | 0       |                   | 0  |
+| copy_manifest      | 13  | error_message           | TEXT    | 0       |                   | 0  |
+| copy_manifest      | 14  | notes                   | TEXT    | 0       |                   | 0  |
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |
+| folders            | 0   | folder_id               | INTEGER | 0       |                   | 1  |
+| folders            | 1   | master_path             | TEXT    | 1       |                   | 0  |
+| folders            | 2   | folder_name             | TEXT    | 1       |                   | 0  |
+| folders            | 3   | parent_path             | TEXT    | 0       |                   | 0  |
+| folders            | 4   | folder_type             | TEXT    | 0       |                   | 0  |
+| folders            | 5   | description             | TEXT    | 0       |                   | 0  |
+| folders            | 6   | device_summary          | TEXT    | 0       |                   | 0  |
+| folders            | 7   | created_at              | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| folders            | 8   | updated_at              | TEXT    | 1       | CURRENT_TIMESTAMP | 0  |
+| ------------------ | --- | ----------------------- | ------- | ------- | ----------------- | -- |

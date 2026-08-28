@@ -1,0 +1,6 @@
+phone_inventory_rows: 10023
+unique_phone_sha256: 9798
+files_table_rows: 886
+existing_master: 69
+existing_bin: 1
+new_content: 9728
