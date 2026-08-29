@@ -1,7 +1,0 @@
--- MANUAL CANONICAL PLAN MIGRATION
--- Metadata-only. Use migrate_manual_plan_fields.py.
---
--- Adds:
---   canonical_plan.manual_canonical_path
---   canonical_plan.manual_category
---   canonical_plan.manual_notes

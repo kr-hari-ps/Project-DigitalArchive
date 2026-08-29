@@ -6,6 +6,9 @@
 # Ignore Python cache
 __pycache__/
 *.pyc
+*.py[cod]
+.pytest_cache/
+
 
 # Ignore temporary staging and migration data
 migration-work/
