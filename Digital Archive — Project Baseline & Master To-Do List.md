@@ -14,7 +14,9 @@ The system should:
 - maintain physical and catalog integrity;
 - support future media metadata enrichment;
 - reconstruct a device from the current MASTER catalog;
-- be suitable as a professional portfolio project demonstrating SQL, Python, data modeling, data quality, automation, Linux and Git practices.
+- provide a reusable Python desktop application with a GUI;
+- keep UI, application services, database access, and physical file operations separated;
+- be suitable as a professional portfolio project demonstrating SQL, Python, data modeling, data quality, automation, Linux, Git and desktop application architecture.
 
 Initial devices:
 
@@ -32,13 +34,13 @@ These are project-wide rules and do not need to be repeated in individual prompt
 
 ### Device independent
 
-No operational Python script should contain logic specific to:
+No operational Python code should contain logic specific to:
 
 - PC
 - TABLET
 - PHONE1_A73
 
-Device identity must be supplied through a parameter such as:
+Device identity must be supplied through configuration, catalog data, discovery adapters, or parameters such as:
 
 ```bash
 --device PC
@@ -46,11 +48,11 @@ Device identity must be supplied through a parameter such as:
 --device PHONE1_A73
 ```
 
-Adding a new device should require catalog registration and configuration/data, not code changes.
+Adding a new device should require catalog registration and/or a discovery adapter, not changes to core business logic.
 
 ### Re-runnable / idempotent
 
-Every operational script must be safe to run again.
+Every operational workflow must be safe to run again.
 
 A second execution should:
 
@@ -58,11 +60,12 @@ A second execution should:
 - avoid duplicate database rows;
 - avoid unnecessary file copies/moves;
 - verify existing physical objects rather than blindly replacing them;
+- preserve immutable device and file identities;
 - produce a deterministic result.
 
 ### Dry-run first
 
-Any script capable of changing files or database state must support:
+Any operation capable of changing files or database state must support:
 
 ```text
 DRY RUN
@@ -74,18 +77,41 @@ explicit EXECUTE
 
 No destructive or physical operation should occur implicitly.
 
-### SHA-256 is the identity
+### SHA-256 is the file identity
 
 Filename and path are metadata.
 
-SHA-256 is the authoritative content identity.
+SHA-256 is the authoritative content identity for files.
 
-Never determine file identity solely from:
+Never determine logical file identity solely from:
 
 - filename;
 - extension;
 - source path;
 - file size.
+
+### Device identity
+
+`devices.device_uuid` is the immutable archive identity for a device record.
+
+`devices.device_id` is the human/application identifier and must remain stable unless an explicit administrative rename is performed.
+
+External identifiers are stored separately in `device_identifiers` and may include platform-specific values such as:
+
+- `ADB_SERIAL`
+- `SMBIOS_UUID`
+- `SYSTEM_SERIAL`
+- `USB_SERIAL`
+- `FILESYSTEM_UUID`
+- `MTP_ID`
+- `HOST_MACHINE_ID`
+- `MANUAL`
+
+External identifiers are evidence for recognizing a connected device; they are not the archive's primary identity.
+
+A device may have multiple external identifiers.
+
+An external identifier value must not be silently assigned to multiple devices.
 
 ### Provenance is retained
 
@@ -98,12 +124,12 @@ files
     = logical/master object
 
 file_sources
-    = source-device provenance
+    = device/source provenance
 ```
 
 Multiple source occurrences must not automatically create multiple logical `files` records.
 
-### Canonical path is authoritative for restoration
+### Canonical path is authoritative for organization and restoration
 
 For device reconstruction:
 
@@ -123,11 +149,11 @@ files.sha256
 
 The original source directory tree must NOT be recreated.
 
-If the user renamed/reorganized a file in MASTER, the current canonical MASTER organization prevails during restoration.
+If a file was renamed or reorganized in MASTER, the current canonical MASTER organization prevails during restoration.
 
 ### `_Bin` is quarantine, not restore source
 
-Files in:
+Files with:
 
 ```text
 storage_state = IN_BIN
@@ -149,6 +175,14 @@ canonical_path
 
 They have different meanings.
 
+### UI is not the business logic
+
+The desktop UI must not contain raw SQL, file-copy logic, duplicate-cleanup logic, or catalog business rules.
+
+The UI calls reusable application services.
+
+CLI and GUI must consume the same service layer wherever practical.
+
 ---
 
 # 3. Current Target Architecture
@@ -157,6 +191,7 @@ They have different meanings.
 
 ```text
 devices
+device_identifiers
 files
 file_sources
 restore_preferences
@@ -194,7 +229,137 @@ These were empty at the time of review and are candidates for removal after the 
 
 ---
 
-# 4. Phase 0 — Repository Engineering Cleanup
+# 4. Repository Architecture
+
+The repository is now organized by reusable capability rather than migration chronology.
+
+Target structure:
+
+```text
+Project-DigitalArchive/
+│
+├── README.md
+├── LICENSE
+├── pyproject.toml
+│
+├── src/
+│   └── digital_archive/
+│       ├── __init__.py
+│       ├── cli.py
+│       │
+│       ├── catalog/
+│       ├── devices/
+│       ├── ingestion/
+│       ├── canonical/
+│       ├── duplicates/
+│       ├── integrity/
+│       ├── restore/
+│       ├── media/
+│       └── ui/
+│
+├── sql/
+│   ├── schema.sql
+│   ├── migrations/
+│   └── verification/
+│
+├── tests/
+│   ├── unit/
+│   └── integration/
+│
+├── docs/
+│   ├── architecture.md
+│   ├── data-model.md
+│   ├── restore-design.md
+│   ├── device-identity.md
+│   ├── migration-history.md
+│   └── runbooks/
+│
+├── examples/
+│
+└── archive/
+    ├── phase1/
+    ├── historical-scripts/
+    └── superseded/
+```
+
+### Structure rules
+
+- Reusable production logic belongs under `src/digital_archive/`.
+- Database schema and migrations belong under `sql/`.
+- Automated tests belong under `tests/`.
+- Design and operational documentation belongs under `docs/`.
+- Synthetic examples belong under `examples/`.
+- Superseded scripts and historical evidence belong under `archive/`.
+- Personal data, production catalog databases, credentials, and private source paths must not be committed.
+- Historical scripts should be archived rather than silently deleted until their useful behavior has been reviewed.
+
+---
+
+# 5. Application Architecture
+
+The desktop application is a product layer over reusable services.
+
+```text
+                    Desktop UI
+                         │
+                 Application Services
+                         │
+       ┌─────────────────┼──────────────────┐
+       │                 │                  │
+    Catalog           Device            Restore
+    Service           Service            Service
+       │                 │                  │
+       └─────────────────┼──────────────────┘
+                         │
+                  Repository / DB
+                         │
+                       SQLite
+                         │
+                Physical MASTER / Devices
+```
+
+### UI technology
+
+Use a Python desktop framework such as PySide6/Qt unless a later architecture review identifies a better option.
+
+### Initial UI capability
+
+Start with:
+
+```text
+Connect / Select Device
+        ↓
+Device discovery
+        ↓
+External identifier detection
+        ↓
+Match existing device or request registration
+        ↓
+Populate/update devices + device_identifiers
+```
+
+The UI should present a device without requiring device-specific code.
+
+### Future UI menu areas
+
+```text
+File
+Devices
+Ingestion
+Canonical
+Duplicates
+Integrity
+Restore
+Media
+Reports
+Help
+```
+
+The UI should call application services and should not reimplement business logic.
+
+---
+
+# 6. Phase 0 — Repository Engineering Cleanup
 
 ### Goal
 
@@ -210,8 +375,8 @@ Turn the accumulated migration scripts into a clean portfolio-quality project.
 - [ ] Move historical scripts into an archive area.
 - [ ] Keep historical runbooks and results where useful.
 - [ ] Avoid deleting historical evidence prematurely.
-- [ ] Define a clean source-code structure.
-- [ ] Create a single project README.
+- [x] Define clean source-code structure.
+- [ ] Create/refresh the single project README.
 - [ ] Create architecture documentation.
 - [ ] Create data-model documentation.
 - [ ] Establish coding conventions.
@@ -221,25 +386,11 @@ Turn the accumulated migration scripts into a clean portfolio-quality project.
 - [ ] Establish error-handling conventions.
 - [ ] Establish idempotency expectations.
 - [ ] Add automated tests.
-
-### Portfolio objective
-
-A recruiter should see:
-
-```text
-src/
-tests/
-sql/
-docs/
-examples/
-archive/
-```
-
-rather than a chronological collection of migration scripts.
+- [ ] Define packaging/application entry points.
 
 ---
 
-# 5. Phase 1 — Catalog Foundation
+# 7. Phase 1 — Catalog Foundation
 
 ### Goal
 
@@ -248,6 +399,7 @@ Make SQLite the authoritative metadata/catalog layer.
 ### Tasks
 
 - [x] `devices`
+- [x] `device_identifiers` schema defined
 - [x] `files`
 - [x] `file_sources`
 - [x] `folders`
@@ -265,7 +417,9 @@ Make SQLite the authoritative metadata/catalog layer.
 
 ### Remaining
 
-- [ ] Document and freeze the schema.
+- [ ] Apply and validate device identity migration on the active catalog.
+- [ ] Populate external identifiers for existing devices where available.
+- [ ] Freeze the active production schema.
 - [ ] Add indexes where query patterns justify them.
 - [ ] Add catalog validation tests.
 - [ ] Document FK relationships.
@@ -273,28 +427,38 @@ Make SQLite the authoritative metadata/catalog layer.
 
 ---
 
-# 6. Phase 2 — Device Ingestion
+# 8. Phase 2 — Device Discovery & Ingestion
 
 ### Goal
 
-Create a reusable ingestion pipeline.
+Create a reusable device discovery and ingestion pipeline.
 
 ```text
-DEVICE
-   ↓
-inventory
-   ↓
+CONNECTED DEVICE
+      ↓
+DISCOVERY ADAPTER
+      ↓
+DEVICE IDENTITY
+      ↓
+INVENTORY
+      ↓
 SHA-256
-   ↓
-catalog registration
-   ↓
+      ↓
+CATALOG REGISTRATION
+      ↓
 file_sources
 ```
 
 ### Requirements
 
-- [ ] Generic device inventory.
-- [ ] Device passed as CLI parameter.
+- [ ] Generic device discovery interface.
+- [ ] Android/ADB discovery adapter.
+- [ ] PC discovery adapter(s).
+- [ ] Generic/manual discovery fallback.
+- [ ] Discover and record external identifiers.
+- [ ] Match a connected device against registered identifiers.
+- [ ] Require confirmation when identity is ambiguous.
+- [ ] Device passed as a parameter where appropriate.
 - [ ] Source paths preserved exactly.
 - [ ] Source filename preserved.
 - [ ] Source size recorded.
@@ -309,7 +473,7 @@ file_sources
 
 ---
 
-# 7. Phase 3 — Canonical Organization
+# 9. Phase 3 — Canonical Organization
 
 ### Goal
 
@@ -333,7 +497,7 @@ files.canonical_path
 - [x] Manual canonical decisions applied.
 - [x] Canonical paths verified against MASTER.
 - [ ] Stop using `canonical_plan` operationally.
-- [ ] Retain `canonical_plan` as historical decision evidence.
+- [x] Retain `canonical_plan` as historical decision evidence.
 - [ ] Define future canonical editing workflow.
 - [ ] Add canonical collision validation.
 - [ ] Add canonical-path safety validation.
@@ -341,7 +505,7 @@ files.canonical_path
 
 ---
 
-# 8. Phase 4 — MASTER Storage
+# 10. Phase 4 — MASTER Storage
 
 ### Goal
 
@@ -357,19 +521,19 @@ Maintain a verified physical MASTER repository.
 - [x] Stale path case identified and repaired.
 - [ ] Generalize physical-path resolver.
 - [ ] Build reusable physical integrity audit.
-- [ ] Distinguish:
+- [x] Distinguish:
   - VALID_PATH
   - STALE_PATH
   - PHYSICALLY_MISSING
   - SIZE_MISMATCH
   - SHA_MISMATCH
 - [ ] Add optional full SHA audit.
-- [ ] Add fast path/size audit.
-- [ ] Produce CSV audit reports.
+- [x] Add fast path/size audit.
+- [x] Produce CSV audit reports.
 
 ---
 
-# 9. Phase 5 — Duplicate Management
+# 11. Phase 5 — Duplicate Management
 
 ### Goal
 
@@ -399,12 +563,12 @@ move redundant physical source to _Bin
 - [ ] Build staging duplicate dry-run.
 - [ ] Include MASTER verification.
 - [ ] Include provenance checks.
-- [ ] Never delete catalog provenance when deleting physical duplicates.
+- [x] Never delete catalog provenance when deleting physical duplicates.
 - [ ] Add reversible recovery procedure.
 
 ---
 
-# 10. Phase 6 — Device Restore
+# 12. Phase 6 — Device Restore
 
 ## Objective
 
@@ -420,6 +584,20 @@ new TABLET storage
 restore --device TABLET
      ↓
 current MASTER organization
+```
+
+### Restore selection
+
+The restore set MUST be derived through `file_sources`:
+
+```text
+requested device
+      ↓
+file_sources.device_id
+      ↓
+DISTINCT file_id
+      ↓
+files
 ```
 
 ### Restore source
@@ -442,15 +620,9 @@ files.canonical_path
 files.sha256
 ```
 
-### Restore membership
-
-```text
-file_sources.device_id
-```
-
 ### `_Bin`
 
-Excluded by default.
+Excluded by default and never treated as an implicit restore source.
 
 ### Current status
 
@@ -463,6 +635,7 @@ Excluded by default.
 - [x] PC stale-path issue resolved.
 - [x] A73 stale-path issue resolved.
 - [x] `IN_BIN` explicitly excluded.
+- [x] Restore set uses `file_sources` device membership.
 
 ### Current restore readiness
 
@@ -489,10 +662,11 @@ PHONE1_A73
 ### Remaining
 
 - [ ] Freeze restore-manifest specification.
+- [ ] Add device_uuid to restore manifest.
 - [ ] Improve manifest source resolution.
 - [ ] Add restore target collision detection.
 - [ ] Define restore overwrite policy.
-- [ ] Implement device-independent `restore_device.py`.
+- [ ] Implement device-independent restore service/executor.
 - [ ] Dry-run restore.
 - [ ] Execute restore to isolated test directory.
 - [ ] Verify destination SHA-256.
@@ -504,7 +678,7 @@ PHONE1_A73
 
 ---
 
-# 11. Phase 7 — Staging Cleanup
+# 13. Phase 7 — Staging Cleanup
 
 ### Goal
 
@@ -546,7 +720,7 @@ file is not itself the MASTER object
 
 ---
 
-# 12. Phase 8 — Media Metadata
+# 14. Phase 8 — Media Metadata
 
 ### Goal
 
@@ -588,7 +762,7 @@ metadata_json
 
 ---
 
-# 13. Phase 9 — Data Quality & Observability
+# 15. Phase 9 — Data Quality & Observability
 
 ### Goal
 
@@ -610,6 +784,7 @@ Make the system measurable and auditable.
 - [ ] physical SHA mismatch.
 - [ ] copy-manifest mismatch.
 - [ ] device membership mismatch.
+- [ ] device identifier collision.
 - [ ] restore-manifest blocker.
 
 ### Output
@@ -618,7 +793,7 @@ Produce machine-readable reports plus concise console summaries.
 
 ---
 
-# 14. Phase 10 — Testing
+# 16. Phase 10 — Testing
 
 ### Unit tests
 
@@ -626,8 +801,11 @@ Produce machine-readable reports plus concise console summaries.
 - [ ] Path resolution.
 - [ ] Canonical-path validation.
 - [ ] Duplicate identification.
+- [ ] Device identity matching.
+- [ ] Device identifier collision detection.
 - [ ] Manifest generation.
 - [ ] Restore target calculation.
+- [ ] Re-run/idempotency behavior.
 
 ### Integration tests
 
@@ -639,6 +817,8 @@ Produce machine-readable reports plus concise console summaries.
 - [ ] Restore sample device.
 - [ ] Verify restored SHA.
 - [ ] Re-run same operation and confirm idempotency.
+- [ ] Connect/discover a test device through a discovery adapter.
+- [ ] Register/reconcile external identifiers.
 
 ### Negative tests
 
@@ -648,14 +828,66 @@ Produce machine-readable reports plus concise console summaries.
 - [ ] Canonical collision.
 - [ ] Existing destination with different SHA.
 - [ ] Invalid device ID.
+- [ ] Invalid device identity.
 - [ ] Invalid path escaping MASTER.
 - [ ] IN_BIN file.
 - [ ] Duplicate source path.
+- [ ] Duplicate external identifier.
+- [ ] Ambiguous device match.
 - [ ] Interrupted operation.
 
 ---
 
-# 15. Phase 11 — Portfolio Engineering
+# 17. Phase 11 — Desktop Application
+
+### Goal
+
+Provide a proper desktop UI over the reusable application services.
+
+### Initial milestone — Device Manager
+
+- [ ] Build application shell.
+- [ ] Add menu structure.
+- [ ] Add device list view.
+- [ ] Add Connect/Discover Device action.
+- [ ] Detect available device type.
+- [ ] Collect external identifiers.
+- [ ] Match existing device.
+- [ ] Register new device when required.
+- [ ] Generate immutable `device_uuid` once.
+- [ ] Persist identifiers in `device_identifiers`.
+- [ ] Show identity confidence/ambiguity.
+- [ ] Never hide registration failures.
+
+### Later UI milestones
+
+- [ ] Inventory/import screen.
+- [ ] Catalog browser.
+- [ ] Canonical path review.
+- [ ] Duplicate analysis and cleanup.
+- [ ] Integrity dashboard.
+- [ ] Restore wizard.
+- [ ] Media metadata browser.
+- [ ] Reports viewer.
+- [ ] Operation history/log viewer.
+
+### UI safety
+
+Every mutating operation should expose:
+
+```text
+Preview / Dry Run
+        ↓
+Validation
+        ↓
+Explicit Execute
+```
+
+Long-running work should run outside the UI thread and report progress/errors without freezing the application.
+
+---
+
+# 18. Phase 12 — Portfolio Engineering
 
 ### Goal
 
@@ -667,6 +899,7 @@ Make the project interview-ready.
 - [ ] Architecture diagram.
 - [ ] ER/data-model diagram.
 - [ ] End-to-end workflow diagram.
+- [ ] Device identity documentation.
 - [ ] Restore architecture documentation.
 - [ ] Duplicate-cleanup documentation.
 - [ ] Integrity-audit documentation.
@@ -675,6 +908,7 @@ Make the project interview-ready.
 - [ ] Example commands.
 - [ ] Example reports.
 - [ ] Synthetic/sample dataset.
+- [ ] Desktop UI screenshots/demo.
 
 ### Repository hygiene
 
@@ -691,6 +925,8 @@ Create one end-to-end demo:
 
 ```text
 3 devices
+   ↓
+Discovery / registration
    ↓
 ingestion
    ↓
@@ -709,11 +945,11 @@ device restore
 
 ---
 
-# 16. Interview Story
+# 19. Interview Story
 
 The project should allow a concise explanation:
 
-> I built a device-independent digital archive using Python and SQLite. Files are identified using SHA-256 rather than filenames, while source provenance is maintained separately from the logical master object. The system supports canonical organization, duplicate detection, reversible cleanup, physical integrity auditing, and device reconstruction. A device can be rebuilt from the current MASTER catalog, so the original folder structure is not required.
+> I built a device-independent digital archive using Python and SQLite. Files are identified using SHA-256 rather than filenames, while source provenance is maintained separately from the logical master object. The system supports canonical organization, duplicate detection, reversible cleanup, physical integrity auditing, and device reconstruction. A connected device can be identified through platform-specific external identifiers and mapped to an immutable archive identity. A device can then be rebuilt from the current MASTER catalog, so the original folder structure is not required.
 
 ### SQL topics demonstrated
 
@@ -743,7 +979,8 @@ The project should allow a concise explanation:
 - streaming file I/O
 - error handling
 - transaction management
-- CLI design
+- service-layer architecture
+- desktop GUI development
 - reusable modules
 - idempotent operations
 
@@ -752,6 +989,8 @@ The project should allow a concise explanation:
 - requirements decomposition
 - schema evolution
 - migration strategy
+- heterogeneous device integration
+- device identity management
 - data quality
 - auditability
 - rollback
@@ -760,11 +999,12 @@ The project should allow a concise explanation:
 - provenance
 - reproducibility
 - testing
-- Git-based development
+- Git
+- desktop application architecture
 
 ---
 
-# 17. Definition of Done
+# 20. Definition of Done
 
 The project is considered portfolio-ready when:
 
@@ -773,9 +1013,11 @@ The project is considered portfolio-ready when:
 ✓ TABLET supported
 ✓ PHONE1_A73 supported
 
-✓ Additional devices require no code changes
-✓ All operational scripts accept device/configuration parameters
-✓ Operations are re-runnable
+✓ Additional devices require no core-code changes
+✓ Device discovery is adapter-based
+✓ Device identity is immutable
+✓ External device identifiers are persisted
+✓ All operational scripts/services are re-runnable
 ✓ Mutating operations have dry-run mode
 ✓ SHA-256 is authoritative
 ✓ Source provenance is preserved
@@ -787,27 +1029,13 @@ The project is considered portfolio-ready when:
 ✓ Integrity audits are automated
 ✓ Tests exist
 ✓ Documentation exists
-✓ Historical scripts are organized
+✓ Desktop UI uses the same service layer as CLI
 ✓ Repository contains no sensitive user data
+✓ Historical scripts are organized
 ✓ Project can be demonstrated end-to-end
 ```
 
----
-
-# 18. Immediate Next Steps
-
-1. **Repository inventory and cleanup**
-2. **Retire the three empty temporary media workflow tables**
-3. **Freeze the active catalog architecture**
-4. **Inspect/adapt the existing restore mechanics only where useful**
-5. **Finalize the restore manifest specification**
-6. **Build device-independent restore executor**
-7. **Run isolated TABLET restore test**
-8. **Run PC and PHONE1_A73 restore tests**
-9. **Build PC + TABLET + PHONE1_A73 staging cleanup dry-run**
-10. **Begin portfolio documentation and tests**
-
-## Standing Project Rule
+# 21. Standing Project Rule
 
 Unless explicitly overridden, all future Digital Archive work must follow:
 
@@ -821,6 +1049,10 @@ PROVENANCE-PRESERVING
 MASTER-AUTHORITATIVE
 CANONICAL-PATH-AWARE
 _BIN EXCLUDED FROM NORMAL RESTORE
-NO DEVICE-SPECIFIC CODE
+NO DEVICE-SPECIFIC CORE LOGIC
 NO DESTRUCTIVE ACTION WITHOUT EXPLICIT EXECUTE
+UI SEPARATED FROM BUSINESS LOGIC
+SINGLE REUSABLE SERVICE LAYER FOR CLI + GUI
+IMMUTABLE DEVICE IDENTITY
+EXTERNAL DEVICE IDENTIFIERS ARE SUPPORTING EVIDENCE
 ```
